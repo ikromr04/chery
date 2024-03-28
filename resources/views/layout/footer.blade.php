@@ -9,12 +9,8 @@
       </div>
       <div class="item">
         <span>Design & Technology</span>
-        <a href="{{ route('dt.platform') }}">Platform</a>
-        <a href="{{ route('dt.powertrain') }}">Powertrain</a>
-        <a href="{{ route('dt.lab') }}">Lab</a>
-        <a href="{{ route('dt.adas') }}">ADAS</a>
         <a href="{{ route('dt.autopilot') }}">Autopilot</a>
-        <a href="{{ route('dt.newenergy') }}">New Energy</a>
+        <a href="{{ route('newenergy') }}">New Energy</a>
       </div>
       <div class="item">
         <span>News</span>

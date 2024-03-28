@@ -179,22 +179,10 @@
           <div class="btnbox">
             <span></span>
             <div class="subtn">
-              <a href="{{ route('dt.platform') }}">Platform</a>
-            </div>
-            <div class="subtn">
-              <a href="{{ route('dt.powertrain') }}">Powertrain</a>
-            </div>
-            <div class="subtn">
-              <a href="{{ route('dt.lab') }}">Lab</a>
-            </div>
-            <div class="subtn">
-              <a href="{{ route('dt.adas') }}">ADAS</a>
-            </div>
-            <div class="subtn">
               <a href="{{ route('dt.autopilot') }}">Autopilot</a>
             </div>
             <div class="subtn">
-              <a href="{{ route('dt.newenergy') }}">New Energy</a>
+              <a href="{{ route('newenergy') }}">New Energy</a>
             </div>
             <span></span>
           </div>
@@ -330,19 +318,10 @@
         <a>Design & Technology</a> <span>02</span>
       </dt>
       <dd>
-        <a href="{{ route('dt.platform') }}">Platform</a>
-      </dd>
-      <dd>
-        <a href="{{ route('dt.lab') }}">Lab</a>
-      </dd>
-      <dd>
-        <a href="{{ route('dt.adas') }}">ADAS</a>
-      </dd>
-      <dd>
         <a href="{{ route('dt.autopilot') }}">Autopilot</a>
       </dd>
       <dd>
-        <a href="{{ route('dt.newenergy') }}">New Energy</a>
+        <a href="{{ route('newenergy') }}">New Energy</a>
       </dd>
     </dl>
     <dl>

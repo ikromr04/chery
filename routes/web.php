@@ -16,20 +16,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'index'])->name('home');
 
-Route::get('/d&t/platform', [PageController::class, 'platform'])->name('dt.platform');
-Route::get('/d&t/powertrain', [PageController::class, 'powertrain'])->name('dt.powertrain');
-Route::get('/d&t/lab', [PageController::class, 'lab'])->name('dt.lab');
-Route::get('/d&t/adas', [PageController::class, 'adas'])->name('dt.adas');
-Route::get('/d&t/autopilot', [PageController::class, 'autopilot'])->name('dt.autopilot');
-Route::get('/d&t/newenergy', [PageController::class, 'newenergy'])->name('dt.newenergy');
+Route::get('/autopilot', [PageController::class, 'autopilot'])->name('dt.autopilot');
 
-Route::get('/news/news', [PageController::class, 'news'])->name('news.news');
-Route::get('/news/events', [PageController::class, 'events'])->name('news.events');
+Route::get('/news', [PageController::class, 'news'])->name('news.news');
+Route::get('/news/read', [PageController::class, 'newsRead'])->name('news.news.read');
+Route::get('/events', [PageController::class, 'events'])->name('news.events');
 
-Route::get('/about/fromceo', [PageController::class, 'aboutceo'])->name('about.ceo');
-Route::get('/about/introduction', [PageController::class, 'aboutIntroduction'])->name('about.introduction');
-Route::get('/about/concept', [PageController::class, 'aboutConcept'])->name('about.concept');
-Route::get('/about/honors', [PageController::class, 'aboutHonors'])->name('about.honors');
+Route::get('/fromceo', [PageController::class, 'fromceo'])->name('about.ceo');
+Route::get('/introduction', [PageController::class, 'introduction'])->name('about.introduction');
+Route::get('/concept', [PageController::class, 'concept'])->name('about.concept');
+Route::get('/honors', [PageController::class, 'honors'])->name('about.honors');
 
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/worldwide', [PageController::class, 'worldwide'])->name('worldwide');

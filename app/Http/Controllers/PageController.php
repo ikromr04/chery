@@ -50,4 +50,24 @@ class PageController extends Controller
   {
     return view('pages.models.new-energy.index');
   }
+
+  public function autopilot()
+  {
+    return view('pages.autopilot');
+  }
+
+  public function news()
+  {
+    return view('pages.news.news');
+  }
+
+  public function newsRead()
+  {
+    return view('pages.news.read');
+  }
+
+  public function events()
+  {
+    return view('pages.news.events');
+  }
 }
