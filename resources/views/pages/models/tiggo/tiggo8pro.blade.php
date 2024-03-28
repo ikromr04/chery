@@ -372,7 +372,6 @@
   <script src="{{ asset('script/PxLoader.js') }}" type="text/javascript" charset="utf-8"></script>
   <script src="{{ asset('script/PxLoaderImage.js') }}" type="text/javascript" charset="utf-8"></script>
   <script src="{{ asset('script/global.js') }}" type="text/javascript"></script>
-
   <script src="{{ asset('script/threesixty.min.js') }}" type="text/javascript"></script>
   <script src="{{ asset('script/js_360.js') }}" type="text/javascript"></script>
   <script src="{{ asset('script/jquery.reel-min.js') }}"></script>

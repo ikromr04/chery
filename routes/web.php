@@ -35,11 +35,11 @@ Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/worldwide', [PageController::class, 'worldwide'])->name('worldwide');
 
 Route::get('/tiggo8pro', [PageController::class, 'tiggo8pro'])->name('tiggo8pro');
-Route::get('/models/tiggo/tiggo8', [PageController::class, 'tiggo8'])->name('tiggo8');
-Route::get('/models/tiggo/tiggo7pro', [PageController::class, 'tiggo7pro'])->name('tiggo7pro');
-Route::get('/models/tiggo/tiggo7', [PageController::class, 'tiggo7'])->name('tiggo7');
-Route::get('/models/tiggo/new-tiggo4', [PageController::class, 'newTiggo4'])->name('newtiggo4');
-Route::get('/models/tiggo/tiggo2', [PageController::class, 'tiggo2'])->name('tiggo2');
+Route::get('/tiggo8', [PageController::class, 'tiggo8'])->name('tiggo8');
+Route::get('/tiggo7pro', [PageController::class, 'tiggo7pro'])->name('tiggo7pro');
+Route::get('/tiggo7', [PageController::class, 'tiggo7'])->name('tiggo7');
+Route::get('/new-tiggo4', [PageController::class, 'newTiggo4'])->name('newtiggo4');
+Route::get('/tiggo2', [PageController::class, 'tiggo2'])->name('tiggo2');
 
 Route::get('/models/arrizo/arrizo8', [PageController::class, 'arrizo8'])->name('arrizo8');
 
