@@ -1,0 +1,115 @@
+
+/* CSS Document */
+@font-face {
+	font-family: futuraBold;
+	src: url(./font/FUTURA-BOLD-5_0.TTF);
+}
+@font-face {
+	font-family: futuraHeavy;
+	src: url(./font/Futura-Heavy.otf), url(./font/FUTURA-HEAVY-4_0.TTF);
+}
+@font-face {
+	font-family: futuraLight;
+	src: url(./font/FUTURA-LIGHT-3_0.TTF);
+}
+/**/
+@font-face {
+	font-family: futurab;
+	src: url(./font/FUTURAB_0.TTF);
+}
+@font-face {
+	font-family: futuram;
+	src: url(./font/FUTURAM_0.TTF);
+}
+@font-face {
+	font-family: futuran;
+	src: url(./font/FUTURAN.TTF);
+}
+/**/
+@font-face {
+	font-family: futuramc;
+	src: url(./font/FUTURAMC_0.TTF);
+}
+@font-face {
+	font-family: futurabi;
+	src: url(./font/FUTURABI_0.TTF);
+}
+@font-face {
+	font-family: futurami;
+	src: url(./font/FUTURAMI_0.TTF);
+}
+@font-face {
+	font-family: futuraxk;
+	src: url(./font/FUTURAXK_1.TTF);
+}
+@font-face {
+	font-family: javatext;
+	src: url(./font/javatext.ttf);
+}
+@font-face {
+	font-family: Helvetica-Bold;
+	src: url(./font/Helvetica-Bold.ttf);
+}
+@font-face {
+	font-family: Helvetica-Medium;
+	src: url(./font/Helvetica-Medium.ttf);
+}
+
+body, td, input, select, textarea, h1, h2, h3, h4, h5, h6{ font-size:14px;}
+h1, h2, h3, h4, h5, h6{ font-weight:normal;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ margin:0; padding:0;}
+ul, ol{ list-style:none;}
+img{border:0; vertical-align:top;}
+input,select,textarea{vertical-align:middle;}
+
+/* link */
+a{ text-decoration:none;}
+a:hover{text-decoration:none;}
+.clearfix:after{ visibility: hidden; display: block; font-size: 0; content: ""; clear: both; height: 0; }  
+.clearfix{*zoom: 1;}
+
+/*自定义*/
+@keyframes opacityChange {
+	0% {
+		opacity: 0.2;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.2;
+	}
+}
+@-webkit-keyframes opacityChange{
+	0% {
+		opacity: 0.2;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.2;
+	}
+}
+@-ms-keyframes opacityChange{
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes noChange{
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}

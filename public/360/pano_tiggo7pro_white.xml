@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="15974" id="node1" appversion="5.2.1">
+  <input levelbiashidpi="0.400" levelingpitch="0" width="1024" leveltileurl="tiles/tiggo7pro/white/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1024" leveltilesize="510" levelbias="0.400" levelingroll="0" overlap="1">
+    <level width="1024" height="1024" preload="0" predecode="0"/>
+    <level width="512" height="512" preload="0" predecode="0"/>
+    <level width="256" height="256" preload="1" predecode="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start pan="0" tilt="0" fov="70" projection="4"/>
+    <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+    <min pan="0" tilt="-90" fov="5"/>
+    <max fovfisheye="360" pan="360" tilt="90" fov="120" fovstereographic="270" scaletofit="1"/>
+  </view>
+  <userdata author="" latitude="" description="" longitude="" datetime="2020/1/13 16:05" info="" title="" source="" copyright="" tags="全新一代瑞虎7360" customnodeid="" comment=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180" enabled="1" backgroundcolor="0xffffff" border="1" height="20" textalpha="1" textcolor="0x000000" backgroundalpha="1" background="1" borderradius="1"/>
+    <polystyle bordercolor="0x0000ff" mode="0" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+  </hotspots>
+  <media/>
+  <transition type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" zoomoutpause="1" softedge="0" blendtime="1" enabled="0" zoomspeed="2" zoomin="0"/>
+  <control simulatemass="1" invertwheel="0" hideabout="0" lockedkeyboard="0" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" sensitivity="8" speedwheel="1" contextfullscreen="0" lockedmouse="0" rubberband="0"/>
+</panorama>

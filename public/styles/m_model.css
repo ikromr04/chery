@@ -1,0 +1,376 @@
+@media (max-width: 900px) {
+	/*车型页*/
+	.modelwrap .banner .mediabox video{width: 100%;object-fit: fill;}
+	/*车型标题*/
+	.modelwrap .module .title h4{font-size: .5rem;}
+	/*图片放大*/
+	.modelwrap .module .imgbox:hover img{transform: scale(1);}
+	/*左侧导航*/
+	.modelwrap .modelmenu{display: none;}
+	@-webkit-keyframes imgscroll{
+		0%{transform: translateX(0);}
+		50%{transform: translateX(-6.69rem);}
+		100%{transform: translateX(0);}
+	}
+	@keyframes imgscroll{
+		0%{transform: translateX(0);}
+		50%{transform: translateX(-6.69rem);}
+		100%{transform: translateX(0);}
+	}
+	.modelwrap .banner .mediabox.videoBox{height: 4rem;}
+	.modelwrap .banner :;ox .play{width: .8rem;height: .8rem;}
+	
+	/*newTiggo4*/
+	.newTiggo4 .banner .txt{left: .88rem;top: 2.12rem;}
+	.newTiggo4 .banner .txt img{width: 5.8rem;}
+	
+	.newTiggo4 .module{padding-top: 1rem;}
+	.newTiggo4 .module .title{margin-bottom: .9rem;}
+	.newTiggo4 .module .title h4 .big_num{right: -.8rem;bottom: -.32rem;}
+	.newTiggo4 .module.graybg .title h4 .big_num{color: #e7e8ea;}
+	.newTiggo4 .module .txtbox h5{font-size: .5rem;line-height: .58rem;padding-bottom: .24rem;margin-bottom: .45rem;}
+	.newTiggo4 .module .txtbox p{font-size: .32rem;line-height: .52rem;}
+	.newTiggo4 .design .txtbox{padding: 0 0.4rem;}
+	.newTiggo4 .design .designbox{position: relative;justify-content: flex-start;flex-wrap: wrap;padding-bottom: 1.62rem;}
+	.newTiggo4 .design .page{width: 100%;position: absolute;left: 0;bottom: .76rem;}
+	.newTiggo4 .design .txtSwiper{width: 100%;margin-bottom: .78rem;}
+	.newTiggo4 .design .imgSwiper{width: 100%;height: 4.5rem;padding-bottom: 0;}
+	.newTiggo4 .design .pagination_row{margin-right: 0;}
+	.newTiggo4 .comfort .comfort_item .txtbox{width: 100%;float: none!important;padding: .75rem .4rem .65rem!important; }
+	.newTiggo4 .comfort .comfort_item .imgbox{width: 100%;float: none!important;}
+	
+	.newTiggo4 .powerbox{flex-direction: column;}
+	.newTiggo4 .powerbox .imgSwiper{width: 100%;}
+	.newTiggo4 .powerbox .textSwiper{width: 100%;}
+	.newTiggo4 .powerbox .textSwiper .txtbox{padding: .75rem .4rem .84rem;}
+	.newTiggo4 .powerbox .textSwiper .params{margin-bottom: .4rem;}
+	.newTiggo4 .powerbox .textSwiper .params>span{font-size: .32rem;}
+	.newTiggo4 .powerbox .textSwiper .params .numbox{margin-top: .12rem;}
+	.newTiggo4 .powerbox .textSwiper .params strong{font-size: 1.02rem;}
+	.newTiggo4 .powerbox .textSwiper .params .numbox span{font-size: .35rem;}
+	.newTiggo4 .powerbox .textSwiper .params .numbox>span{margin: 0 .12rem;}
+	
+	.newTiggo4 .tech{padding-bottom: 1.62rem;}
+	.newTiggo4 .tech .page{width: 100%;position: absolute;left: 0;bottom: .76rem;}
+	.newTiggo4 .tech .txtbox{width: 100%;padding: 0 .4rem .65rem;box-sizing: border-box;}
+	.newTiggo4 .tech .pc_hide .txtbox h5{transform: translateY(-100%);transition: all 0.5s 0.4s;opacity: 0;}
+	.newTiggo4 .tech .pc_hide .txtbox p{transform: translateY(100%);transition: all 0.5s 0.4s;opacity: 0;}
+	.newTiggo4 .tech .pc_hide .swiper-slide-active .txtbox h5{transform: translate(0);opacity: 1}
+	.newTiggo4 .tech .pc_hide .swiper-slide-active .txtbox p{transform: translate(0);opacity: 1}
+	.newTiggo4 .safety{padding-bottom: 1rem;}
+	.newTiggo4 .module.safety .title{margin-bottom: .1rem;}
+	.newTiggo4 .safety .safetylist{flex-direction: column;padding: 0 .4rem;}
+	.newTiggo4 .safety .safetylist .safety_item{width: 100%;margin-top: .6rem;}
+	.newTiggo4 .safety.module .txtbox h5{padding-bottom: .3rem;margin-bottom: .26rem;margin-top: .6rem;}
+	.newTiggo4 .safety.module .txtbox h5:after{width: 1.7rem;}
+	.model_wrap.newTiggo4 .model_360 #interior_360{height: 4.37rem;}
+	/*sameModel 相同车型共用样式*/
+	.sameModel .module{margin-top: .04rem;}
+	
+	.sameModel .module .title{top: .42rem;}
+	.sameModel .module .title h4 .big_num{font-size: .74rem;}
+	.sameModel .module .title h4 .big_num:after{height: .58rem;margin-top: -.29rem;}
+	
+	.sameModel .module .samebox .textbox{position: absolute;z-index: 2;}
+	.sameModel .module .samebox .textbox .textSwi{height: 2.08rem;}
+	.sameModel .module .samebox h5{font-size: .34rem;height: .62rem;line-height: .62rem;border-radius: .07rem;}
+	.sameModel .module .samebox p{margin-top: .3rem;font-size: .32rem;line-height: .52rem;padding-left: .16rem;}
+	.sameModel .module .samebox p:before{width: .1rem;height: .1rem;background: #6e6e6e;top: .21rem;}
+	
+	.sameModel .design .samebox .swiper-slide .textbox{left: .4rem!important;top: 2.05rem!important;width: 6.7rem!important;}
+	
+	.sameModel .module .cutTab{bottom: .58rem;}
+	.sameModel .module .cutTab .cutbtn{font-size: .28rem;line-height: .34rem;margin: 0 .13rem;width: 27.5%;white-space: normal;padding-bottom: .12rem;}
+	.sameModel .module .cutwindow{display: none;}
+	
+	.sameModel .comfort .samebox .textbox,.sameModel .safety .samebox .textbox{left: .4rem!important;width: 6.7rem!important;padding: .2rem; }
+	
+	.sameModel .tech .swiper-pagination{text-align: center;padding-left: 0;width: 100%;}
+	.sameModel .tech .swiper-pagination .swiper-pagination-bullet{opacity: 1;width: .21rem;height: .21rem;border-radius: 50%;background-color: #ffffff;margin: 0 .13rem;}
+	.sameModel .tech .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{background-color: #c50d27;}
+	.sameModel .tech .swiper-slide .textdet{position: absolute;bottom: 0;height: 3.9rem;display: flex;flex-direction: column;justify-content: center;width: 100%;box-sizing: border-box;padding: 0 .4rem;}
+	.sameModel .tech .swiper-slide .textdet p{margin-top: 0;}
+	.sameModel .tech .swiper-slide .textdet p:before{display: none;}
+	.sameModel .tech .swiper-slide .textdet p:first-child{font-size: .34rem;font-weight: bold;}
+	/*.sameModel .safety{padding: .45rem 0 .5rem;}
+	.sameModel .safety .title{position: relative;top: auto;}
+	.sameModel .safety .swiper-container{margin-top: .4rem;}
+	.sameModel .safety .swiper-pagination{display: flex;margin-top: .28rem;margin-bottom: .7rem;}
+	.sameModel .safety .textwrap .textbox .tit{font-size: .34rem;line-height: .54rem;min-height: .8rem;height: auto;border: .03rem solid #c50d27;border-radius: .08rem;margin-bottom: .32rem;padding: .12rem .3rem;box-sizing: border-box;}
+	.sameModel .safety .textwrap .textbox .det{font-size: .32rem;line-height: .52rem;padding-left: .32rem;}
+	.sameModel .safety .textwrap .textbox .det:before{width: .1rem;height: .1rem;top: .21rem;left: .11rem;}
+	.sameModel .safety .textwrap .textbox .det+.det{margin-top: .2rem;}*/
+	/*tiggo8pro*/
+	.tiggo8pro .banner .txt{right: .94rem;top: 2.38rem;}
+	.tiggo8pro .banner .txt img{width: 5.34rem;}
+	
+	.tiggo8pro .comfort .samebox .swiper-slide:nth-child(1) .textbox{top: 5.36rem;}
+	.tiggo8pro .comfort .samebox .swiper-slide:nth-child(2) .textbox{top: 2.22rem;}
+	.tiggo8pro .comfort .samebox .swiper-slide:nth-child(3) .textbox{top: 4.36rem;}
+	
+	.tiggo8pro .power .powerbox{display: flex;flex-wrap: wrap;width: 100%;box-sizing: border-box;padding: 0 .4rem 1rem;}
+	.tiggo8pro .power .powerbox .tp_lf{width: 100%;}
+	.tiggo8pro .power .powerbox .tp_rt{position: absolute;top: .54rem;width: auto;padding-left: 0;left: 50%;transform: translateX(-50%);}
+	.tiggo8pro .power .powerbox .tp_rt .title{margin-bottom: .1rem;position: relative;top: auto;text-align: left;width: 5.35rem;}
+	.tiggo8pro .power .powerbox .tp_rt .title h4{justify-content: flex-start;}
+	.tiggo8pro .power .text{font-size: .32rem;line-height: .52rem;width: 90%;}
+	.tiggo8pro .power .powerbox .bt_ct{flex-direction: column;}
+	.tiggo8pro .power .powerbox .imgtext{width: 100%;height: auto;}
+	.tiggo8pro .power .powerbox .imgtext img{width: 100%;height: auto;}
+	/*.tiggo8pro .power .powerbox .box1{width: 100%;}
+	.tiggo8pro .power .powerbox .box2{width: 100%;}
+	.tiggo8pro .power .powerbox .box3{width: 100%;}*/
+	.tiggo8pro .power .powerbox .imgtext span{padding: 0 .2rem;font-size: .24rem;height: .54rem;line-height: .54rem;bottom: .28rem;right: .28rem;}
+	.tiggo8pro .safety .samebox .swiper-slide:nth-child(1) .textbox{top: 6.2rem;}
+	.tiggo8pro .safety .samebox .swiper-slide:nth-child(2) .textbox{top: 7.05rem;}
+	.tiggo8pro .safety .samebox .swiper-slide:nth-child(3) .textbox{top: 4.8rem;}
+	
+	
+	/*tiggo8promax*/
+	.sameModel.tiggo8promax .module .cutwindow .cutbtn.on .text p{height: 2.2rem;}
+	.tiggo8promax .banner .txt{right: 9%;top: 2.38rem;}
+	.tiggo8promax .banner .txt img{width: 6.1rem;}
+	
+	.tiggo8promax.sameModel .module{margin-top: .04rem;}
+	.tiggo8promax .engine .samebox .swiper-slide .textbox {left: .4rem;}
+	.tiggo8promax .engine .samebox .swiper-slide .textbox p{line-height: .45rem;padding-left: .25rem;}
+	.tiggo8promax .drive .samebox .swiper-slide .textbox{left: .4rem;top: 2.22rem;width: 6.7rem;padding: .22rem .5rem;}
+	.tiggo8promax .screen .samebox .swiper-slide .textbox{left: .4rem;top: 2.06rem;}
+	.tiggo8promax .screen .samebox .swiper-slide .textbox p{line-height: .46rem;padding-left: .25rem;}
+	.tiggo8promax .voice .samebox .swiper-slide .textbox{left: .4rem;top: 1.9rem;width: 6.7rem;line-break: anywhere;}
+	
+	/*tiggo8*/
+	.tiggo8 .banner .txt{right:1.12rem;top: 2.52rem;}
+	.tiggo8 .banner .txt img{width: 5.34rem;}
+	
+	.tiggo8 .module .cutwindow .cutbtn .text{padding: 0 .6rem}
+	.tiggo8 .comfort .samebox .swiper-slide:nth-child(1) .textbox{top: 2.35rem;}
+	.tiggo8 .comfort .samebox .swiper-slide:nth-child(2) .textbox{top: 5rem;}
+	.tiggo8 .comfort .samebox .swiper-slide:nth-child(3) .textbox{top: 2.48rem;}
+	.tiggo8 .safety .samebox .swiper-slide:nth-child(1) .textbox{top: 6.93rem;}
+	.tiggo8 .safety .samebox .swiper-slide:nth-child(2) .textbox{top: 7rem;}
+	.tiggo8 .safety .samebox .swiper-slide:nth-child(3) .textbox{top: 5.96rem;}
+	.tiggo8 .tech .swiper-slide .textdet{height: 6rem;justify-content: flex-end;padding-bottom: .84rem;}
+	.tiggo8 .power{padding: .75rem .4rem .36rem;}
+	.tiggo8 .power .powerbox{flex-wrap: wrap;margin-top: .66rem;}
+	.tiggo8 .power .powerbox .caritem{width: 100%;margin-bottom: .66rem;}
+	.tiggo8 .power .powerbox .caritem .textbox{position: relative;margin-top: .56rem;}
+	
+	/*newtiggo2pro*/
+	.tiggo2pro .banner .txt{left: 1.17rem;top: 2rem;}
+	.tiggo2pro .banner .txt img{width: 5.3rem;}
+	.tiggo2pro.sameModel .module .samebox p:before{background: #e4e5e7;}
+	.tiggo2pro.sameModel .module .samebox .black p:before{background: #677381;}
+	.tiggo2pro .module .cutwindow .cutbtn .text{padding: 0 .9rem}
+	
+	.tiggo2pro.sameModel .module .cutTab .cutbtn{color: #d4d4d8;width: 44%;}
+	.tiggo2pro .comfort .samebox .swiper-slide:nth-child(1) .textbox{top: 7.36rem;}
+	.tiggo2pro .comfort .samebox .swiper-slide:nth-child(2) .textbox{top: 7.08rem;}
+	.tiggo2pro .safety .samebox .swiper-slide:nth-child(1) .textbox{top: 6.1rem;}
+	.tiggo2pro .safety .samebox .swiper-slide:nth-child(2) .textbox{top: 6.5rem;}
+	.tiggo2pro .safety .samebox .swiper-slide:nth-child(3) .textbox{top: 3rem;}
+	/*newtiggo7*/
+	.tiggo7 .banner .txt{left: 1.16rem;top: 1.96rem;}
+	.tiggo7 .banner .txt img{width: 5.35rem;}
+	
+	.tiggo7 .module .cutwindow .cutbtn .text{padding: 0 .4rem}
+	.tiggo7 .design .samebox .swiper-slide:nth-child(3) .textbox{top: 8.22rem!important;}
+	
+	.tiggo7 .safety .samebox .swiper-slide:nth-child(1) .textbox{top: 7.3rem;}
+	.tiggo7 .safety .samebox .swiper-slide:nth-child(2) .textbox{top: 7.4rem;}
+	.tiggo7 .safety .samebox .swiper-slide:nth-child(3) .textbox{top: 6.62rem;}
+	
+	.tiggo7 .comfort .samebox .swiper-slide:nth-child(1) .textbox{top: 5.44rem;}
+	.tiggo7 .comfort .samebox .swiper-slide:nth-child(2) .textbox{top: 7.84rem;}
+	
+	.tiggo7 .power .powerbox{top: 1.8rem;padding: .5rem .4rem;flex-direction: column;background: url('../images/newtiggo7_power_bg1_m.png') no-repeat;background-size: 100% 100%;}
+	.tiggo7 .power .powerbox .caritem{width: 100%;}
+	.tiggo7 .power .powerbox .caritem+.caritem{margin-top: .52rem;}
+	.tiggo7 .power .powerbox .caritem .textbox{margin-top: .3rem;}
+	.tiggo7 .module.power .samebox h5{line-height: .5rem;height: auto;}
+	.tiggo7 .module.power .samebox p{margin-top: .2rem;}
+	.tiggo7 .module.power .samebox h5:after{width: 1.5rem;height: .1rem;}
+	
+	/*newtiggo7pro*/
+	.tiggo7pro .banner .txt{left: 1.16rem;top: 1.96rem;}
+	.tiggo7pro .banner .txt img{width: 5.35rem;}
+	
+	.tiggo7pro .module .cutwindow .cutbtn .text{padding: 0 .28rem}
+	.tiggo7pro .module .samebox p:before{background: #c1bebe;}
+	
+	.tiggo7pro .comfort .samebox .swiper-slide:nth-child(1) .textbox{top: 6.91rem;}
+	.tiggo7pro .comfort .samebox .swiper-slide:nth-child(2) .textbox{top: 8rem;}
+	.tiggo7pro .comfort .samebox .swiper-slide:nth-child(3) .textbox{top: 7.14rem;}
+	
+	.tiggo7pro .safety .samebox .swiper-slide:nth-child(1) .textbox{top: 6rem;}
+	.tiggo7pro .safety .samebox .swiper-slide:nth-child(2) .textbox{top: 6.5rem;}
+	.tiggo7pro .safety .samebox .swiper-slide:nth-child(3) .textbox{top: 6.8rem;}
+	
+	.tiggo7pro .power .powerbox{padding: 0.8rem .4rem 1.4rem;flex-direction: column;}
+	.tiggo7pro .power .powerbox .caritem{width: 100%;}
+	.tiggo7pro .power .powerbox .caritem+.caritem{margin-top: .52rem;}
+	.tiggo7pro .power .powerbox .caritem .textbox{margin-top: .3rem;}
+	.tiggo7pro .module.power .samebox h5{line-height: .5rem;}
+	.tiggo7pro .module.power .samebox p{margin-top: .2rem;}
+	.tiggo7pro .module.power .samebox h5:after{width: 1.5rem;height: .1rem;}
+	.tiggo7pro .tech .swiper-slide .textdet{height: auto;bottom: 1.2rem;}
+
+	/*tiggo7promax*/
+	.tiggo7promax.sameModel .tech .swiper-slide .textdet p{text-align: center;padding: 0;}
+	.tiggo7promax .power .powerbox .caritem+.caritem{margin-top: .88rem;}
+	.tiggo7promax .samebox .scroll-slide{overflow-y: hidden;overflow-x: scroll;}
+	.tiggo7promax .samebox .scroll-slide .pic{width: auto; height: 12.75rem;}
+
+	/*tiggo8proe*/
+	.tiggo8proe.sameModel .module1 .title,
+	.tiggo8proe.sameModel .module2 .title,
+	.tiggo8proe.sameModel .module4 .title{top: .8rem}
+	.tiggo8proe .banner .txt{left: 0.5rem;top: 2.3rem;}
+	.tiggo8proe .banner .txt img{width: 6.56rem;}
+	
+	.tiggo8proe .comfort .samebox .swiper-slide:nth-child(1) .textbox{top: 2.38rem;}
+	.tiggo8proe .comfort .samebox .swiper-slide:nth-child(2) .textbox{top: 2.38rem;}
+	.tiggo8proe .comfort .samebox .swiper-slide:nth-child(3) .textbox{top: 2.38rem;}
+	
+	.tiggo8proe .power{padding: .8rem 0;}
+	.tiggo8proe .power .powerbox{margin-top: .4rem;}
+	
+	.tiggo8proe .power .powerbox .textbox{display: block;position: relative;}
+	.tiggo8proe .power .powerbox .textbox div{width: 100%;}
+	.tiggo8proe .power .powerbox .textbox div+div{margin-top: .12rem;}
+	
+	.tiggo8proe .power .powerbox .viewbox{margin-top: .55rem;flex-wrap: wrap;}
+	.tiggo8proe .power .powerbox .viewbox .it_lf{width: 100%;}
+	.tiggo8proe .power .powerbox .viewbox .it_rt{width: 100%;display: flex;align-items: center;}
+	.tiggo8proe .power .powerbox .viewbox .it_rt .imgbox{width: 50%;border: none;}
+	.tiggo8proe .power .powerbox .viewbox .it_lf .imgbox{border-bottom: .18rem solid #ffffff;}
+	.tiggo8proe .power .powerbox .viewbox .it_rt .imgbox:first-child{border-right: .09rem solid #ffffff;}
+	.tiggo8proe .power .powerbox .viewbox .it_rt .imgbox+.imgbox{border-left: .09rem solid #ffffff;}
+	.tiggo8proe .tech .swiper-slide .textdet{padding-bottom: 1.2rem;}
+	.tiggo8proe.sameModel .tech .swiper-slide .textdet p{text-align: center;padding: 0 1rem;}
+	
+	.tiggo8proe .safety .imagebox{margin-bottom: .92rem;}
+	.tiggo8proe .safety .textbox{padding-bottom: 1.6rem;}
+	.tiggo8proe .safety .textbox .tit{white-space: nowrap;width: 100%;font-size: .32rem;padding: 0;text-indent: .1rem;height: .82rem;line-height: .82rem;border-radius: .08rem;}
+	.tiggo8proe .model_wrap{
+		padding-bottom: 0;
+	}
+	@keyframes shakeImg{
+		0%{width: 50%;}
+		50%{width: 60.15625%;}
+		100%{width: 50%}
+	}
+	
+	/*360模块*/
+	.model_wrap{padding-top: .58rem;padding-bottom: 1rem;}
+	.model_wrap .tit_360{font-size: .5rem;padding: .3rem 0;}
+	.model_wrap .tit_360:after{width: .65rem;height: .06rem;margin-left: -.325rem;}
+	.model_wrap .rotate_icon{display: none;}
+	.model_wrap .model_360{width: 100%;height: 3.66rem;padding-bottom: .3rem;}
+	.model_wrap .model_360 .threesixty{height: 3.66rem;}
+	.model_wrap .model_360 #interior_360{height: 3.66rem;}
+	.model_wrap .model_360 .bg360{width: 100%;top: .18rem;}
+	.model_wrap .change_E_I{width: 89%;margin: .6rem auto;font-size: .32rem;}
+	.model_wrap .change_E_I span{width: 47%; height: .68rem;}
+	.model_wrap .color_cut{margin-top: .3rem;}
+	
+	.tiggo8pro .model_wrap .model_360{height: 3rem;padding-top: 0;}
+	.tiggo8pro .model_wrap .model_360 #interior_360{height: 3.4rem;}
+	.tiggo7 .model_wrap .model_360{padding-top: 0;padding-bottom: 0;}
+	.loading-360{
+		background: url(../images/loading.png) no-repeat top center transparent;
+		background-size: contain;
+		width: 1rem;
+		height:1rem;
+		animation: rotate 1s infinite;
+		-webkit-animation: rotate 1s infinite;
+		-ms-animation: rotate 1s infinite;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		margin: -.5rem auto;
+	}
+
+	/*arrizo8*/
+	.arrizo8 .module .cutwindow .cutbtn .text{padding: 0 .6rem}
+	.arrizo8 .comfort .samebox .swiper-slide:nth-child(1) .textbox{top: 2.35rem;}
+	.arrizo8 .comfort .samebox .swiper-slide:nth-child(2) .textbox{top: 5rem;}
+	.arrizo8 .comfort .samebox .swiper-slide:nth-child(3) .textbox{top: 2.48rem;}
+	.arrizo8 .safety .samebox .swiper-slide:nth-child(2) .textbox{top: 1.68rem; padding: 0;}
+	.arrizo8 .tech .swiper-slide .textdet{height: 6rem;justify-content: flex-end;padding-bottom: .84rem;}
+	.arrizo8 .power{padding: .75rem .4rem .36rem;}
+	.arrizo8 .power .powerbox{flex-wrap: wrap;margin-top: .66rem;}
+	.arrizo8 .power .powerbox .caritem{width: 100%;margin-bottom: .66rem;}
+	.arrizo8 .power .powerbox .caritem .textbox{position: relative;margin-top: .56rem;}
+	/*arrizo8*/
+	.arrizo8.sameModel .module1 .title,
+	.arrizo8.sameModel .module2 .title,
+	.arrizo8.sameModel .module4 .title{top: .64rem}
+	.arrizo8.sameModel .module3 .title{top:0.8rem}
+	/* .arrizo8 .banner .txt{left: 0.5rem;top: 3.97rem;} */
+	/* 嘗試解決手機版頁面視頻下面有空白時加上的 */
+	.arrizo8 .banner .txt{left: 0.5rem;top: 1.25rem;}
+
+	.arrizo8 .comfort .samebox .swiper-slide:nth-child(1) .textbox{top: 2.38rem;}
+	.arrizo8 .comfort .samebox .swiper-slide:nth-child(2) .textbox{top: 2.38rem;}
+	.arrizo8 .comfort .samebox .swiper-slide:nth-child(3) .textbox{top: 2.38rem;}
+
+	.arrizo8 .power{padding: .8rem 0;}
+	.arrizo8 .power .powerbox{margin-top: .4rem;}
+
+	.arrizo8 .power .powerbox .textbox{display: block;position: relative;}
+	.arrizo8 .power .powerbox .textbox div{width: 100%;}
+	.arrizo8 .power .powerbox .textbox div+div{margin-top: .12rem;}
+
+	.arrizo8 .power .powerbox .viewbox{margin-top: .55rem;flex-wrap: wrap;}
+	.arrizo8 .power .powerbox .viewbox .it_lf{width: 100%;}
+	.arrizo8 .power .powerbox .viewbox .it_rt{width: 100%;display: flex;align-items: center;}
+	.arrizo8 .power .powerbox .viewbox .it_rt .imgbox{width: 50%;border: none;}
+	.arrizo8 .power .powerbox .viewbox .it_lf .imgbox{border-bottom: .18rem solid #ffffff;}
+	.arrizo8 .power .powerbox .viewbox .it_rt .imgbox:first-child{border-right: .09rem solid #ffffff;}
+	.arrizo8 .power .powerbox .viewbox .it_rt .imgbox+.imgbox{border-left: .09rem solid #ffffff;}
+	.arrizo8 .tech .swiper-slide .textdet{padding-bottom: 1.2rem;}
+	.arrizo8.sameModel .tech .swiper-slide .textdet p{text-align: center;padding: 0 1rem;}
+
+	.arrizo8 .safety .imagebox{margin-bottom: .92rem;}
+	.arrizo8 .safety .textbox{padding-bottom: 1.6rem;}
+	.arrizo8 .safety .textbox .tit{white-space: nowrap;width: 100%;font-size: .32rem;padding: 0;text-indent: .1rem;height: .82rem;line-height: .82rem;border-radius: .08rem;}
+	.arrizo8 .model_wrap{
+		padding-bottom: 0;
+		height: 10.65rem;
+	}
+
+	.arrizo8 .model_wrap img{ height: 10.65rem;}
+	.arrizo8.sameModel .module{ margin-top: 0; }
+	.arrizo8 .model_wrap .pointer{ top:8.66rem; width: 2.92rem; height: 0.9rem; left: 2.28rem; margin-left: 0;}
+	.arrizo8 .model_wrap .viewTitle p{ font-size: 0.5rem; }
+	.arrizo8 .model_wrap .viewTitle span{ width: 0.65rem; height: 0.05rem; border-radius: 0.1rem;}
+
+	.arrizo8 .design,.arrizo8 .comfort,.arrizo8 .tech,.arrizo8 .safety{ height:12.73rem;}
+	.arrizo8 .design img,.arrizo8 .comfort img,.arrizo8 .tech img,.arrizo8 .safety img{ height:12.73rem; object-fit: cover;}
+
+	.arrizo8 .module.safety .cutTab .cutbtn:first-child{ text-align: left; padding-left:0.07rem; }
+	.arrizo8 .module.safety .cutTab .cutbtn:first-child,.arrizo8 .module.safety .cutTab .cutbtn{ width: 3rem; white-space: inherit;}
+
+	.arrizo8 .module .samebox p:before{
+		content: '';
+		display: block;
+		width: 0rem;
+		height: 0rem;
+		background: transparent;
+		position: absolute;
+		top: 0rem;
+		left: 0;
+	}
+	.arrizo8 .powerbox .powerbox_image{flex-direction: column;}
+	.arrizo8 .powerbox .powerbox_image p{font-size: 0.34rem;}
+	.arrizo8.sameModel .module .cutTab .cutbtn{line-height: 0.36rem;}
+	/* .arrizo8 .m_menu{ border-bottom: 2px solid rgba(255, 255, 255, 0.6); } */
+	/* .arrizo8 .banner,.arrizo8 .banner .mediabox img{height: 10.97rem;} */
+	/* 嘗試解決手機版頁面視頻下面有空白時加上的 */
+	.arrizo8 .banner .mediabox img{object-fit: cover;}
+	/* .modelwrap .banner .mediabox{height: 3.8rem;} */
+	/*.arrizo8.modelwrap .banner .mediabox{height: 4rem;}*/
+
+}

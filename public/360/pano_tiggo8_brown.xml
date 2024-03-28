@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama hideabout="1" id="node1">
+  <input levelingroll="0" levelbiashidpi="0.400" levelbias="0.400" leveltilesize="510" leveltileurl="tiles/tiggo8/brown/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1500" overlap="1" height="1500" levelingpitch="0">
+    <level predecode="0" preload="0" width="1500" height="1500"/>
+    <level predecode="0" preload="0" width="750" height="750"/>
+    <level predecode="1" preload="1" width="375" height="375"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start fov="86.4" tilt="-13.86" pan="-1.02"/>
+    <min fov="60" tilt="-90" pan="0"/>
+    <max fov="110" tilt="90" pan="360"/>
+  </view>
+  <userdata author="" copyright="" comment="" tags="内饰全景图" info="" longitude="" datetime="" title="" latitude="" description="" source=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label wordwrap="1" enabled="1" borderalpha="1" borderradius="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="1" textcolor="0x000000" background="1" width="180" backgroundcolor="0xffffff" height="20"/>
+    <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" handcursor="1"/>
+  </hotspots>
+  <media/>
+  <transition softedge="0" type="crossdissolve" zoomoutpause="1" enabled="0" zoomin="0" zoomout="0" zoomfov="20" blendtime="1" blendcolor="0x000000" zoomspeed="2"/>
+  <control invertwheel="0" contextfullscreen="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" lockedkeyboard="1" hideabout="1" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="1"/>
+</panorama>

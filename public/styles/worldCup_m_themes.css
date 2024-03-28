@@ -1,0 +1,65 @@
+@media (max-width: 900px) {
+ .worldCup_inner .banner .btn{width: 2.33rem;}
+.worldCup_inner section{padding-top: .62rem; width: 100%;}
+.worldCup_inner section .goBack{ width: 2rem; height: .64rem; font-size: .26rem;}	
+.worldCup_inner section .content{ margin: 0 .38rem;}
+.worldCup_inner section .goBack span{ margin-left: 0.16rem;}
+.worldCup_inner section .goBack img{width: .12rem;}
+.worldCup_inner .title_con{margin-top: 0.58rem;  margin-bottom: 0.36rem;}
+.worldCup_inner .title_con .title{line-height: .5rem; padding:0}
+.worldCup_inner .title_con .time{font-size: .22rem; line-height: .5rem;  margin: 0.48rem 0 0.32rem;}
+.worldCup_inner .article{margin: 0;font-size: .28rem; line-height: .4rem;}
+
+.worldCup_inner .article img{width: 100%;     margin: 0.62rem 0 0.52rem;}
+.worldCup_inner .article p{margin: 0.2rem 0;}
+.worldCup_inner .baseline{ margin: 0.74rem .38rem 0;}
+ footer{ width: 100%; padding:0 ; flex-wrap: wrap;}
+ footer .t{display: none;}
+ footer .fast_link{ display: flex; justify-content: center; width: 100%;}
+ footer .fast_link a span{display: none;}
+ footer .fast_link a img{width: .87rem;}
+ footer .share{width: 100%; margin-top:1rem; margin-bottom: .3rem;}
+ footer .copyright{width: 100%; font-size: .22rem;}
+
+.worldCup_inder header{ background: url(../images/worldCupTopic/index_banner_m.jpg) no-repeat; padding-top: 8.83rem; background-size: 100% auto;}
+.worldCup_inder .moments{    background: url(../images/worldCupTopic/center_bg_m.jpg) no-repeat; background-size: 100% 100%; width: 100%; padding-bottom: .5rem;}
+.worldCup_inder .moments .title{font-size: .54rem; line-height: 1.28rem; padding-top: .24rem;}
+.worldCup_inder .moments .contact{/*margin: 0 .38rem; */flex-wrap: wrap;}
+.worldCup_inder .moments .contact .left { width: 6.72rem; margin: 0 auto;}
+.worldCup_inder .moments .contact .left .video_con{height: 6.3rem; width: 100%;}
+.worldCup_inder .moments .contact .left .video_con .swiper-pagination{ top: 3.98rem;}
+.worldCup_inder .moments .contact .left .video_con .swiper-pagination-bullet{ width: .1rem; height: .1rem;}
+.worldCup_inder .moments .contact .left .video_con .swiper-pagination-bullet-active{width: .18rem; height: .18rem;}
+.worldCup_inder .moments .contact .left .video_con .t{ margin-top: .54rem; font-size: .38rem; line-height: .42rem; max-height: .84rem; width: 100%;}
+.worldCup_inder .moments .contact .left .video_con .suTitle{font-size: .26rem; line-height: .36rem; height: .72rem;}
+.worldCup_inder .moments .contact .pic_con{height: 2.66rem; width:7.04rem;}
+.worldCup_inder .moments .contact .right{height: 2.66rem; width:100%; display: flex; justify-content: center;}
+.worldCup_inder .moments .contact .right .swiper-button-prev,.worldCup_inder .moments .contact .right .swiper-container-rtl .swiper-button-next{ left: -.1rem;}
+.worldCup_inder .moments .swiper-button-next, .worldCup_inder .moments .swiper-button-prev{right: -.1rem;}
+.worldCup_inder .moments .contact .pic_con .swiper-slide .t{font-size: .3rem; line-height: .36rem;max-height: .72rem;}
+.worldCup_inder .moments .contact .pic_con .swiper-slide{ width: 3.52rem;}
+.worldCup_inder .moments .contact .pic_con .swiper-slide >a{width: 3.24rem;}
+
+.worldCup_inder .activities .title{ margin-top: 1.2rem; margin-bottom: .46rem;}
+.worldCup_inder .activities .title img{width:4.08rem;}
+.worldCup_inder .activities .pic_b{position: relative; height: 6.24rem; margin: 0 .2rem;}
+.worldCup_inder .activities .pic_b .p0{position: absolute; left: 0; top: 0;}
+.worldCup_inder .activities .pic_b .p1{position: absolute; right: 0; bottom:0; top: inherit;}
+.worldCup_inder .activities .pic_b img{width: 7.09rem;}
+
+.worldCup_inder .new .title{    margin-top: 1.2rem; margin-bottom: 0.46rem;}
+.worldCup_inder .new .title img{ width: 2.75rem;}
+.worldCup_inder .new .new_con{width:100%; height: 7.44rem;}
+.worldCup_inder .new .swiper-slide{width: 100%; height: 6.25rem;}
+.worldCup_inder .new .list_con{width: 6.52rem;}
+.worldCup_inder .new .list_con .btn{width: 1rem; height: .44rem; font-size: .24rem; line-height: .44rem;}
+.worldCup_inder .new .list_con .t{font-size: .3rem; line-height: .42rem; margin-top: 0.25rem; margin-bottom: 0.24rem;}
+.worldCup_inder .new .list_con .time{font-size: .22rem;}
+.worldCup_inder .new .list_con .pic{width: 100%; height: 3.84rem;}
+.worldCup_inder .new .btn_con{ width: 1.68rem; height: .74rem;}
+.worldCup_inder .new .swiper-button-next, .worldCup_inder .new .swiper-button-prev{ height: .74rem; width: .84rem;}
+.worldCup_inder .new .btn_con img{width: 100%;}
+.worldCup_inder .new .swiper-pagination{width: 65%; height: .05rem;}
+.worldCup_inder .pop .box{width: 100%; height: 4.22rem;}
+.worldCup_inder .pop .close{width: .58rem; top: -.7rem; right:.2rem ;}
+}

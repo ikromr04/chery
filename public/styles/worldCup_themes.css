@@ -1,0 +1,118 @@
+﻿.oneline{
+	width: 100%;
+	overflow:hidden ;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.twoline{
+	width: 100%;
+	overflow:hidden ;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	display: -webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical ;
+}
+
+.worldCup_inner .banner{width: 100%; position: relative;}
+.worldCup_inner .banner img{width: 100%;}
+header .btn{position: absolute; top:0.5rem; right: 0; width: 2.88rem;}
+header .btn img{width: 100%;}
+.worldCup_inner section{ width: 14.2rem; margin: 0 auto; padding-top: .36rem;}
+.worldCup_inner section .goBack{width: 1.3rem; height: .38rem; display: flex; justify-content: center; align-items: center; border: #0187ce 1px solid; color: #0187ce;}
+.worldCup_inner section .goBack span{margin-left: .14rem;}
+.worldCup_inner section .goBack img{vertical-align: middle; width: .09rem;}
+.worldCup_inner section .goBack img:first-child{animation: arrowOp 1.5s linear 0.5s infinite alternate;}
+.worldCup_inner section .goBack img:last-child{animation: arrowOp 1.5s linear 0s infinite alternate; margin-left: -.07rem;}
+.worldCup_inner .title_con{ border-bottom: #c7c3c4 1px solid; margin-top: .28rem; margin-bottom: .46rem;}
+.worldCup_inner .title_con .title{ font-size: .4rem; text-align: center; line-height: .42rem; padding: 0 1.9rem;}
+.worldCup_inner .title_con .time{font-size: .2rem; color: #141823; text-align: center; margin: .28rem 0 .18rem;}
+.worldCup_inner .article{font-size: .24rem; color: #141823; line-height: .36rem; margin: 0 .36rem;  text-align: justify;}
+.worldCup_inner .article img{ width: 11.06rem; text-align: center;}
+.worldCup_inner .article p{margin: 0.2rem 0;}
+.worldCup_inner .article strong{margin-top: .3rem;display: inline-block;}
+.worldCup_inner .baseline{ border-top:  #c7c3c4 1px solid; margin-top: 0.9rem; padding-top: .46rem; display: flex; justify-content: center;}
+ footer{ background: none; border: none; color: #0d0d0d; display: flex; justify-content: space-between;}
+
+ footer .share{display: flex; width: 50%;}
+ footer .fast_link{ width:4rem; margin-top: 0;}
+ footer .fast_link a{color: #0d0d0d; font-size: .15rem; line-height: .2rem; margin-left: .18rem; opacity: 0.5; display: inline-block;}
+ footer .fast_link a img{vertical-align: text-bottom; margin-right: .06rem; width: .2rem;}
+ footer .copyright{line-height: .3rem;}
+footer{padding: 0.87rem 3.6rem 0.44rem ;}
+@keyframes arrowOp {
+  0%   {opacity: 1;}
+  50%  {opacity:0.5;}
+  100% {opacity: 1;}
+}
+
+.worldCup_inder{background: url(../images/worldCupTopic/index_bg.jpg) repeat-y; width: 100%;  background-size: 100% auto;}
+.worldCup_inder header{width: 100%; background: url(../images/worldCupTopic/index_banner.jpg) no-repeat; background-size: 100% auto; padding-top: 3.15rem; }
+.worldCup_inder header img{width: 100%;}
+.worldCup_inder section{ background: url(../images/worldCupTopic/bg_cover.png) no-repeat bottom right; background-size: 100% auto;}
+.worldCup_inder .moments{ margin: 0 auto;  width: 14.1rem; background: url(../images/worldCupTopic/center_bg.jpg) no-repeat; background-size: 100% auto; padding-top: .2rem;} 
+.worldCup_inder .moments .flag{width: 100%;}
+.worldCup_inder .moments .flag img{width: 100%;}
+.worldCup_inder .moments .title{width: 100%; text-align: center; font-size: .5rem; color: #FFFFFF; line-height: 1.38rem;}
+.worldCup_inder .moments .contact{display: flex; justify-content: space-between; color: #FFFFFF; margin-left:.24rem ; margin-right: .16rem;}
+.worldCup_inder .moments .contact .left{ width: 6.7rem;}
+.worldCup_inder .moments .contact .right{ width: 6.86rem; position: relative; height: 5.8rem; }
+
+.worldCup_inder .moments .contact .left .video_con{width: 6.7rem; height: 6.1rem; position: relative;}
+.worldCup_inder .moments .contact .left .video_con .pic{width: 6.72rem; height: 3.79rem; overflow: hidden; position: relative; cursor: pointer;}
+.worldCup_inder .moments .contact .left .video_con .pic a{ background: rgba(255,255,255,0) url(../images/worldCupTopic/play_btn.png) no-repeat center ; background-size: .68rem .74rem; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.worldCup_inder .moments .contact .left .video_con .t{ font-size: .32rem; line-height: .42rem; margin-top: .38rem; margin-bottom: .16rem; width: 90%;  text-align: justify; /*width: 100%;*/ /*height: .84rem;*/ height: .42rem;}
+.worldCup_inder .moments .contact .left .video_con .suTitle{font-size: .2rem; line-height: .24rem;  width: 90%;     text-align: justify;}
+.worldCup_inder .moments .contact .left .video_con .suTitle:hover{overflow: visible;text-overflow: initial;display: block;}
+.worldCup_inder .moments .contact .left .video_con .swiper-pagination{top: 3.9rem; text-align: right; line-height: .14rem; height: .2rem; display: flex; align-items: center; justify-content: flex-end;}
+.worldCup_inder .moments .contact .left .video_con .swiper-pagination-bullet{background: #FFFFFF; width: .08rem; height: .08rem; opacity: 1; margin: 0 .12rem;}
+.worldCup_inder .moments .contact .left .video_con .swiper-pagination-bullet-active{ background: #FFFFFF; width: .14rem; height: .14rem;}
+.worldCup_inder .moments .contact .pic_con{ width: 6.86rem; height: 5.86rem;}
+.worldCup_inder .moments .contact .pic_con .swiper-slide{width: 3.2rem; height: 2.8rem; font-size: .26rem;}
+.worldCup_inder .moments .contact .pic_con .swiper-slide >a{display: block; width: 3rem; height: 100%; margin: 0 auto; cursor: pointer;color: #ffffff;}
+.worldCup_inder .moments .contact .pic_con .swiper-slide .pic{width: 100%; height: 1.7rem; overflow: hidden; display: block; position: relative;}
+.worldCup_inder .moments .contact .pic_con .swiper-slide .pic .cover{position: absolute; top: 0; left: 0; background: url(../images/worldCupTopic/pic_con_box.png)no-repeat top left; background-size: 100% 100%; display: block; width: 100%; height: 100%;}
+.worldCup_inder .moments .contact .pic_con .swiper-slide .pic .cover .name{ padding-left: .26rem; font-size: .18rem; line-height: .28rem;}
+.worldCup_inder .moments .contact .pic_con .swiper-slide .pic img{width: 100%;}
+.worldCup_inder .moments .contact .pic_con .swiper-slide .t{ margin: .12rem 0;  line-height: .26rem; max-height: .52rem; text-align: justify;}
+.worldCup_inder .moments .swiper-button-next, .worldCup_inder .moments .swiper-button-prev{ top: 45%; width: .18rem; background-size: 100% auto;}
+
+.worldCup_inder .activities .title{ width: 100%; text-align: center; margin-top: .98rem; margin-bottom: .64rem;}
+.worldCup_inder .activities .title img{width: 3.82rem;}
+.worldCup_inder .activities .pic_b{position: relative; height: 5.08rem;}
+.worldCup_inder .activities .pic_b .p0{position: absolute; left: 0; top: 0;}
+.worldCup_inder .activities .pic_b img{width: 11.15rem; transform: scale(1); transition: all .45s ease-in-out;}
+.worldCup_inder .activities .pic_b img:hover{transform: scale(1.1); transition: all .45s ease-in-out;}
+
+.worldCup_inder .activities .pic_b .p1{position: absolute; right: 0; top:0.34rem;}
+
+.worldCup_inder .new .title{width: 100%; text-align: center; margin-top:1.52rem; margin-bottom: .84rem;}
+.worldCup_inder .new .title img{width:2.72rem;}
+.worldCup_inder .new .new_con{width: 18.4rem; height: 5.5rem; overflow: hidden;}
+.worldCup_inder .new .swiper-slide{ width: 4.6rem; height: 4.5rem;}
+.worldCup_inder .new .list_con{width: 3.94rem; height: 4.4rem; margin: 0 auto; display: block;}
+.worldCup_inder .new .list_con >span{ display: block;}
+.worldCup_inder .new .list_con .btn{ width: .8rem; height: .34rem; display: inline-block; line-height: .34rem;  text-align: center; border: #0088cf 1px solid; font-size: .18rem; color: #0088cf;}
+.worldCup_inder .new .list_con .t{line-height: .42rem; max-height: .84rem; font-size: .26rem; color: #141823; margin-top:.11rem ; margin-bottom: .14rem;  display: -webkit-box;}
+.worldCup_inder .new .list_con .time{line-height: .42rem; margin-bottom: .21rem; font-size: .16rem; color: #141823;}
+.worldCup_inder .new .list_con .pic{width: 3.93rem; height: 2.32rem; overflow: hidden;transform: scale(1); transition: all .45s ease-in-out;}
+.worldCup_inder .new .list_con .pic:hover{transform: scale(1.1); transition: all .45s ease-in-out;}
+.worldCup_inder .new .list_con .pic img{width: 100%; }
+.worldCup_inder .new .btn_con{width: 1.34rem; position: absolute; bottom: 0rem; right: 0.42rem; display: flex; height: .6rem; display: none; }
+.worldCup_inder .new .btn_con img{width: .68rem;}
+.worldCup_inder .new .swiper-button-next, .worldCup_inder .new .swiper-button-prev{ width: .68rem; height: .6rem; top: 0; background-image: none; margin-top:0;}
+.worldCup_inder .new .swiper-button-prev, .worldCup_inder .new .swiper-container-rtl .swiper-button-next{ left: 0;}
+.worldCup_inder .new .swiper-button-next, .worldCup_inder .new .swiper-container-rtl .swiper-button-prev{ right: 0;}
+.worldCup_inder .new .swiper-pagination{bottom: 0; width: 88%; top: inherit; background:rgba(0,0,0,.1); margin-left: 0.3rem; height: .04rem;}
+.worldCup_inder .new .swiper-pagination-progress .swiper-pagination-progressbar{background:#0088cf}
+.worldCup_inder .pop{position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999; display: flex; align-items: center; justify-content: center; display: none;}
+.worldCup_inder .pop .bg{position: absolute; top: 0; left: 0; background: rgba(-255,-255,-255,0.7); width: 100%; height: 100%;}
+.worldCup_inder .pop .box{width: 11.88rem; height: 6.7rem; position:relative; background: #000000;}
+.worldCup_inder .pop .close{ position: absolute; top: -.6rem; right: -.7rem; width: .51rem; cursor: pointer;}
+.worldCup_inder .pop .close img{width: 100%;}
+.worldCup_inder .pop .video{ width: 100%; height: 100%;}
+.worldCup_inder .pop .video video{width: 100%; height: 100%;}
+.worldCup_inder .pop .pic_con {width: 100%; height: 100%; overflow: hidden;}
+.worldCup_inder .pop .pic_con img{width: 100%;}
+
