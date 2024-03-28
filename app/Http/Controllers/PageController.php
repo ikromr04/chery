@@ -40,4 +40,14 @@ class PageController extends Controller
   {
     return view('pages.models.tiggo.tiggo2');
   }
+
+  public function arrizo8()
+  {
+    return view('pages.models.arrizo.arrizo8');
+  }
+
+  public function newEnergy()
+  {
+    return view('pages.models.new-energy.index');
+  }
 }

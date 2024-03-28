@@ -41,6 +41,6 @@ Route::get('/tiggo7', [PageController::class, 'tiggo7'])->name('tiggo7');
 Route::get('/new-tiggo4', [PageController::class, 'newTiggo4'])->name('newtiggo4');
 Route::get('/tiggo2', [PageController::class, 'tiggo2'])->name('tiggo2');
 
-Route::get('/models/arrizo/arrizo8', [PageController::class, 'arrizo8'])->name('arrizo8');
+Route::get('/arrizo8', [PageController::class, 'arrizo8'])->name('arrizo8');
 
-Route::get('/models/new-energy', [PageController::class, 'newEnergy'])->name('newenergy');
+Route::get('/new-energy', [PageController::class, 'newEnergy'])->name('newenergy');
