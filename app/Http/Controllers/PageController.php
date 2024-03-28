@@ -13,6 +13,6 @@ class PageController extends Controller
 
   public function tiggo8pro()
   {
-    return view('pages.cars.tiggo8pro');
+    return view('pages.models.tiggo.tiggo8pro');
   }
 }

@@ -265,3 +265,192 @@
   </div> --}}
   <div class="line m_hide"></div>
 </header>
+
+<div class="pc_hide absoLogo">
+  <a class="logo" href="{{ route('home') }}">
+    <img src="{{ asset('images/logo.png') }}" />
+  </a>
+  {{-- <a href="" class="search"></a> --}}
+  {{-- <div class="earth">
+    <div class="country">
+      <div class="list">
+        <a href="">
+          <img src="images/flag.png" />a
+        </a>
+        <a href="">
+          <img src="images/flag.png" />a
+        </a>
+        <a href="">
+          <img src="images/flag.png" />a
+        </a>
+        <a href="">
+          <img src="images/flag.png" />a
+        </a>
+        <a href="">
+          <img src="images/flag.png" />a
+        </a>
+        <a href="">
+          <img src="images/flag.png" />a
+        </a>
+        <a href="">
+          <img src="images/flag.png" />a
+        </a>
+        <a href="">
+          <img src="images/flag.png" />a
+        </a>
+        <a href="">
+          <img src="images/flag.png" />a
+        </a>
+        <a href="">
+          <img src="images/flag.png" />a
+        </a>
+        <a href="">
+          <img src="images/flag.png" />a
+        </a>
+      </div>
+    </div>
+  </div> --}}
+</div>
+<div class="pc_hide m_menu">
+  <a class="nav">
+    <span class="nav_line"></span>
+    <span class="nav_line close"></span>
+  </a>
+  <div class="submenubg">
+    <dl>
+      <dt>
+        <a>Models</a> <span>01</span>
+      </dt>
+      <dd class="carbtn">Tiggo</dd>
+      <dd class="carbtn">Arrizo</dd>
+      <dd class="carbtn">New energy</dd>
+    </dl>
+    <dl>
+      <dt>
+        <a>Design & Technology</a> <span>02</span>
+      </dt>
+      <dd>
+        <a href="{{ route('dt.platform') }}">Platform</a>
+      </dd>
+      <dd>
+        <a href="{{ route('dt.lab') }}">Lab</a>
+      </dd>
+      <dd>
+        <a href="{{ route('dt.adas') }}">ADAS</a>
+      </dd>
+      <dd>
+        <a href="{{ route('dt.autopilot') }}">Autopilot</a>
+      </dd>
+      <dd>
+        <a href="{{ route('dt.newenergy') }}">New Energy</a>
+      </dd>
+    </dl>
+    <dl>
+      <dt>
+        <a>News</a> <span>03</span>
+      </dt>
+      <dd>
+        <a href="{{ route('news.news') }}">News</a>
+      </dd>
+      <dd>
+        <a href="{{ route('news.events') }}">Events</a>
+      </dd>
+    </dl>
+    <dl>
+      <dt>
+        <a href="{{ route('about.ceo') }}">About Chery</a> <span>04</span>
+      </dt>
+    </dl>
+    <dl>
+      <dt>
+        <a href="{{ route('contact') }}">Contact Us</a> <span>05</span>
+      </dt>
+    </dl>
+    <dl>
+      <dt>
+        <a href="{{ route('worldwide') }}">Worldwide</a> <span>06</span>
+      </dt>
+    </dl>
+    <div>
+      <div class="thirdmenu">
+        <!--Models-->
+        <div class="menucarbox">
+          <div class="carlist">
+            <a href="{{ route('tiggo8pro') }}" class="it">
+              <img src="{{ asset('images/mb_car_01.png') }}" />
+              <span class="label">Tiggo 8 Pro</span>
+            </a>
+            <a href="{{ route('tiggo8') }}" class="it">
+              <img src="{{ asset('images/mb_car_02.png') }}" />
+              <span class="label">New Tiggo 5</span>
+            </a>
+            <a href="{{ route('newtiggo4') }}" class="it">
+              <img src="{{ asset('images/mb_car_03.png') }}" />
+              <span class="label">New Tiggo 4</span>
+            </a>
+            <a href="{{ route('newtiggo4') }}" class="it">
+              <img src="{{ asset('images/mb_car_04.png') }}" />
+              <span class="label">Tiggo 4</span>
+            </a>
+            <a href="{{ route('tiggo8') }}" class="it">
+              <img src="{{ asset('images/mb_car_06.png') }}" />
+              <span class="label">Tiggo 8</span>
+            </a>
+            <a href="{{ route('tiggo7pro') }}" class="it">
+              <img src="{{ asset('images/mb_car_07.png') }}" />
+              <span class="label">Tiggo 7 Pro</span>
+            </a>
+            <a href="{{ route('tiggo7') }}" class="it">
+              <img src="{{ asset('images/mb_car_08.png') }}" />
+              <span class="label">Tiggo 7</span>
+            </a>
+            <a href="{{ route('tiggo2') }}" class="it">
+              <img src="{{ asset('images/mb_car_09.png') }}" />
+              <span class="label">Tiggo 2</span>
+            </a>
+          </div>
+        </div>
+        <div class="menucarbox">
+          <div class="carlist">
+            <a href="{{ route('tiggo8pro') }}" class="it">
+              <img src="{{ asset('images/mb_car_01.png') }}" />
+              <span class="label">Tiggo 8 Pro</span>
+            </a>
+            <a href="{{ route('newtiggo4') }}" class="it">
+              <img src="{{ asset('images/mb_car_02.png') }}" />
+              <span class="label">New Tiggo 5</span>
+            </a>
+          </div>
+        </div>
+        <div class="menucarbox">
+          <div class="carlist">
+            <a href="{{ route('tiggo8pro') }}" class="it">
+              <img src="{{ asset('images/mb_car_01.png') }}" />
+              <span class="label">Tiggo 8 Pro</span>
+            </a>
+            <a href="{{ route('tiggo8') }}" class="it">
+              <img src="{{ asset('images/mb_car_02.png') }}" />
+              <span class="label">New Tiggo 5</span>
+            </a>
+            <a href="{{ route('tiggo8') }}" class="it">
+              <img src="{{ asset('images/mb_car_03.png') }}" />
+              <span class="label">New Tiggo 4</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="thirdmenu">
+        <!--Design-->
+      </div>
+      <div class="thirdmenu">
+        <!--News-->
+      </div>
+      <div class="thirdmenu">
+        <!--About-->
+      </div>
+      <div class="thirdmenu">
+        <!--Contact-->
+      </div>
+    </div>
+  </div>
+</div>
