@@ -21,7 +21,6 @@
         <span>About Chery</span>
         <a href="{{ route('about.ceo') }}">From CEO</a>
         <a href="{{ route('about.introduction') }}">Introduction</a>
-        <a href="{{ route('about.concept') }}">Brand Concept</a>
         <a href="{{ route('about.honors') }}">Honors</a>
       </div>
       <div class="item">

@@ -24,7 +24,6 @@ Route::get('/events', [PageController::class, 'events'])->name('news.events');
 
 Route::get('/fromceo', [PageController::class, 'fromceo'])->name('about.ceo');
 Route::get('/introduction', [PageController::class, 'introduction'])->name('about.introduction');
-Route::get('/concept', [PageController::class, 'concept'])->name('about.concept');
 Route::get('/honors', [PageController::class, 'honors'])->name('about.honors');
 
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');

@@ -70,4 +70,29 @@ class PageController extends Controller
   {
     return view('pages.news.events');
   }
+
+  public function fromceo()
+  {
+    return view('pages.about.fromceo');
+  }
+
+  public function introduction()
+  {
+    return view('pages.about.introduction');
+  }
+
+  public function honors()
+  {
+    return view('pages.about.honor');
+  }
+
+  public function contact()
+  {
+    return view('pages.contact');
+  }
+
+  public function worldwide()
+  {
+    return view('pages.worldwide');
+  }
 }

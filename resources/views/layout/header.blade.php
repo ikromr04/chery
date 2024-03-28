@@ -215,9 +215,6 @@
               <a href="{{ route('about.introduction') }}">Introduction</a>
             </div>
             <div class="subtn">
-              <a href="{{ route('about.concept') }}">Brand Concept</a>
-            </div>
-            <div class="subtn">
               <a href="{{ route('about.honors') }}">Honors</a>
             </div>
             <span></span>
