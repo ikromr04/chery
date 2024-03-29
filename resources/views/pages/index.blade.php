@@ -94,7 +94,7 @@
         </div>
         <ul class="itembox m_hide">
           <li class=" wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-            <a href="{{ route('dt.platform') }}">
+            <a>
               <span class="h5">
                 Platform
               </span>
@@ -105,7 +105,7 @@
             </a>
           </li>
           <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.52s">
-            <a href="{{ route('dt.powertrain') }}">
+            <a>
               <span class="h5">
                 Powertrain
               </span>
@@ -116,7 +116,7 @@
             </a>
           </li>
           <li class=" wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.55s">
-            <a href="{{ route('dt.newenergy') }}">
+            <a>
               <span class="h5">
                 R&D
               </span>
@@ -130,7 +130,7 @@
         <div class="swiper-container itemboxswiper pc_hide">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <a href="{{ route('dt.platform') }}">
+              <a>
                 <span class="h5">
                   Platform
                 </span>
@@ -141,7 +141,7 @@
               </a>
             </div>
             <div class="swiper-slide">
-              <a href="{{ route('dt.powertrain') }}">
+              <a>
                 <span class="h5">
                   Powertrain
                 </span>
@@ -152,7 +152,7 @@
               </a>
             </div>
             <div class="swiper-slide">
-              <a href="{{ route('dt.newenergy') }}">
+              <a>
                 <span class="h5">
                   R&D
                 </span>
