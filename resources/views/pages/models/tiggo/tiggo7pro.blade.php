@@ -28,10 +28,10 @@
       </div>
       <!--360-->
       <div class="model_wrap">
-        <h3 class="tit_360">360° view</h3>
+        <h3 class="tit_360">@lang('360° view')</h3>
         <div class="change_E_I">
-          <span class="on">EXTERIOR</span>
-          <span>INTERIOR</span>
+          <span class="on">@lang('EXTERIOR')</span>
+          <span>@lang('INTERIOR')</span>
         </div>
         <div class="model_360">
           <img src="{{ asset('images/newtiggo7pro_360bg.png') }}" class="bg360 m_hide" />
@@ -47,7 +47,7 @@
               </ol>
             </div>-->
             <div id="interior_360">
-              <br>Loading...<br>
+              <br>@lang('Loading...')<br>
             </div>
           </div>
         </div>
@@ -117,30 +117,30 @@
       <div class="modelmenu">
         <div class="it on">
           <span class="ic"><i></i></span>
-          <span class="label">DESIGN</span>
+          <span class="label">@lang('DESIGN')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">INTERIOR</span>
+          <span class="label">@lang('INTERIOR')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">POWER</span>
+          <span class="label">@lang('POWER')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">TECH</span>
+          <span class="label">@lang('TECH')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">SAFETY</span>
+          <span class="label">@lang('SAFETY')</span>
         </div>
       </div>
       <div class="design module" id="module1">
         <div class="title">
           <h4>
             <span class="big_num">01</span>
-            <span class="tit">DESIGN</span>
+            <span class="tit">@lang('DESIGN')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -149,29 +149,29 @@
               <img src="{{ asset('images/newtiggo7pro_design_p1.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo7pro_design_p1_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>The upper beltline is horizontal and square, traversing the side body, robust, epic, and triumphs against action by staying still. The two lower beltlines are round and dynamic, forming an accelerating atmosphere, dynamic and fashionable.</p>
+                <p>@lang('The upper beltline is horizontal and square, traversing the side body, robust, epic, and triumphs against action by staying still. The two lower beltlines are round and dynamic, forming an accelerating atmosphere, dynamic and fashionable.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo7pro_design_p2.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo7pro_design_p2_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>The LED high and low beams adopt a multi-cavity reflective matrix, simple and elegant, illuminating all.</p>
+                <p>@lang('The LED high and low beams adopt a multi-cavity reflective matrix, simple and elegant, illuminating all.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo7pro_design_p3.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo7pro_design_p3_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox black">
-                <p>The panoramic sunroof has a daylighting area of up to 1.13m², allowing users to enjoy the experience of looking up at the cosmos. One-touch ON/OFF/Warped, the glass anti-pinch design protects occupants from injury.</p>
+                <p>@lang('The panoramic sunroof has a daylighting area of up to 1.13m², allowing users to enjoy the experience of looking up at the cosmos. One-touch ON/OFF/Warped, the glass anti-pinch design protects occupants from injury.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">Penetrating Beltline </div>
-          <div class="cutbtn">Matrix LED Headlight</div>
-          <div class="cutbtn">Large Panoramic Sunroof</div>
+          <div class="cutbtn on">@lang('Penetrating Beltline')</div>
+          <div class="cutbtn">@lang('Matrix LED Headlight')</div>
+          <div class="cutbtn">@lang('Large Panoramic Sunroof')</div>
         </div>
       </div>
       <!--INTERIOR-->
@@ -179,7 +179,7 @@
         <div class="title">
           <h4>
             <span class="big_num">02</span>
-            <span class="tit">INTERIOR</span>
+            <span class="tit">@lang('INTERIOR')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -188,30 +188,30 @@
               <img src="{{ asset('images/newtiggo7pro_royal_p1.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo7pro_royal_p1_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>The horizontal integrated dashboard is symmetrical left and right, comfortable and elegant. The screens and knobs after zoning are easy to operate and upgrade.</p>
+                <p>@lang('The horizontal integrated dashboard is symmetrical left and right, comfortable and elegant. The screens and knobs after zoning are easy to operate and upgrade.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo7pro_royal_p2.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo7pro_royal_p2_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>With 5 occupants, the tail space measures out 475L </p>
-                <p>In the case when rear seats recline, the tail space can reach 1500L</p>
+                <p>@lang('With 5 occupants, the tail space measures out 475L')</p>
+                <p>@lang('In the case when rear seats recline, the tail space can reach 1500L')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo7pro_royal_p3.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo7pro_royal_p3_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>Coated with delicate leather, the multipurpose steering wheel gives a better sense of grip and touch. </p>
+                <p>@lang('Coated with delicate leather, the multipurpose steering wheel gives a better sense of grip and touch.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">Embracing Cabin</div>
-          <div class="cutbtn">Agile, Spacious Trunk</div>
-          <div class="cutbtn">4-way Adjustable Multipurpose Steering Wheel</div>
+          <div class="cutbtn on">@lang('Embracing Cabin')</div>
+          <div class="cutbtn">@lang('Agile, Spacious Trunk')</div>
+          <div class="cutbtn">@lang('4-way Adjustable Multipurpose Steering Wheel')</div>
         </div>
       </div>
       <!--Platinum Power-->
@@ -219,7 +219,7 @@
         <div class="title">
           <h4>
             <span class="big_num">03</span>
-            <span class="tit">POWER</span>
+            <span class="tit">@lang('POWER')</span>
           </h4>
         </div>
         <div class="powerbox samebox">
@@ -228,8 +228,8 @@
               <img src="{{ asset('images/newtiggo7pro_power_p1.jpg') }}" />
             </div>
             <div class="textbox">
-              <h5>1.5T ENGINE</h5>
-              <p>The 1.5T engine has the maximum power of 108KW, the maximum torque of 210 / 1750-4500rpm, and the fuel consumption per 100 kilometers of only 6.8L.</p>
+              <h5>@lang('1.5T ENGINE')</h5>
+              <p>@lang('The 1.5T engine has the maximum power of 108KW, the maximum torque of 210 / 1750-4500rpm, and the fuel consumption per 100 kilometers of only 6.8L.')</p>
             </div>
           </div>
           <div class="caritem">
@@ -237,8 +237,8 @@
               <img src="{{ asset('images/newtiggo7pro_power_p2.jpg') }}" />
             </div>
             <div class="textbox">
-              <h5>9-SPEED CVT</h5>
-              <p>CVT25 can be on a par with Aisin 6AT, and its maximum torque is 280N · m. The BOSCH steel belt improves the transmission efficiency to 92.5%, and saves 7% fuel.</p>
+              <h5>@lang('9-SPEED CVT')</h5>
+              <p>@lang('CVT25 can be on a par with Aisin 6AT, and its maximum torque is 280N · m. The BOSCH steel belt improves the transmission efficiency to 92.5%, and saves 7% fuel.')</p>
             </div>
           </div>
           <div class="caritem">
@@ -246,8 +246,8 @@
               <img src="{{ asset('images/newtiggo7pro_power_p3.jpg') }}" />
             </div>
             <div class="textbox">
-              <h5>T1X COMFORT CHASSIS</h5>
-              <p>The T1X platform has better headroom for front and rear seats, and higher ground clearance. The approach and departure angles also ensure better off-road performance.</p>
+              <h5>@lang('T1X COMFORT CHASSIS')</h5>
+              <p>@lang('The T1X platform has better headroom for front and rear seats, and higher ground clearance. The approach and departure angles also ensure better off-road performance.')</p>
             </div>
           </div>
         </div>
@@ -257,7 +257,7 @@
         <div class="title">
           <h4>
             <span class="big_num">04</span>
-            <span class="tit">TECH</span>
+            <span class="tit">@lang('TECH')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox">
@@ -266,24 +266,24 @@
               <img src="{{ asset('images/newtiggo7pro_tech_p1.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo7pro_tech_p1_m.jpg') }}" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>8-inch A/C LCD Touch Screen</p>
-                <p>8 inch LCD touch screen, IML (In-Mold Labeling) process + capacitive touch screen + voice feedback + physical knob, and has the unique 8-inch intelligent A/C touch screen, as a scratch proof and dust-proof and waterproof, corrosion resistant, high-end luxury type.</p>
+                <p>@lang('8-inch A/C LCD Touch Screen')</p>
+                <p>@lang('8 inch LCD touch screen, IML (In-Mold Labeling) process + capacitive touch screen + voice feedback + physical knob, and has the unique 8-inch intelligent A/C touch screen, as a scratch proof and dust-proof and waterproof, corrosion resistant, high-end luxury type.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo7pro_tech_p2.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo7pro_tech_p2_m.jpg') }}" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>Inductive electric trunk door</p>
-                <p>The opening angle will be automatically memorized when the trunk button is pressed for 3 seconds. Other methods to open the trunk door include remote control opening and manual opening.</p>
+                <p>@lang('Inductive electric trunk door')</p>
+                <p>@lang('The opening angle will be automatically memorized when the trunk button is pressed for 3 seconds. Other methods to open the trunk door include remote control opening and manual opening.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo7pro_tech_p3.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo7pro_tech_p3_m.jpg') }}" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>12-inch Full LCD Meter</p>
-                <p>The 12-Inch HD full-screen LCD instrument can interact with the central control screen. It can realize multimedia, communication, early warning, driving information, warning message, setting and other functions.</p>
+                <p>@lang('12-inch Full LCD Meter')</p>
+                <p>@lang('The 12-Inch HD full-screen LCD instrument can interact with the central control screen. It can realize multimedia, communication, early warning, driving information, warning message, setting and other functions.')</p>
               </div>
             </div>
           </div>
@@ -292,20 +292,20 @@
         <div class="cutwindow">
           <div class="cutbtn on">
             <div class="text">
-              <h5>8-inch A/C LCD Touch Screen</h5>
-              <p>8 inch LCD touch screen, IML (In-Mold Labeling) process + capacitive touch screen + voice feedback + physical knob, and has the unique 8-inch intelligent A/C touch screen, as a scratch proof and dust-proof and waterproof, corrosion resistant, high-end luxury type.</p>
+              <h5>@lang('8-inch A/C LCD Touch Screen')</h5>
+              <p>@lang('8 inch LCD touch screen, IML (In-Mold Labeling) process + capacitive touch screen + voice feedback + physical knob, and has the unique 8-inch intelligent A/C touch screen, as a scratch proof and dust-proof and waterproof, corrosion resistant, high-end luxury type.')</p>
             </div>
           </div>
           <div class="cutbtn">
             <div class="text">
-              <h5>Inductive electric trunk door</h5>
-              <p>The opening angle will be automatically memorized when the trunk button is pressed for 3 seconds. Other methods to open the trunk door include remote control opening and manual opening.</p>
+              <h5>@lang('Inductive electric trunk door')</h5>
+              <p>@lang('The opening angle will be automatically memorized when the trunk button is pressed for 3 seconds. Other methods to open the trunk door include remote control opening and manual opening.')</p>
             </div>
           </div>
           <div class="cutbtn">
             <div class="text">
-              <h5>12-inch Full LCD Meter</h5>
-              <p>The 12-Inch HD full-screen LCD instrument can interact with the central control screen. It can realize multimedia, communication, early warning, driving information, warning message, setting and other functions.</p>
+              <h5>@lang('12-inch Full LCD Meter')</h5>
+              <p>@lang('The 12-Inch HD full-screen LCD instrument can interact with the central control screen. It can realize multimedia, communication, early warning, driving information, warning message, setting and other functions.')</p>
             </div>
           </div>
         </div>
@@ -315,7 +315,7 @@
         <div class="title">
           <h4>
             <span class="big_num">05</span>
-            <span class="tit">SAFETY</span>
+            <span class="tit">@lang('SAFETY')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -325,31 +325,31 @@
               <img src="{{ asset('images/newtiggo7pro_safe_p1_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
                 <!--<p>High-strength steels are present more than 60% in the alloy </p>-->
-                <p>Multiple blocks of Bentler ultra-high strength thermal forming steels</p>
-                <p>Yield strength ≥1500Mpa</p>
-                <p>The whole vehicle cover is made of galvanized steel plates</p>
+                <p>@lang('Multiple blocks of Bentler ultra-high strength thermal forming steels')</p>
+                <p>@lang('Yield strength ≥1500Mpa')</p>
+                <p>@lang('The whole vehicle cover is made of galvanized steel plates')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo7pro_safe_p2.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo7pro_safe_p2_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox ">
-                <p>Each tire carries a tire pressure sensor, which displays tire pressure and temperature on the instrument via wireless radio frequency signals, effectively avoiding accidents.</p>
+                <p>@lang('Each tire carries a tire pressure sensor, which displays tire pressure and temperature on the instrument via wireless radio frequency signals, effectively avoiding accidents.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo7pro_safe_p3.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo7pro_safe_p3_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>The leading guard-ring type 6 airbags provide comprehensive and thoughtful protection. </p>
+                <p>@lang('The leading guard-ring type 6 airbags provide comprehensive and thoughtful protection.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">High-strength body</div>
-          <div class="cutbtn">Tire-Pressure Monitoring System (TPMS)</div>
-          <div class="cutbtn">Guard-ring 6 airbags</div>
+          <div class="cutbtn on">@lang('High-strength body')</div>
+          <div class="cutbtn">@lang('Tire-Pressure Monitoring System (TPMS)')</div>
+          <div class="cutbtn">@lang('Guard-ring 6 airbags')</div>
         </div>
       </div>
     </section>

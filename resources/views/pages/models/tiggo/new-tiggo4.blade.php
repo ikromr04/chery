@@ -28,9 +28,9 @@
       </div>
       <!--360-->
       <div class="model_wrap">
-        <h3 class="tit_360">360° view</h3>
+        <h3 class="tit_360">@lang('360° view')</h3>
         <div class="change_E_I">
-          <span class="on">EXTERIOR</span>
+          <span class="on">@lang('EXTERIOR')</span>
           <!--<span>INTERIOR</span>-->
         </div>
         <div class="model_360">
@@ -40,7 +40,7 @@
               <img src="images/360_view/newTiggo4/black/34.jpg" class="reel" id="image" data-image="stitched-reel.jpg" data-stitched="496" data-frames="30" data-frame="15" data-rows="3" data-row="2" data-loops="false">
             </div>
             <div id="interior_360">
-              <br>Loading...<br>
+              <br>@lang('Loading...')<br>
             </div>
           </div>
           <style>
@@ -103,7 +103,7 @@
       <div class="design module graybg">
         <div class="title">
           <h4>
-            <span class="tit">DESIGN</span>
+            <span class="tit">@lang('DESIGN')</span>
             <span class="big_num">01</span>
           </h4>
         </div>
@@ -115,20 +115,20 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="txtbox">
-                  <h5>1Family style <br /> tiger-crouching front </h5>
-                  <p>The tiger-crouching front face design inherits the steady design aesthetics of TIGGO family.The front grille adopts the futuristic starry sky design, which creates natural but futuristic high-tech impression by the 2 transverse lines full of sense of depth.</p>
+                  <h5>@lang('1Family style <br /> tiger-crouching front')</h5>
+                  <p>@lang('The tiger-crouching front face design inherits the steady design aesthetics of TIGGO family.The front grille adopts the futuristic starry sky design, which creates natural but futuristic high-tech impression by the 2 transverse lines full of sense of depth.')</p>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="txtbox">
-                  <h5>2Family style <br /> tiger-crouching front </h5>
-                  <p>The tiger-crouching front face design inherits the steady design aesthetics of TIGGO family.The front grille adopts the futuristic starry sky design, which creates natural but futuristic high-tech impression by the 2 transverse lines full of sense of depth.</p>
+                  <h5>@lang('1Family style <br /> tiger-crouching front')</h5>
+                  <p>@lang('The tiger-crouching front face design inherits the steady design aesthetics of TIGGO family.The front grille adopts the futuristic starry sky design, which creates natural but futuristic high-tech impression by the 2 transverse lines full of sense of depth.')</p>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="txtbox">
-                  <h5>3Family style <br />tiger-crouching front </h5>
-                  <p>The tiger-crouching front face design inherits the steady design aesthetics of TIGGO family.The front grille adopts the futuristic starry sky design, which creates natural but futuristic high-tech impression by the 2 transverse lines full of sense of depth.</p>
+                  <h5>@lang('1Family style <br /> tiger-crouching front')</h5>
+                  <p>@lang('The tiger-crouching front face design inherits the steady design aesthetics of TIGGO family.The front grille adopts the futuristic starry sky design, which creates natural but futuristic high-tech impression by the 2 transverse lines full of sense of depth.')</p>
                 </div>
               </div>
             </div>
@@ -165,14 +165,14 @@
       <div class="comfort module">
         <div class="title">
           <h4>
-            <span class="tit">INTERIOR</span>
+            <span class="tit">@lang('INTERIOR')</span>
             <span class="big_num">02</span>
           </h4>
         </div>
         <div class="comfort_item graybg clearfix">
           <div class="txtbox">
-            <h5>Wide high-quality space</h5>
-            <p>Excellent space design provides sufficient head room, shoulder room and leg room for front and rear passengers, improving the riding comfort of all the occupants.</p>
+            <h5>@lang('Wide high-quality space')</h5>
+            <p>@lang('Excellent space design provides sufficient head room, shoulder room and leg room for front and rear passengers, improving the riding comfort of all the occupants.')</p>
           </div>
           <div class="imgbox">
             <img src="images/newtiggo4_royal_p1.jpg" class="pic" />
@@ -180,8 +180,8 @@
         </div>
         <div class="comfort_item clearfix">
           <div class="txtbox">
-            <h5>Wide high-quality space</h5>
-            <p>Excellent space design provides sufficient head room, shoulder room and leg room for front and rear passengers, improving the riding comfort of all the occupants.</p>
+            <h5>@lang('Wide high-quality space')</h5>
+            <p>@lang('Excellent space design provides sufficient head room, shoulder room and leg room for front and rear passengers, improving the riding comfort of all the occupants.')</p>
           </div>
           <div class="imgbox">
             <img src="images/newtiggo4_royal_p2.jpg" class="pic" />
@@ -189,8 +189,8 @@
         </div>
         <div class="comfort_item graybg clearfix">
           <div class="txtbox">
-            <h5>Wide high-quality space</h5>
-            <p>Excellent space design provides sufficient head room, shoulder room and leg room for front and rear passengers, improving the riding comfort of all the occupants.</p>
+            <h5>@lang('Wide high-quality space')</h5>
+            <p>@lang('Excellent space design provides sufficient head room, shoulder room and leg room for front and rear passengers, improving the riding comfort of all the occupants.')</p>
           </div>
           <div class="imgbox">
             <img src="images/newtiggo4_royal_p3.jpg" class="pic" />
@@ -201,7 +201,7 @@
       <div class="power module">
         <div class="title">
           <h4>
-            <span class="tit">POWER</span>
+            <span class="tit">@lang('POWER')</span>
             <span class="big_num">03</span>
           </h4>
         </div>
@@ -220,63 +220,61 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="txtbox">
-                  <h5>2.0L high-performance <br />engine</h5>
+                  <h5>@lang('2.0L high-performance <br />engine')</h5>
                   <div class="params">
-                    <span>Max. power</span>
+                    <span>@lang('Max. power')</span>
                     <div class="numbox">
                       <strong>102<span>kw</span></strong>
                       <span>/</span>
                       <strong>5750<span>rpm</span></strong>
                     </div>
-                    <span>Max. torque</span>
+                    <span>@lang('Max. torque')</span>
                     <div class="numbox">
                       <strong>180<span>N·m</span></strong>
                       <span>/</span>
                       <strong>4500<span>rpm</span></strong>
                     </div>
                   </div>
-                  <p>This naturally aspirated engine features fast throttle response, stable start, stable power output upon rpm change, simple mechanical construction and low maintenance cost.</p>
+                  <p>@lang('This naturally aspirated engine features fast throttle response, stable start, stable power output upon rpm change, simple mechanical construction and low maintenance cost.')</p>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="txtbox">
-                  <h5>2.0L high-performance <br />engine</h5>
+                  <h5>@lang('2.0L high-performance <br />engine')</h5>
                   <div class="params">
-                    <span>Max. power</span>
+                    <span>@lang('Max. power')</span>
                     <div class="numbox">
                       <strong>102<span>kw</span></strong>
                       <span>/</span>
                       <strong>5750<span>rpm</span></strong>
                     </div>
-                    <span>Max. torque</span>
+                    <span>@lang('Max. torque')</span>
                     <div class="numbox">
                       <strong>180<span>N·m</span></strong>
                       <span>/</span>
                       <strong>4500<span>rpm</span></strong>
                     </div>
                   </div>
-                  <p>This naturally aspirated engine features fast throttle response, stable start, stable power output upon rpm change, simple mechanical construction and low maintenance cost.</p>
+                  <p>@lang('This naturally aspirated engine features fast throttle response, stable start, stable power output upon rpm change, simple mechanical construction and low maintenance cost.')</p>
                 </div>
               </div>
             </div>
           </div>
-
-
         </div>
       </div>
       <!--Intelligent Tech-->
       <div class="tech module graybg">
         <div class="title">
           <h4>
-            <span class="tit">TECH</span>
+            <span class="tit">@lang('TECH')</span>
             <span class="big_num">04</span>
           </h4>
         </div>
         <div class="m_hide">
           <div class="tech_item">
             <div class="txtbox">
-              <h5>Smart bracelet key</h5>
-              <p>It embraces such functions as vehicle control which is available for remote control key, reminding, mobile phone interconnection and monitoring.</p>
+              <h5>@lang('Smart bracelet key')</h5>
+              <p>@lang('It embraces such functions as vehicle control which is available for remote control key, reminding, mobile phone interconnection and monitoring.')</p>
             </div>
             <div class="imgbox">
               <img src="images/newtiggo4_tech_p1.jpg" class="pic" />
@@ -284,8 +282,8 @@
           </div>
           <div class="tech_item">
             <div class="txtbox">
-              <h5>9-inch touch screen</h5>
-              <p>The interface is beautiful but also easy for operation and use, and various available connection methods makes the connection easy and convenient.</p>
+              <h5>@lang('9-inch touch screen')</h5>
+              <p>@lang('The interface is beautiful but also easy for operation and use, and various available connection methods makes the connection easy and convenient.')</p>
             </div>
             <div class="imgbox">
               <img src="images/newtiggo4_tech_p2.jpg" class="pic" />
@@ -293,8 +291,8 @@
           </div>
           <div class="tech_item">
             <div class="txtbox">
-              <h5>7-inch LCD <br />instrument display</h5>
-              <p>The 7-inch LCD instrument panel, which is largest in its class and has a larger display area than the traditional 4-5-inch LCD instrument panel, makes the information display clearer and more intuitive, and improves the grade of the car.</p>
+              <h5>@lang('7-inch LCD <br />instrument display')</h5>
+              <p>@lang('The 7-inch LCD instrument panel, which is largest in its class and has a larger display area than the traditional 4-5-inch LCD instrument panel, makes the information display clearer and more intuitive, and improves the grade of the car.')</p>
             </div>
             <div class="imgbox">
               <img src="images/newtiggo4_tech_p3.jpg" class="pic" />
@@ -306,20 +304,20 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="txtbox">
-                  <h5>Smart bracelet key</h5>
-                  <p>It embraces such functions as vehicle control whiIt embraces such functions as vehicle control which is available for remote control key, reminding, mobile phone interconnection and monitoring.</p>
+                  <h5>@lang('Smart bracelet key')</h5>
+                  <p>@lang('It embraces such functions as vehicle control whiIt embraces such functions as vehicle control which is available for remote control key, reminding, mobile phone interconnection and monitoring.')</p>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="txtbox">
-                  <h5>9-inch touch screen</h5>
-                  <p>The interface is beautiful but also easy for operation and use, and various available connection methods makes the connection easy and convenient.</p>
+                  <h5>@lang('9-inch touch screen')</h5>
+                  <p>@lang('The interface is beautiful but also easy for operation and use, and various available connection methods makes the connection easy and convenient.')</p>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="txtbox">
-                  <h5>7-inch LCD <br />instrument display</h5>
-                  <p>The 7-inch LCD instrument panel, instrument panel, makes the information display clearer and more intuitive, and improves the grade of the car.</p>
+                  <h5>@lang('7-inch LCD <br />instrument display')</h5>
+                  <p>@lang('The 7-inch LCD instrument panel, instrument panel, makes the information display clearer and more intuitive, and improves the grade of the car.')</p>
                 </div>
               </div>
             </div>
@@ -346,7 +344,7 @@
       <div class="safety module">
         <div class="title">
           <h4>
-            <span class="tit">SAFETY</span>
+            <span class="tit">@lang('SAFETY')</span>
             <span class="big_num">05</span>
           </h4>
         </div>
@@ -356,8 +354,8 @@
               <img src="images/newtiggo4_overall_p1.jpg" class="pic" />
             </div>
             <div class="txtbox">
-              <h5>360° around-view monitor</h5>
-              <p>More viewing angles and wider vision are provided, making the driving safer.</p>
+              <h5>@lang('360° around-view monitor')</h5>
+              <p>@lang('More viewing angles and wider vision are provided, making the driving safer.')</p>
             </div>
           </div>
           <div class="safety_item">
@@ -365,8 +363,8 @@
               <img src="images/newtiggo4_overall_p2.jpg" class="pic" />
             </div>
             <div class="txtbox">
-              <h5>HHC (Hill-start Assist Control)</h5>
-              <p>Effectively prevent the car from sliding when being started on a slope, making the driving easier and safer.</p>
+              <h5>@lang('HHC (Hill-start Assist Control)')</h5>
+              <p>@lang('Effectively prevent the car from sliding when being started on a slope, making the driving easier and safer.')</p>
             </div>
           </div>
           <div class="safety_item">
@@ -374,8 +372,8 @@
               <img src="images/newtiggo4_overall_p3.jpg" class="pic" />
             </div>
             <div class="txtbox">
-              <h5>6D-BODY construction</h5>
-              <p>This advanced safety body design concept can not only effectively transmit the front impact load, but also evenly disperse the side impact energy</p>
+              <h5>@lang('6D-BODY construction')</h5>
+              <p>@lang('This advanced safety body design concept can not only effectively transmit the front impact load, but also evenly disperse the side impact energy')</p>
             </div>
           </div>
         </div>

@@ -80,49 +80,44 @@
         </div>
         <img src="{{ asset('images/design_title.png') }}" class="title wow fadeInDown m_hide" data-wow-duration="0.8s" data-wow-delay="0.5s">
         <div class="title wow fadeInDown pc_hide" data-wow-duration="0.8s" data-wow-delay="0.5s">
-          DESIGN & TECHNOLOGY
+          @lang('DESIGN & TECHNOLOGY')
         </div>
         <div class="txtwrap wow fadeInLeft m_hide">
-          <p class="txt">The M1X platform is Chery's first car platform to adhere to a V-shaped positive
-            development process,combining Jaguar Land Rover and Qoros technologies.Thank for years of effort
-            made to Chery's international development platform</p>
-          <p class="txt">combining Jaguar Land Rover and Qoros technologies.Thank for years of effort made
-            to Chery's international development platform</p>
-          <p class="txt">dhere to a V-shaped positive development process,combining Jaguar Land Rover and
-            Qoros technologies.Thank for years of effort made to Chery's international development platform
-          </p>
+          <p class="txt">@lang('The M1X platform is Chery\'s first car platform to adhere to a  V-shaped positive development process,combining Jaguar Land Rover and Qoros technologies.Thank for  years of effort made to Chery\'s international development platform')</p>
+          <p class="txt">@lang('Combining Jaguar Land Rover and Qoros technologies.Thank for years of effort made to Chery\'s international development platform')</p>
+          <p class="txt">@lang('There to a V-shaped positive development process,combining Jaguar Land Rover and Qoros technologies.Thank for years of effort made to Chery\'s international development platform')</p>
         </div>
         <ul class="itembox m_hide">
           <li class=" wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
             <a>
               <span class="h5">
-                Platform
+                @lang('Platform')
               </span>
               <img src="{{ asset('images/design_img0.png') }}">
               <span class="p">
-                Excellent Body <br>Structure Design
+                @lang('Excellent Body <br>Structure Design')
               </span>
             </a>
           </li>
           <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.52s">
             <a>
               <span class="h5">
-                Powertrain
+                @lang('Powertrain')
               </span>
               <img src="{{ asset('images/design_img2.png') }}">
               <span class="p">
-                Outstanding Economic <br> and Power Energy
+                @lang('Outstanding Economic <br> and Power Energy')
               </span>
             </a>
           </li>
           <li class=" wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.55s">
             <a>
               <span class="h5">
-                R&D
+                @lang('R&D')
               </span>
               <img src="{{ asset('images/design_img1.png') }}">
               <span class="p">
-                Research on Intelligent <br> Connectivity Technologies
+                @lang('Research on Intelligent <br> Connectivity Technologies')
               </span>
             </a>
           </li>
@@ -132,33 +127,33 @@
             <div class="swiper-slide">
               <a>
                 <span class="h5">
-                  Platform
+                  @lang('Platform')
                 </span>
                 <img src="{{ asset('images/design_img0.png') }}">
                 <span class="p">
-                  Excellent Body <br>Structure Design
+                  @lang('Excellent Body <br>Structure Design')
                 </span>
               </a>
             </div>
             <div class="swiper-slide">
               <a>
                 <span class="h5">
-                  Powertrain
+                  @lang('Powertrain')
                 </span>
                 <img src="{{ asset('images/design_img2.png') }}">
                 <span class="p">
-                  Outstanding Economic <br> and Power Energy
+                  @lang('Outstanding Economic <br> and Power Energy')
                 </span>
               </a>
             </div>
             <div class="swiper-slide">
               <a>
                 <span class="h5">
-                  R&D
+                  @lang('R&D')
                 </span>
                 <img src="{{ asset('images/design_img1.png') }}">
                 <span class="p">
-                  Research on Intelligent <br> Connectivity Technologies
+                  @lang('Research on Intelligent <br> Connectivity Technologies')
                 </span>
               </a>
             </div>
@@ -194,92 +189,77 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <h5>
-                  Dedicated to Technical R&D and
-                  Creating a World-Class Brand
+                  @lang('Dedicated to Technical R&D and Creating a World-Class Brand')
                 </h5>
                 <span class="time JavaneseText">
                   2021-03-24
                 </span>
                 <br />
                 <p>
-                  China has been the world's largest automobile market for 12 consecutive years, and
-                  several famous brands have emerged in China's automotive industry, among which Chery
-                  is one...
+                  @lang('China has been the world\'s largest automobile market for 12 consecutive years, and several famous brands have emerged in China\'s automotive industry, among which Chery is one...')
                 </p>
                 <a href="{{ route('news.news') }}">
-                  more <span>+</span>
+                  @lang('more') <span>+</span>
                 </a>
               </div>
               <div class="swiper-slide">
                 <h5>
-                  Dedicated to Technical R&D and
-                  Creating a World-Class Brand
+                  @lang('Dedicated to Technical R&D and Creating a World-Class Brand')
                 </h5>
                 <span class="time JavaneseText">
                   2021-03-24
                 </span>
                 <br />
                 <p>
-                  China has been the world's largest automobile market for 12 consecutive years, and
-                  several famous brands have emerged in China's automotive industry, among which Chery
-                  is one...
+                  @lang('China has been the worl\'s largest automobile market for 12 consecutive years, and several famous brands have emerged in China\'s automotive industry, among which Chery is one...')
                 </p>
                 <a href="{{ route('news.news') }}">
-                  more <span>+</span>
+                  @lang('more') <span>+</span>
                 </a>
               </div>
               <div class="swiper-slide">
                 <h5>
-                  Dedicated to Technical R&D and
-                  Creating a World-Class Brand
+                  @lang('Dedicated to Technical R&D and Creating a World-Class Brand')
                 </h5>
                 <span class="time JavaneseText">
                   2021-03-24
                 </span>
                 <br />
                 <p>
-                  China has been the world's largest automobile market for 12 consecutive years, and
-                  several famous brands have emerged in China's automotive industry, among which Chery
-                  is one...
+                  @lang('China has been the worl\'s largest automobile market for 12 consecutive years, and several famous brands have emerged in China\'s automotive industry, among which Chery is one...')
                 </p>
                 <a href="{{ route('news.news') }}">
-                  more <span>+</span>
+                  @lang('more') <span>+</span>
                 </a>
               </div>
               <div class="swiper-slide">
                 <h5>
-                  Dedicated to Technical R&D and
-                  Creating a World-Class Brand
+                  @lang('Dedicated to Technical R&D and Creating a World-Class Brand')
                 </h5>
                 <span class="time JavaneseText">
                   2021-03-24
                 </span>
                 <br />
                 <p>
-                  China has been the world's largest automobile market for 12 consecutive years, and
-                  several famous brands have emerged in China's automotive industry, among which Chery
-                  is one...
+                  @lang('China has been the worl\'s largest automobile market for 12 consecutive years, and several famous brands have emerged in China\'s automotive industry, among which Chery is one...')
                 </p>
                 <a href="{{ route('news.news') }}">
-                  more <span>+</span>
+                  @lang('more') <span>+</span>
                 </a>
               </div>
               <div class="swiper-slide">
                 <h5>
-                  Dedicated to Technical R&D and
-                  Creating a World-Class Brand
+                  @lang('Dedicated to Technical R&D and Creating a World-Class Brand')
                 </h5>
                 <span class="time JavaneseText">
                   2021-03-24
                 </span>
                 <br />
                 <p>
-                  China has been the world's largest automobile market for 12 consecutive years, and
-                  several famous brands have emerged in China's automotive industry, among which Chery
-                  is one...
+                  @lang('China has been the world\'s largest automobile market for 12 consecutive years, and several famous brands have emerged in China\'s automotive industry, among which Chery is one...')
                 </p>
                 <a href="{{ route('news.news') }}">
-                  more <span>+</span>
+                  @lang('more') <span>+</span>
                 </a>
               </div>
             </div>

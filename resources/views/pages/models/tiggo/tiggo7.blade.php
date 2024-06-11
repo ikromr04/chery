@@ -28,10 +28,10 @@
       </div>
       <!--360-->
       <div class="model_wrap">
-        <h3 class="tit_360">360° view</h3>
+        <h3 class="tit_360">@lang('360° view')</h3>
         <div class="change_E_I">
-          <span class="on">EXTERIOR</span>
-          <span>INTERIOR</span>
+          <span class="on">@lang('EXTERIOR')</span>
+          <span>@lang('INTERIOR')</span>
         </div>
         <div class="model_360">
           <img src="images/newtiggo7_360bg.png" class="bg360 m_hide" />
@@ -41,7 +41,7 @@
               <img src="images/360_view/tiggo7/black/34.jpg" class="reel" id="image" data-image="stitched-reel.jpg" data-stitched="496" data-frames="30" data-frame="15" data-rows="3" data-row="2" data-loops="false">
             </div>
             <div id="interior_360">
-              <br>Loading...<br>
+              <br>@lang('Loading...')<br>
             </div>
           </div>
           <style>
@@ -102,30 +102,30 @@
       <div class="modelmenu">
         <div class="it on">
           <span class="ic"><i></i></span>
-          <span class="label">DESIGN</span>
+          <span class="label">@lang('DESIGN')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">INTERIOR</span>
+          <span class="label">@lang('INTERIOR')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">POWER</span>
+          <span class="label">@lang('POWER')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">TECH</span>
+          <span class="label">@lang('TECH')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">SAFETY</span>
+          <span class="label">@lang('SAFETY')</span>
         </div>
       </div>
       <div class="design module" id="module1">
         <div class="title">
           <h4>
             <span class="big_num">01</span>
-            <span class="tit">DESIGN</span>
+            <span class="tit">@lang('DESIGN')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -134,29 +134,29 @@
               <img src="images/newtiggo7_design_p1.jpg" class="pic m_hide" />
               <img src="images/newtiggo7_design_p1_m.jpg" class="pic pc_hide" />
               <div class="textbox">
-                <p>The sporty H.D.S body represents a perfect combination of power and softness.</p>
+                <p>@lang('The sporty H.D.S body represents a perfect combination of power and softness.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo7_design_p2.jpg" class="pic m_hide" />
               <img src="images/newtiggo7_design_p2_m.jpg" class="pic pc_hide" />
               <div class="textbox">
-                <p>The virtually indestructible trident xenon headlamps not only demonstrate a sense of power of this SUV, but also add to some luxury elements to reveal your uncommon status.</p>
+                <p>@lang('The virtually indestructible trident xenon headlamps not only demonstrate a sense of power of this SUV, but also add to some luxury elements to reveal your uncommon status.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo7_design_p3.jpg" class="pic m_hide" />
               <img src="images/newtiggo7_design_p3_m.jpg" class="pic pc_hide" />
               <div class="textbox">
-                <p>The wave-like waistline graces the car with the beauty of streamline, and at the same time reduces the drag coefficient to 0.34.</p>
+                <p>@lang('The wave-like waistline graces the car with the beauty of streamline, and at the same time reduces the drag coefficient to 0.34.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">Hydrodynamic Body </div>
-          <div class="cutbtn">Trident Xenon Headlamp</div>
-          <div class="cutbtn">Wave-like Waistline</div>
+          <div class="cutbtn on">@lang('Hydrodynamic Body')</div>
+          <div class="cutbtn">@lang('Trident Xenon Headlamp')</div>
+          <div class="cutbtn">@lang('Wave-like Waistline')</div>
         </div>
       </div>
       <!--INTERIOR-->
@@ -164,7 +164,7 @@
         <div class="title">
           <h4>
             <span class="big_num">02</span>
-            <span class="tit">INTERIOR</span>
+            <span class="tit">@lang('INTERIOR')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -173,21 +173,21 @@
               <img src="images/newtiggo7_royal_p1.jpg" class="pic m_hide" />
               <img src="images/newtiggo7_royal_p1_m.jpg" class="pic pc_hide" />
               <div class="textbox black">
-                <p>Flawless full-grain fine leather is carefully chosen, with soft and delicate touch and preserved natural texture.</p>
+                <p>@lang('Flawless full-grain fine leather is carefully chosen, with soft and delicate touch and preserved natural texture.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo7_royal_p2.jpg" class="pic m_hide" />
               <img src="images/newtiggo7_royal_p2_m.jpg" class="pic pc_hide" />
               <div class="textbox">
-                <p>Stretching to both sides like an eagle spreading its wings, the dashboard conveys a sense of power.</p>
+                <p>@lang('Stretching to both sides like an eagle spreading its wings, the dashboard conveys a sense of power.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">Sporty and Cool Interior Trim</div>
-          <div class="cutbtn">Wing-shaped Center Console</div>
+          <div class="cutbtn on">@lang('Sporty and Cool Interior Trim')</div>
+          <div class="cutbtn">@lang('Wing-shaped Center Console')</div>
         </div>
       </div>
       <!--Platinum Power-->
@@ -197,7 +197,7 @@
         <div class="title">
           <h4>
             <span class="big_num">03</span>
-            <span class="tit">POWER</span>
+            <span class="tit">@lang('POWER')</span>
           </h4>
         </div>
         <div class="powerbox samebox">
@@ -206,8 +206,8 @@
               <img src="images/newtiggo7_power_p1.jpg" />
             </div>
             <div class="textbox">
-              <h5>AISIN 6MT</h5>
-              <p>Superior gear shifting feel, strong drawing-in feel, comfortable operation, low noise, high efficiency and fuel economy.</p>
+              <h5>@lang('AISIN 6MT')</h5>
+              <p>@lang('Superior gear shifting feel, strong drawing-in feel, comfortable operation, low noise, high efficiency and fuel economy.')</p>
             </div>
           </div>
           <div class="caritem">
@@ -215,8 +215,8 @@
               <img src="images/newtiggo7_power_p2.jpg" />
             </div>
             <div class="textbox">
-              <h5>GETRAG 6-SPEED TRANSVERSE DRY DUAL CLUTCH TRANSMISSION</h5>
-              <p>This brings more direct power output, higher transmission efficiency, and quicker shifting response. The transmission is also smooth and clear-cut in gear shifting, with excellent fuel-efficiency and durability.</p>
+              <h5>@lang('GETRAG 6-SPEED TRANSVERSE DRY DUAL CLUTCH TRANSMISSION')</h5>
+              <p>@lang('This brings more direct power output, higher transmission efficiency, and quicker shifting response. The transmission is also smooth and clear-cut in gear shifting, with excellent fuel-efficiency and durability.')</p>
             </div>
           </div>
           <div class="caritem">
@@ -224,8 +224,8 @@
               <img src="images/newtiggo7_power_p3.jpg" />
             </div>
             <div class="textbox">
-              <h5>INDEPENDENT MULTI-LINK REAR SUSPENSION + SUBFRAME STRUCTURE</h5>
-              <p>Ensure both flexibility at low speeds and stability at high speeds, with smooth and natural turning.</p>
+              <h5>@lang('INDEPENDENT MULTI-LINK REAR SUSPENSION + SUBFRAME STRUCTURE')</h5>
+              <p>@lang('Ensure both flexibility at low speeds and stability at high speeds, with smooth and natural turning.')</p>
             </div>
           </div>
         </div>
@@ -235,7 +235,7 @@
         <div class="title">
           <h4>
             <span class="big_num">04</span>
-            <span class="tit">TECH</span>
+            <span class="tit">@lang('TECH')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox">
@@ -244,24 +244,24 @@
               <img src="images/newtiggo7_tech_p1.jpg" class="pic m_hide" />
               <img src="images/newtiggo7_tech_p1_m.jpg" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>4.8-inch Color LCD Dashboard </p>
-                <p>Easy and user-friendly interactive experience.</p>
+                <p>@lang('4.8-inch Color LCD Dashboard')</p>
+                <p>@lang('Easy and user-friendly interactive experience.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo7_tech_p2.jpg" class="pic m_hide" />
               <img src="images/newtiggo7_tech_p2_m.jpg" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>Bluetooth Hands-free Phone </p>
-                <p>It frees the hands of the driver, thus reducing the risk of traffic accident.</p>
+                <p>@lang('Bluetooth Hands-free Phone')</p>
+                <p>@lang('It frees the hands of the driver, thus reducing the risk of traffic accident.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo7_tech_p3.jpg" class="pic m_hide" />
               <img src="images/newtiggo7_tech_p3_m.jpg" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>Dual USB Ports</p>
-                <p>Support charging for external devices while playing music and videos, ensuring continuous power supply for your entertainment throughout the ride.</p>
+                <p>@lang('Dual USB Ports')</p>
+                <p>@lang('Support charging for external devices while playing music and videos, ensuring continuous power supply for your entertainment throughout the ride.')</p>
               </div>
             </div>
           </div>
@@ -270,20 +270,20 @@
         <div class="cutwindow">
           <div class="cutbtn on">
             <div class="text">
-              <h5>4.8-inch Color LCD Dashboard</h5>
-              <p>Easy and user-friendly interactive experience.</p>
+              <h5>@lang('4.8-inch Color LCD Dashboard')</h5>
+              <p>@lang('Easy and user-friendly interactive experience.')</p>
             </div>
           </div>
           <div class="cutbtn">
             <div class="text">
-              <h5>Bluetooth Hands-free Phone</h5>
-              <p>It frees the hands of the driver, thus reducing the risk of traffic accident.</p>
+              <h5>@lang('Bluetooth Hands-free Phone')</h5>
+              <p>@lang('It frees the hands of the driver, thus reducing the risk of traffic accident.')</p>
             </div>
           </div>
           <div class="cutbtn">
             <div class="text">
-              <h5>Dual USB Ports</h5>
-              <p>Support charging for external devices while playing music and videos, ensuring continuous power supply for your entertainment throughout the ride.</p>
+              <h5>@lang('Dual USB Ports')</h5>
+              <p>@lang('Support charging for external devices while playing music and videos, ensuring continuous power supply for your entertainment throughout the ride.')</p>
             </div>
           </div>
         </div>
@@ -293,7 +293,7 @@
         <div class="title">
           <h4>
             <span class="big_num">05</span>
-            <span class="tit">SAFETY</span>
+            <span class="tit">@lang('SAFETY')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -302,29 +302,29 @@
               <img src="images/newtiggo7_safe_p1.jpg" class="pic m_hide" />
               <img src="images/newtiggo7_safe_p1_m.jpg" class="pic pc_hide" />
               <div class="textbox">
-                <p>The desired braking experience is provided to avoid accidents, thus making the driver safer and more confident.</p>
+                <p>@lang('The desired braking experience is provided to avoid accidents, thus making the driver safer and more confident.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo7_safe_p2.jpg" class="pic m_hide" />
               <img src="images/newtiggo7_safe_p2_m.jpg" class="pic pc_hide" />
               <div class="textbox ">
-                <p>Ensure the best stability of the body and accurate steering performance, effectively decreasing 80% of sideslip.</p>
+                <p>@lang('Ensure the best stability of the body and accurate steering performance, effectively decreasing 80% of sideslip.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo7_safe_p3.jpg" class="pic m_hide" />
               <img src="images/newtiggo7_safe_p3_m.jpg" class="pic pc_hide" />
               <div class="textbox">
-                <p>Airbag is a passive security system. When collision occurs, airbag can reduce about 25% of head injury rate, and about 80% of face injury rate.</p>
+                <p>@lang('Airbag is a passive security system. When collision occurs, airbag can reduce about 25% of head injury rate, and about 80% of face injury rate.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">ULTRA-SHORT BRAKING DISTANCE</div>
-          <div class="cutbtn">BOSCH 9.1ESP</div>
-          <div class="cutbtn">ALL-ROUND PROTECTION ENABLED BY 6 AIRBAG</div>
+          <div class="cutbtn on">@lang('ULTRA-SHORT BRAKING DISTANCE')</div>
+          <div class="cutbtn">@lang('BOSCH 9.1ESP')</div>
+          <div class="cutbtn">@lang('ALL-ROUND PROTECTION ENABLED BY 6 AIRBAG')</div>
         </div>
       </div>
     </section>

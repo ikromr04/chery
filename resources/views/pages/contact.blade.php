@@ -15,29 +15,29 @@
 
     <section>
       <div class="breadcrumb wow fadeIn animated" data-wow-delay="0.4s">
-        <a>Home</a>
+        <a>@lang('Home')</a>
         <span>></span>
-        <a class="current">Contact us</a>
+        <a class="current">@lang('Contact us')</a>
       </div>
       <div class="content w1200">
         <div class="about">
-          <h3 class="line_title left">About</h3>
+          <h3 class="line_title left">@lang('About')</h3>
           <div class="types">
-            <div class="tab" data-name="Business">Business</div>
-            <div class="tab" data-name="Purchase Intention">Purchase Intention</div>
-            <div class="tab" data-name="Service Support">Service Support</div>
-            <div class="tab" data-name="The Website">The Website</div>
+            <div class="tab" data-name="Business">@lang('Business')</div>
+            <div class="tab" data-name="Purchase Intention">@lang('')</div>
+            <div class="tab" data-name="Service Support">@lang('Service Support')</div>
+            <div class="tab" data-name="The Website">@lang('The Website')</div>
             <input type="text" hidden="hidden" id="type" value="" name="type" class="type" />
           </div>
         </div>
         <div class="information">
-          <h3 class="line_title left">Information</h3>
+          <h3 class="line_title left">@lang('Information')</h3>
           <form class="form">
             <div class="form_group mustwrite select">
               <select class="form_control" id="country">
-                <option value="Country" hidden>Country</option>
-                <option value="china1">china1</option>
-                <option value="china2">china2</option>
+                <option value="Country" hidden>@lang('Country')</option>
+                <option value="china1">@lang('China1')</option>
+                <option value="china2">@lang('China2')</option>
               </select>
             </div>
             <div class="form_group mustwrite">
@@ -51,7 +51,7 @@
             </div>
             <div class="form_group select isShow">
               <select class="form_control" id="vehicleType">
-                <option value="">Vehicle Type</option>
+                <option value="">@lang('Vehicle Type')</option>
                 <option value="">b</option>
               </select>
             </div>
@@ -63,14 +63,14 @@
             <div class="form_textarea mustwrite">
               <textarea class="form_control" id="leaveWord" placeholder="Leave a message"></textarea>
             </div>
-            <button class="submit" type="button">Submit</button>
+            <button class="submit" type="button">@lang('Submit')</button>
           </form>
           <div class="hint">
-            <p class="success gray">Email sent successfully！</p>
-            <p class="error red">You have been delivery please do not repeat submitted！</p>
-            <p class="empty red">The form cannot be empty！</p>
-            <p class="emailcheck red">Please enter a valid email address!</p>
-            <p class="failure red">Email sent failure！</p>
+            <p class="success gray">@lang('Email sent successfully!')</p>
+            <p class="error red">@lang('You have been delivery please do not repeat submitted!')</p>
+            <p class="empty red">@lang('The form cannot be empty!')</p>
+            <p class="emailcheck red">@lang('Please enter a valid email address!')</p>
+            <p class="failure red">@lang('Email sent failure!')</p>
           </div>
           <!--<div class="message_box">
                 <span class="icon"></span>

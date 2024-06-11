@@ -28,10 +28,10 @@
       </div>
       <!--360-->
       <div class="model_wrap">
-        <h3 class="tit_360">360° view</h3>
+        <h3 class="tit_360">@lang('360° view')</h3>
         <div class="change_E_I">
-          <span class="on">EXTERIOR</span>
-          <span>INTERIOR</span>
+          <span class="on">@lang('EXTERIOR')</span>
+          <span>@lang('INTERIOR')</span>
         </div>
         <div class="model_360">
           <img src="{{ asset('images/newtiggo8_360bg.png') }}" class="bg360" />
@@ -40,7 +40,7 @@
               <img src="{{ asset('images/360_view/tiggo8/black/26.jpg') }}" class="reel" id="image" data-image="stitched-reel.jpg" data-stitched="496" data-frames="30" data-frame="15" data-rows="3" data-row="2" data-loops="false">
             </div>
             <div id="interior_360">
-              <br>Loading...<br>
+              <br>@lang('Loading...')<br>
             </div>
           </div>
           <style>
@@ -102,30 +102,30 @@
       <div class="modelmenu">
         <div class="it on">
           <span class="ic"><i></i></span>
-          <span class="label">DESIGN</span>
+          <span class="label">@lang('DESIGN')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">INTERIOR</span>
+          <span class="label">@lang('INTERIOR')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">POWER</span>
+          <span class="label">@lang('POWER')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">TECH</span>
+          <span class="label">@lang('TECH')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">SAFETY</span>
+          <span class="label">@lang('SAFETY')</span>
         </div>
       </div>
       <div class="design module" id="module1">
         <div class="title">
           <h4>
             <span class="big_num">01</span>
-            <span class="tit">DESIGN</span>
+            <span class="tit">@lang('DESIGN')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -134,29 +134,29 @@
               <img src="{{ asset('images/newtiggo8_design_p1.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8_design_p1_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>The high-tech design and unique headlamp modeling will make people remember it all the time; and liking eyes of human, the headlamp will become the window of the car’s soul when switched on.</p>
+                <p>@lang('The high-tech design and unique headlamp modeling will make people remember it all the time; and liking eyes of human, the headlamp will become the window of the car’s soul when switched on.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo8_design_p2.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8_design_p2_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>The design of tail lamp is inspired from the quintessence of China culture - the wooden pane in ancient architecture meaning auspiciousness, happy life and successful career.</p>
+                <p>@lang('The design of tail lamp is inspired from the quintessence of China culture - the wooden pane in ancient architecture meaning auspiciousness, happy life and successful career.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo8_design_p3.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8_design_p3_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox black">
-                <p>The tire size is 235/55 R18, large-size tires enhance the driving stability. The wheel hub is full of sporty characteristic and artistic atmosphere.</p>
+                <p>@lang('The tire size is 235/55 R18, large-size tires enhance the driving stability. The wheel hub is full of sporty characteristic and artistic atmosphere.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">LED automatic headlamp </div>
-          <div class="cutbtn">Traverse-type LED sooting tail lamp </div>
-          <div class="cutbtn">18-inch wheelhub </div>
+          <div class="cutbtn on">@lang('LED automatic headlamp')</div>
+          <div class="cutbtn">@lang('Traverse-type LED sooting tail lamp')</div>
+          <div class="cutbtn">@lang('18-inch wheelhub')</div>
         </div>
       </div>
       <!--INTERIOR-->
@@ -164,7 +164,7 @@
         <div class="title">
           <h4>
             <span class="big_num">02</span>
-            <span class="tit">INTERIOR</span>
+            <span class="tit">@lang('INTERIOR')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -173,14 +173,14 @@
               <img src="{{ asset('images/newtiggo8_royal_p1.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8_royal_p1_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>The trunk can accommodate large strollers and large suitcases to meet the needs for travelling.</p>
+                <p>@lang('The trunk can accommodate large strollers and large suitcases to meet the needs for travelling.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo8_royal_p2.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8_royal_p2_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>The driver seat is electrically 6-way adjustable, and the front seats have two-stage heating function. </p>
+                <p>@lang('The driver seat is electrically 6-way adjustable, and the front seats have two-stage heating function.')</p>
                 <!--<p>The ergonomic H-type seat design reduces driving fatigue.</p>-->
               </div>
             </div>
@@ -188,15 +188,15 @@
               <img src="{{ asset('images/newtiggo8_royal_p3.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8_royal_p3_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox black">
-                <p>The area enables you to enjoy the blue sky and white cloud.</p>
+                <p>@lang('The area enables you to enjoy the blue sky and white cloud.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">892L-1930L trunk capacity</div>
-          <div class="cutbtn">Ergonomic seats </div>
-          <div class="cutbtn">Panoramic sunroof </div>
+          <div class="cutbtn on">@lang('892L-1930L trunk capacity')</div>
+          <div class="cutbtn">@lang('Ergonomic seats')</div>
+          <div class="cutbtn">@lang('Panoramic sunroof2')</div>
         </div>
       </div>
       <!--Platinum Power-->
@@ -204,7 +204,7 @@
         <div class="title">
           <h4>
             <span class="big_num">03</span>
-            <span class="tit">POWER</span>
+            <span class="tit">@lang('POWER')</span>
           </h4>
         </div>
         <div class="powerbox samebox">
@@ -213,8 +213,8 @@
               <img src="{{ asset('images/newtiggo8_power_p1.jpg') }}" />
             </div>
             <div class="textbox">
-              <h5>HIGH-EFFICIENCY ENGINE</h5>
-              <p>Tiggo8 is equipped with Honeywell turbocharger and BorgWarner DVVT.</p>
+              <h5>@lang('HIGH-EFFICIENCY ENGINE')</h5>
+              <p>@lang('Tiggo8 is equipped with Honeywell turbocharger and BorgWarner DVVT.')</p>
             </div>
           </div>
           <div class="caritem">
@@ -222,8 +222,8 @@
               <img src="{{ asset('images/newtiggo8_power_p2.jpg') }}" />
             </div>
             <div class="textbox">
-              <h5>HIGH EFFICIENCY TRANSMISSION</h5>
-              <p>Maximum input torque is 250N.m, supporting SPORT and ECO modes. More direct power output, higher transmission efficiency, and faster shift response.</p>
+              <h5>@lang('HIGH EFFICIENCY TRANSMISSION')</h5>
+              <p>@lang('Maximum input torque is 250N.m, supporting SPORT and ECO modes. More direct power output, higher transmission efficiency, and faster shift response.')</p>
             </div>
           </div>
           <div class="caritem">
@@ -231,8 +231,8 @@
               <img src="{{ asset('images/newtiggo8_power_p3.jpg') }}" />
             </div>
             <div class="textbox">
-              <h5>T1X MODULAR PLATFORM</h5>
-              <p>The T1X platform has larger front and rear head room, ground clearance, approach angle and departure angle, all of which ensure a better off-road performance.</p>
+              <h5>@lang('T1X MODULAR PLATFORM')</h5>
+              <p>@lang('The T1X platform has larger front and rear head room, ground clearance, approach angle and departure angle, all of which ensure a better off-road performance.')</p>
             </div>
           </div>
         </div>
@@ -242,7 +242,7 @@
         <div class="title">
           <h4>
             <span class="big_num">04</span>
-            <span class="tit">TECH</span>
+            <span class="tit">@lang('TECH')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox">
@@ -251,24 +251,24 @@
               <img src="{{ asset('images/newtiggo8_tech_p1.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8_tech_p1_m.jpg') }}" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>8-inch LCD A/C touch screen</p>
-                <p>8-inch A/C touch screen is dustproof, waterproof and corrosion resistant. The design style of A/C panel is not only intelligent, beautiful and safe, but also makes the A/C convenient.</p>
+                <p>@lang('8-inch LCD A/C touch screen')</p>
+                <p>@lang('8-inch A/C touch screen is dustproof, waterproof and corrosion resistant. The design style of A/C panel is not only intelligent, beautiful and safe, but also makes the A/C convenient.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo8_tech_p2.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8_tech_p2_m.jpg') }}" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>7-inch LCD instrument cluster</p>
-                <p>The 7-inch instrument screen enjoys a fine and smooth display effect, and can show more information. The round LCD on both sides is originated from the round disc of watch, which well combines modern aesthetics with vintage elements, and implies dignity and luxury.</p>
+                <p>@lang('7-inch LCD instrument cluster')</p>
+                <p>@lang('The 7-inch instrument screen enjoys a fine and smooth display effect, and can show more information. The round LCD on both sides is originated from the round disc of watch, which well combines modern aesthetics with vintage elements, and implies dignity and luxury.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo8_tech_p3.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8_tech_p3_m.jpg') }}" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>Inductive electric trunk door</p>
-                <p>The opening angle will be automatically memorized when the trunk button is pressed for 3 seconds. Other methods to open the trunk door include remote control opening and manual opening.</p>
+                <p>@lang('Inductive electric trunk door')</p>
+                <p>@lang('The opening angle will be automatically memorized when the trunk button is pressed for 3 seconds. Other methods to open the trunk door include remote control opening and manual opening.')</p>
               </div>
             </div>
           </div>
@@ -277,20 +277,20 @@
         <div class="cutwindow">
           <div class="cutbtn on">
             <div class="text">
-              <h5>8-inch LCD A/C touch screen</h5>
-              <p>8-inch A/C touch screen is dustproof, waterproof and corrosion resistant. The design style of A/C panel is not only intelligent, beautiful and safe, but also makes the A/C convenient.</p>
+              <h5>@lang('8-inch LCD A/C touch screen')</h5>
+              <p>@lang('8-inch A/C touch screen is dustproof, waterproof and corrosion resistant. The design style of A/C panel is not only intelligent, beautiful and safe, but also makes the A/C convenient.')</p>
             </div>
           </div>
           <div class="cutbtn">
             <div class="text">
-              <h5>7-inch LCD instrument cluster</h5>
-              <p>The 7-inch instrument screen enjoys a fine and smooth display effect, and can show more information. The round LCD on both sides is originated from the round disc of watch, which well combines modern aesthetics with vintage elements, and implies dignity and luxury.</p>
+              <h5>@lang('7-inch LCD instrument cluster')</h5>
+              <p>@lang('The 7-inch instrument screen enjoys a fine and smooth display effect, and can show more information. The round LCD on both sides is originated from the round disc of watch, which well combines modern aesthetics with vintage elements, and implies dignity and luxury.')</p>
             </div>
           </div>
           <div class="cutbtn">
             <div class="text">
-              <h5>Inductive electric trunk door</h5>
-              <p>The opening angle will be automatically memorized when the trunk button is pressed for 3 seconds. Other methods to open the trunk door include remote control opening and manual opening.</p>
+              <h5>@lang('Inductive electric trunk door')</h5>
+              <p>@lang('The opening angle will be automatically memorized when the trunk button is pressed for 3 seconds. Other methods to open the trunk door include remote control opening and manual opening.')</p>
             </div>
           </div>
         </div>
@@ -300,7 +300,7 @@
         <div class="title">
           <h4>
             <span class="big_num">05</span>
-            <span class="tit">SAFETY</span>
+            <span class="tit">@lang('SAFETY')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -309,29 +309,29 @@
               <img src="{{ asset('images/newtiggo8_safe_p1.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8_safe_p1_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>It can effectively protect drivers and passengers in driving, and thus enables the driver to enjoy the dynamic driving <br />pleasure without worry.</p>
+                <p>@lang('It can effectively protect drivers and passengers in driving, and thus enables the driver to enjoy the dynamic driving <br />pleasure without worry.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo8_safe_p2.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8_safe_p2_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox ">
-                <p>It can effectively improve the impact resistance in case of frontal collision and lateral collision to well protect the personal safety of occupants in the car.</p>
+                <p>@lang('It can effectively improve the impact resistance in case of frontal collision and lateral collision to well protect the personal safety of occupants in the car.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo8_safe_p3.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8_safe_p3_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox black">
-                <p>Each tire is equipped with a tire pressure sensor, which transmits the tire pressure and tire temperature via the RF<br />(radio frequency signals) to the instrument for display, effectively preventing the occurrence of accidents.</p>
+                <p>@lang('Each tire is equipped with a tire pressure sensor, which transmits the tire pressure and tire temperature via the RF<br />(radio frequency signals) to the instrument for display, effectively preventing the occurrence of accidents.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">BOSCH TEN-IN-ONE ESP9.3</div>
-          <div class="cutbtn">High-strength body</div>
-          <div class="cutbtn">Intelligent tire pressure monitoring system</div>
+          <div class="cutbtn on">@lang('BOSCH TEN-IN-ONE ESP9.3')</div>
+          <div class="cutbtn">@lang('High-strength body')</div>
+          <div class="cutbtn">@lang('Intelligent tire pressure monitoring system')</div>
         </div>
       </div>
     </section>

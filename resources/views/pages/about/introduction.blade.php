@@ -15,14 +15,14 @@
 
     <section>
       <div class="breadcrumb wow fadeIn animated" data-wow-duration=".5s" data-wow-delay="0.4s">
-        <a>About chery</a>
+        <a>@lang('About chery')</a>
         <span> > </span>
-        <a class="current">Introduction</a>
+        <a class="current">@lang('Introduction')</a>
       </div>
       <div class="content">
         <div class="overview w1200 wow fadeIn animated" data-wow-duration=".8s" data-wow-delay="0.6s">
-          <h3 class="line_title left">OVERVIEW</h3>
-          <p class="text">Chery Automobile Co., Ltd. was founded in 1997. It is a globalized automobile brand located in China.</p>
+          <h3 class="line_title left">@lang('Overview')</h3>
+          <p class="text">@lang('Chery Automobile Co., Ltd. was founded in 1997. It is a globalized automobile brand located in China.')</p>
           <div class="videobox">
             <video src="{{ asset('video/introduction.mp4') }}" poster="./images/introduction_bg.jpg" class="video">
             </video>
@@ -31,28 +31,28 @@
         </div>
         <div class="independent">
           <div class="w1200">
-            <h3 class="line_title left wow fadeInUp animated" data-wow-delay="0.4s">INDEPENDENT INNOVATION</h3>
-            <p class="text wow fadeInUp animated" data-wow-delay="0.6s">Over the past 20 years, Chery has always insisted on independent innovation, established R&D centers in China, Germany, United States and Brazil. It also has established a global automotive R&D team of more than 5,500 people，thus gradually establishing the holistic technology and product R&D system. In this way, Chery has successfully created product brands such as Arrizo, Tiggo, and high-end EXEED brand with cumulative global sales of more than 9 million units.</p>
+            <h3 class="line_title left wow fadeInUp animated" data-wow-delay="0.4s">@lang('Independent Innovation')</h3>
+            <p class="text wow fadeInUp animated" data-wow-delay="0.6s">@lang('Over the past 20 years, Chery has always insisted on independent innovation, established R&D centers in China, Germany, United States and Brazil. It also has established a global automotive R&D team of more than 5,500 people，thus gradually establishing the holistic technology and product R&D system. In this way, Chery has successfully created product brands such as Arrizo, Tiggo, and high-end EXEED brand with cumulative global sales of more than 9 million units.')</p>
             <div class="paramsbox m_hide">
               <div class="item wow fadeInUp animated" data-wow-delay="0.8s">
                 <strong>20+</strong>
-                <span>Years of independent <br /> innovation</span>
+                <span>@lang('Years of independent <br /> innovation')</span>
               </div>
               <div class="item wow fadeInUp animated" data-wow-delay="1s">
                 <strong>5,500+</strong>
-                <span>R&D <br />talents</span>
+                <span>@lang('R&D <br />talents')</span>
               </div>
               <div class="item wow fadeInUp animated" data-wow-delay="1.2s">
                 <strong>9 MILLION+</strong>
-                <span>Cumulative <br /> global sales</span>
+                <span>@lang('Cumulative <br /> global sales')</span>
               </div>
               <div class="item wow fadeInUp animated" data-wow-delay="1.4s">
                 <strong>80+</strong>
-                <span>Countries/regions <br /> with export business</span>
+                <span>@lang('Countries/regions <br /> with export business')</span>
               </div>
               <div class="item wow fadeInUp animated" data-wow-delay="1.6s">
                 <strong>1,500+</strong>
-                <span>Sales outlets in <br /> overseas market</span>
+                <span>@lang('Sales outlets in <br /> overseas market')</span>
               </div>
             </div>
             <div class="swiper-container pc_hide paramsbox">
@@ -60,27 +60,27 @@
                 <div class="swiper-slide">
                   <div class="item wow fadeInUp animated" data-wow-delay="0.8s">
                     <strong>20+</strong>
-                    <span>Years of independent <br /> innovation</span>
+                    <span>@lang('Years of independent <br /> innovation')</span>
                   </div>
                   <div class="item wow fadeInUp animated" data-wow-delay="1s">
                     <strong>5,500+</strong>
-                    <span>R&D <br />talents</span>
+                    <span>@lang('R&D <br />talents')</span>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="item wow fadeInUp animated" data-wow-delay="1.2s">
                     <strong>9 MILLION+</strong>
-                    <span>Cumulative <br /> global sales</span>
+                    <span>@lang('Cumulative <br /> global sales')</span>
                   </div>
                   <div class="item wow fadeInUp animated" data-wow-delay="1.4s">
                     <strong>80+</strong>
-                    <span>Countries/regions <br /> with export business</span>
+                    <span>@lang('Countries/regions <br /> with export business')</span>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="item wow fadeInUp animated" data-wow-delay="1.6s">
                     <strong>1,500+</strong>
-                    <span>Sales outlets in <br /> overseas market</span>
+                    <span>@lang('Sales outlets in <br /> overseas market')</span>
                   </div>
                 </div>
               </div>
@@ -174,11 +174,11 @@
           </div>
         </div> --}}
         <div class="development w1200">
-          <h3 class="line_title bottom wow fadeInUp animated" data-wow-delay="0.4s">GLOBAL DEVELOPMENT</h3>
+          <h3 class="line_title bottom wow fadeInUp animated" data-wow-delay="0.4s">Global Development</h3>
           <div class="text_img">
             <div class="text wow fadeInLeft animated" data-wow-delay="0.6s">
-              <p>Chery has implemented a globalization strategy since its establishment and has become the first passenger car company in China to export complete vehicles, CKD parts, engines, manufacturing technology and equipment to the global market. Up to now, Chery has exports in more than 80 countries and regions, establishing more than 1,500 sales and service outlets with more than 1.8 million accumulative export volume, remaining the biggest exporter passenger vehicles in China for 18 years in a row.</p>
-              <p>In 2012, Chery and Jaguar Land Rover Motors jointly invested in the establishment of Chery Jaguar Land Rover Motors Co., Ltd., which is China's first Sino-British joint venture high-end automobile company.</p>
+              <p>@lang('Chery has implemented a globalization strategy since its establishment and has become the first passenger car company in China to export complete vehicles, CKD parts, engines, manufacturing technology and equipment to the global market. Up to now, Chery has exports in more than 80 countries and regions, establishing more than 1,500 sales and service outlets with more than 1.8 million accumulative export volume, remaining the biggest exporter passenger vehicles in China for 18 years in a row.')</p>
+              <p>@lang('In 2012, Chery and Jaguar Land Rover Motors jointly invested in the establishment of Chery Jaguar Land Rover Motors Co., Ltd., which is China\'s first Sino-British joint venture high-end automobile company.')</p>
             </div>
             <div class="img wow fadeInRight animated" data-wow-delay="0.6s">
               <img src="images/introdction_logo.jpg" class="rt_p m_hide" />
@@ -190,10 +190,10 @@
           <img src="images/introduction_pic.jpg" class="pic wow fadeIn animated" data-wow-delay="0.8s" />
         </div>
         <div class="foresight w1200">
-          <h3 class="line_title bottom wow fadeInUp animated" data-wow-delay="0.4s">FORESIGHT TECHNOLOGY</h3>
+          <h3 class="line_title bottom wow fadeInUp animated" data-wow-delay="0.4s">@lang('Foresight Technology')</h3>
           <div class="text  wow fadeInUp animated" data-wow-delay="0.6s">
-            <p>In the future, the automobile market will enter the era of Electrification, Connection, Intelligence and Sharing. Chery Lion System emerges as the times require. The latest Chery Lion 2.0 system has been applied on Tiggo 8 and EXEED models, supporting the functions such as voice control, facial recognition, AR navigation, internet service and smart home. Chery has successfully developed the first and second generation of unmanned driving products and has planned to achieve L4 highly autonomous driving in 2025.</p>
-            <p>Based on information technology, Chery will integrate smart transport, intelligent manufacturing, IOT and block chain, dedicated to providing an intelligent interconnected lifestyle for global consumers in the new era.</p>
+            <p>@lang('In the future, the automobile market will enter the era of Electrification, Connection, Intelligence and Sharing. Chery Lion System emerges as the times require. The latest Chery Lion 2.0 system has been applied on Tiggo 8 and EXEED models, supporting the functions such as voice control, facial recognition, AR navigation, internet service and smart home. Chery has successfully developed the first and second generation of unmanned driving products and has planned to achieve L4 highly autonomous driving in 2025.')</p>
+            <p>@lang('Based on information technology, Chery will integrate smart transport, intelligent manufacturing, IOT and block chain, dedicated to providing an intelligent interconnected lifestyle for global consumers in the new era.')</p>
           </div>
         </div>
       </div>

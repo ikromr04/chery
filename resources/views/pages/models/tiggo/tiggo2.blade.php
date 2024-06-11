@@ -28,10 +28,10 @@
       </div>
       <!--360-->
       <div class="model_wrap">
-        <h3 class="tit_360">360° view</h3>
+        <h3 class="tit_360">@lang('360° view')</h3>
         <div class="change_E_I">
-          <span class="on">EXTERIOR</span>
-          <span>INTERIOR</span>
+          <span class="on">@lang('EXTERIOR')</span>
+          <span>@lang('INTERIOR')</span>
         </div>
         <div class="model_360">
           <img src="images/newtiggo2pro_360bg.png" class="bg360" />
@@ -40,7 +40,7 @@
               <img src="images/360_view/tiggo2pro/black/35.jpg" class="reel" id="image" data-image="stitched-reel.jpg" data-stitched="496" data-frames="30" data-frame="15" data-rows="3" data-row="2" data-loops="false">
             </div>
             <div id="interior_360">
-              <br>Loading...<br>
+              <br>@lang('Loading...')<br>
             </div>
           </div>
           <style>
@@ -102,26 +102,26 @@
       <div class="modelmenu">
         <div class="it on">
           <span class="ic"><i></i></span>
-          <span class="label">DESIGN</span>
+          <span class="label">@lang('DESIGN')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">INTERIOR</span>
+          <span class="label">@lang('INTERIOR')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">TECH</span>
+          <span class="label">@lang('TECH')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">SAFETY</span>
+          <span class="label">@lang('SAFETY')</span>
         </div>
       </div>
       <div class="design module" id="module1">
         <div class="title">
           <h4>
             <span class="big_num">01</span>
-            <span class="tit">DESIGN</span>
+            <span class="tit">@lang('DESIGN')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -130,30 +130,30 @@
               <img src="images/newtiggo2pro_design_p1.jpg" class="pic m_hide" />
               <img src="images/newtiggo2pro_design_p1_m.jpg" class="pic pc_hide" />
               <div class="textbox black">
-                <p>The radial layout reveals the tension of the front face.</p>
+                <p>@lang('The radial layout reveals the tension of the front face.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo2pro_design_p2.jpg" class="pic m_hide" />
               <img src="images/newtiggo2pro_design_p2_m.jpg" class="pic pc_hide" />
               <div class="textbox ">
-                <p>The upper and lower shoulder lines present a sense of power. </p>
-                <p>A sense of plumpness, fashion and aggression is reflected by the two shoulder lines.</p>
+                <p>@lang('The upper and lower shoulder lines present a sense of power.')</p>
+                <p>@lang('A sense of plumpness, fashion and aggression is reflected by the two shoulder lines.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo2pro_design_p3.jpg" class="pic m_hide" />
               <img src="images/newtiggo2pro_design_p3_m.jpg" class="pic pc_hide" />
               <div class="textbox">
-                <p>The 3D hollow smoked tail lamps, together with the rhythmic light strip, echo the headlamps.</p>
+                <p>@lang('The 3D hollow smoked tail lamps, together with the rhythmic light strip, echo the headlamps.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">Dot-matrix galaxy-like grille</div>
-          <div class="cutbtn">Dynamic double shoulder lines</div>
-          <div class="cutbtn">3D hollow smoked tail lamps</div>
+          <div class="cutbtn on">@lang('Dot-matrix galaxy-like grille')</div>
+          <div class="cutbtn">@lang('Dynamic double shoulder lines')</div>
+          <div class="cutbtn">@lang('3D hollow smoked tail lamps')</div>
         </div>
       </div>
       <!--INTERIOR-->
@@ -161,7 +161,7 @@
         <div class="title">
           <h4>
             <span class="big_num">02</span>
-            <span class="tit">INTERIOR</span>
+            <span class="tit">@lang('INTERIOR')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -170,23 +170,23 @@
               <img src="images/newtiggo2pro_royal_p1.jpg" class="pic m_hide" />
               <img src="images/newtiggo2pro_royal_p1_m.jpg" class="pic pc_hide" />
               <div class="textbox ">
-                <p>It feels comfortable in both cold and hot environment.</p>
-                <p>It can adapt to environmental impact actively.</p>
+                <p>@lang('It feels comfortable in both cold and hot environment.')</p>
+                <p>@lang('It can adapt to environmental impact actively.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo2pro_royal_p2.jpg" class="pic m_hide" />
               <img src="images/newtiggo2pro_royal_p2_m.jpg" class="pic pc_hide" />
               <div class="textbox ">
-                <p>Large legroom in the rear seats.</p>
-                <p>The large headroom gives the passengers a stronger sense of longitudinal space.</p>
+                <p>@lang('Large legroom in the rear seats.')</p>
+                <p>@lang('The large headroom gives the passengers a stronger sense of longitudinal space.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">D-shaped multifunction thermostatic steering wheel</div>
-          <div class="cutbtn">Larger rear seat space than similar products</div>
+          <div class="cutbtn on">@lang('D-shaped multifunction thermostatic steering wheel')</div>
+          <div class="cutbtn">@lang('Larger rear seat space than similar products')</div>
         </div>
       </div>
       <!--Intelligent Tech-->
@@ -194,7 +194,7 @@
         <div class="title">
           <h4>
             <span class="big_num">03</span>
-            <span class="tit">TECH</span>
+            <span class="tit">@lang('TECH')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox">
@@ -203,24 +203,24 @@
               <img src="images/newtiggo2pro_tech_p1.jpg" class="pic m_hide" />
               <img src="images/newtiggo2pro_tech_p1_m.jpg" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>9-inch HMI touch screen</p>
-                <p>The 9-inch HMI touch screen has a black bezel and touch buttons, giving a strong sense of fashion and technology. <br> The HMI is simple and user-friendly.</p>
+                <p>@lang('9-inch HMI touch screen')</p>
+                <p>@lang('The 9-inch HMI touch screen has a black bezel and touch buttons, giving a strong sense of fashion and technology. <br> The HMI is simple and user-friendly.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo2pro_tech_p2.jpg" class="pic m_hide" />
               <img src="images/newtiggo2pro_tech_p2_m.jpg" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>EPB</p>
-                <p>the parking braking is realized through electronic control to ensure that the braking force is evenly applied to each wheel, thereby ensuring the parking effect.</p>
+                <p>@lang('EPB')</p>
+                <p>@lang('the parking braking is realized through electronic control to ensure that the braking force is evenly applied to each wheel, thereby ensuring the parking effect.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo2pro_tech_p3.jpg" class="pic m_hide" />
               <img src="images/newtiggo2pro_tech_p3_m.jpg" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>Bluetooth+USB HMI</p>
-                <p>The connection between your mobile phone and your vehicle can be realized by Bluetooth or a USB port in an easy manner.</p>
+                <p>@lang('Bluetooth+USB HMI')</p>
+                <p>@lang('The connection between your mobile phone and your vehicle can be realized by Bluetooth or a USB port in an easy manner.')</p>
               </div>
             </div>
           </div>
@@ -229,20 +229,20 @@
         <div class="cutwindow">
           <div class="cutbtn on">
             <div class="text">
-              <h5>9-inch HMI touch screen</h5>
-              <p>The 9-inch HMI touch screen has a black bezel and touch buttons, giving a strong sense of fashion and technology. <br> The HMI is simple and user-friendly.</p>
+              <h5>@lang('9-inch HMI touch screen')</h5>
+              <p>@lang('The 9-inch HMI touch screen has a black bezel and touch buttons, giving a strong sense of fashion and technology. <br> The HMI is simple and user-friendly.')</p>
             </div>
           </div>
           <div class="cutbtn">
             <div class="text">
-              <h5>EPB</h5>
-              <p>the parking braking is realized through electronic control to ensure that the braking force is evenly applied to each wheel, thereby ensuring the parking effect.</p>
+              <h5>@lang('EPB')</h5>
+              <p>@lang('The parking braking is realized through electronic control to ensure that the braking force is evenly applied to each wheel, thereby ensuring the parking effect.')</p>
             </div>
           </div>
           <div class="cutbtn">
             <div class="text">
-              <h5>Bluetooth+USB HMI</h5>
-              <p>The connection between your mobile phone and your vehicle can be realized by Bluetooth or a USB port in an easy manner.</p>
+              <h5>@lang('Bluetooth+USB HMI')</h5>
+              <p>@lang('The connection between your mobile phone and your vehicle can be realized by Bluetooth or a USB port in an easy manner.')</p>
             </div>
           </div>
         </div>
@@ -252,7 +252,7 @@
         <div class="title">
           <h4>
             <span class="big_num">04</span>
-            <span class="tit">SAFETY</span>
+            <span class="tit">@lang('SAFETY')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -261,7 +261,7 @@
               <img src="images/newtiggo2pro_safe_p2.jpg" class="pic m_hide" />
               <img src="images/newtiggo2pro_safe_p1_m.jpg" class="pic pc_hide" />
               <div class="textbox">
-                <p>It can be operated by a switch inside the door in an easy and safe manner.</p>
+                <p>@lang('It can be operated by a switch inside the door in an easy and safe manner.')</p>
               </div>
             </div>
             <div class="swiper-slide">
@@ -269,23 +269,23 @@
               <img src="images/newtiggo2pro_safe_p2_m.jpg" class="pic pc_hide" />
               <div class="textbox ">
                 <!--<p>High-strength steel accounts for over 60% of the whole vehicle.</p>-->
-                <p>Several Benteler ultra-high-strength hot formed steel sheets.</p>
-                <p>All covering parts are made of galvanized steel sheets.</p>
+                <p>@lang('Several Benteler ultra-high-strength hot formed steel sheets.')</p>
+                <p>@lang('All covering parts are made of galvanized steel sheets.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/newtiggo2pro_safe_p3.jpg" class="pic m_hide" />
               <img src="images/newtiggo2pro_safe_p3_m.jpg" class="pic pc_hide" />
               <div class="textbox black">
-                <p>Each wheel is equipped with a tire pressure sensor inside, which displays the tire pressure and the tire temperature on the dashboard by radio-frequency signal to effectively prevent accidents.</p>
+                <p>@lang('Each wheel is equipped with a tire pressure sensor inside, which displays the tire pressure and the tire temperature on the dashboard by radio-frequency signal to effectively prevent accidents.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">High-strength body</div>
-          <div class="cutbtn">Tire-pressure monitoring system (TPMS)</div>
-          <div class="cutbtn">Mechanical child safety lock</div>
+          <div class="cutbtn on">@lang('High-strength body')</div>
+          <div class="cutbtn">@lang('Tire-pressure monitoring system (TPMS)')</div>
+          <div class="cutbtn">@lang('Mechanical child safety lock')</div>
         </div>
       </div>
     </section>

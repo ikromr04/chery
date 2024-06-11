@@ -2,35 +2,35 @@
   <div class="ft_cont m_hide">
     <div class="ft_menu">
       <div class="item">
-        <span>Models</span>
+        <span>@lang('Models')</span>
         <a href="{{ route('tiggo8pro') }}">Tiggo</a>
         <a href="{{ route('arrizo8') }}">Arrizo</a>
-        <a href="{{ route('newenergy') }}">New energy</a>
+        <a href="{{ route('newenergy') }}">@lang('New energy')</a>
       </div>
       <div class="item">
-        <span>Design & Technology</span>
-        <a href="{{ route('dt.autopilot') }}">Autopilot</a>
-        <a href="{{ route('newenergy') }}">New Energy</a>
+        <span>@lang('Design & Technology')</span>
+        <a href="{{ route('dt.autopilot') }}">@lang('Autopilot')</a>
+        <a href="{{ route('newenergy') }}">@lang('New Energy')</a>
       </div>
       <div class="item">
-        <span>News</span>
-        <a href="{{ route('news.news') }}">News</a>
-        <a href="{{ route('news.events') }}">Events</a>
+        <span>@lang('News')</span>
+        <a href="{{ route('news.news') }}">@lang('News')</a>
+        <a href="{{ route('news.events') }}">@lang('Events')</a>
       </div>
       <div class="item">
-        <span>About Chery</span>
-        <a href="{{ route('about.ceo') }}">From CEO</a>
-        <a href="{{ route('about.introduction') }}">Introduction</a>
-        <a href="{{ route('about.honors') }}">Honors</a>
+        <span>@lang('About Chery')</span>
+        <a href="{{ route('about.ceo') }}">@lang('From CEO')</a>
+        <a href="{{ route('about.introduction') }}">@lang('Introduction')</a>
+        <a href="{{ route('about.honors') }}">@lang('Honors')</a>
       </div>
       <div class="item">
         <span>
-          <a href="{{ route('contact') }}">Contact Us</a>
+          <a href="{{ route('contact') }}">@lang('Contact Us')</a>
         </span>
       </div>
       <div class="item">
         <span>
-          <a href="{{ route('worldwide') }}">Worldwide</a>
+          <a href="{{ route('worldwide') }}">@lang('Worldwide')</a>
         </span>
       </div>
     </div>
@@ -53,6 +53,6 @@
     </div>
   </div>
   <div class="copyright">
-    © Copyright 2024 Chery.All Right Reserved.
+    @lang('© Copyright 2024 Chery. All Right Reserved.')
   </div>
 </footer>

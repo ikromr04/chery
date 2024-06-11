@@ -15,11 +15,11 @@
 
     <section>
       <div class="breadcrumb wow fadeIn animated" data-wow-delay="0.4s">
-        <a>News</a>
+        <a>@lang('News')</a>
         <span>></span>
-        <a>Event </a>
+        <a>@lang('Event')</a>
         <span>></span>
-        <a class="current">Motorshow</a>
+        <a class="current">@lang('Motorshow')</a>
       </div>
       <div class="content w1200">
         <ul class="newslist m_hide">
@@ -29,13 +29,13 @@
             </div>
             <div class="det">
               <p class="date JavaneseText">2021-04-15</p>
-              <a href="">SHANGHAI INTERNATIONAL AUTO SHOW</a>
+              <a href="">@lang('SHANGHAI INTERNATIONAL AUTO SHOW')</a>
             </div>
           </li>
           <li class="wow fadeIn animated" data-wow-delay="0.8s">
             <div class="det">
               <p class="date JavaneseText">2020-04-15</p>
-              <a href="">BEIJING INTERNATIONAL <br />AUTO SHOW</a>
+              <a href="">@lang('BEIJING INTERNATIONAL <br />AUTO SHOW')</a>
             </div>
             <div class="imgbox">
               <img src="images/motorshow_p2.jpg" class="pic" />
@@ -47,13 +47,13 @@
             </div>
             <div class="det">
               <p class="date JavaneseText">2019-04-15</p>
-              <a href="">EMBRACE CHALLENGE</a>
+              <a href="">@lang('EMBRACE CHALLENGE')</a>
             </div>
           </li>
           <li class="wow fadeIn animated" data-wow-delay="0.2s">
             <div class="det">
               <p class="date JavaneseText">2020-04-15</p>
-              <a href="">BEIJING INTERNATIONAL <br />AUTO SHOW</a>
+              <a href="">@lang('BEIJING INTERNATIONAL <br />AUTO SHOW')</a>
             </div>
             <div class="imgbox">
               <img src="images/motorshow_p2.jpg" class="pic" />
@@ -65,7 +65,7 @@
             </div>
             <div class="det">
               <p class="date JavaneseText">2019-04-15</p>
-              <a href="">EMBRACE CHALLENGE</a>
+              <a href="">@lang('EMBRACE CHALLENGE')</a>
             </div>
           </li>
         </ul>
@@ -76,7 +76,7 @@
             </div>
             <div class="det">
               <p class="date JavaneseText">2021-04-15</p>
-              <a href="">SHANGHAI INTERNATIONAL AUTO SHOW</a>
+              <a href="">@lang('SHANGHAI INTERNATIONAL AUTO SHOW')</a>
             </div>
           </li>
           <li class="wow fadeIn animated" data-wow-delay="0.2s">
@@ -85,7 +85,7 @@
             </div>
             <div class="det">
               <p class="date JavaneseText">2019-04-15</p>
-              <a href="">EMBRACE CHALLENGE</a>
+              <a href="">@lang('EMBRACE CHALLENGE')</a>
             </div>
           </li>
           <li class="wow fadeIn animated" data-wow-delay="0.2s">
@@ -94,7 +94,7 @@
             </div>
             <div class="det">
               <p class="date JavaneseText">2019-04-15</p>
-              <a href="">EMBRACE CHALLENGE</a>
+              <a href="">@lang('EMBRACE CHALLENGE')</a>
             </div>
           </li>
         </ul>

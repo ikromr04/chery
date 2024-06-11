@@ -9,7 +9,7 @@
 
   @yield('styles')
 
-  <title>Chery Tajikistan</title>
+  <title>@lang('Chery Tajikistan')</title>
   @yield('scripts')
 </head>
 

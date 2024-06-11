@@ -26,21 +26,21 @@
                     <ul class="numbox">
                       <li>
                         <span class="num" data-num="1.6">1.6</span>
-                        <span class="uptitle">TGDI</span>
-                        <div class="downtitle">Engine</div>
+                        <span class="uptitle">@lang('TGDI')</span>
+                        <div class="downtitle">@lang('Engine')</div>
                       </li>
                       <li>
                         <span class="num" data-num="4722">4722</span>
                         <span class="uptitle">mm</span>
-                        <div class="downtitle">Length</div>
+                        <div class="downtitle">@lang('Length')</div>
                       </li>
                       <li>
                         <span class="num" data-num="2710">2710</span>
                         <span class="uptitle">mm</span>
-                        <div class="downtitle">Wheelbase</div>
+                        <div class="downtitle">@lang('Wheelbase')</div>
                       </li>
                     </ul>
-                    <a href="{{ route('tiggo8pro') }}">details</a>
+                    <a href="{{ route('tiggo8pro') }}">@lang('details')</a>
                   </div>
                 </div>
                 <div class="subtn_b">
@@ -53,20 +53,20 @@
                       <li>
                         <span class="num" data-num="1.5/2.0">1.5/2.0</span>
                         <span class="uptitle">T</span>
-                        <div class="downtitle">Engine</div>
+                        <div class="downtitle">@lang('Engine')</div>
                       </li>
                       <li>
                         <span class="num" data-num="4700">4700</span>
                         <span class="uptitle">mm</span>
-                        <div class="downtitle">Length</div>
+                        <div class="downtitle">@lang('Length')</div>
                       </li>
                       <li>
                         <span class="num" data-num="2710">2710</span>
                         <span class="uptitle">mm</span>
-                        <div class="downtitle">Wheelbase</div>
+                        <div class="downtitle">@lang('Wheelbase')</div>
                       </li>
                     </ul>
-                    <a href="{{ route('tiggo8') }}">details</a>
+                    <a href="{{ route('tiggo8') }}">@lang('Details')</a>
                   </div>
                 </div>
                 <div class="subtn_b">
@@ -79,25 +79,25 @@
                       <li>
                         <span class="num" data-num="1.5">1.5</span>
                         <span class="uptitle">T</span>
-                        <div class="downtitle">engine</div>
+                        <div class="downtitle">@lang('Engine')</div>
                       </li>
                       <li>
                         <span class="num" data-num="4500">4500</span>
                         <span class="uptitle">mm</span>
-                        <div class="downtitle">length</div>
+                        <div class="downtitle">@lang('Length')</div>
                       </li>
                       <li>
                         <span class="num" data-num="892">892</span>
                         <span class="uptitle">L</span>
-                        <div class="downtitle">trunk volume</div>
+                        <div class="downtitle">@lang('Trunk volume')</div>
                       </li>
                       <li>
                         <span class="num" data-num="51">51</span>
                         <span class="uptitle">L</span>
-                        <div class="downtitle">fuel tank <br /> capacity</div>
+                        <div class="downtitle">@lang('Fuel tank') <br /> @lang('capacity')</div>
                       </li>
                     </ul>
-                    <a href="{{ route('tiggo7pro') }}">details</a>
+                    <a href="{{ route('tiggo7pro') }}">@lang('Details')</a>
                   </div>
                 </div>
                 <div class="subtn_b">
@@ -110,20 +110,20 @@
                       <li>
                         <span class="num" data-num="1.5/2.0">1.5/2.0</span>
                         <span class="uptitle">T</span>
-                        <div class="downtitle">Engine</div>
+                        <div class="downtitle">@lang('Engine')</div>
                       </li>
                       <li>
                         <span class="num" data-num="4505">4505</span>
                         <span class="uptitle">mm</span>
-                        <div class="downtitle">Length</div>
+                        <div class="downtitle">@lang('Length')</div>
                       </li>
                       <li>
                         <span class="num" data-num="2670">2670</span>
                         <span class="uptitle">mm</span>
-                        <div class="downtitle">Wheelbase</div>
+                        <div class="downtitle">@lang('Wheelbase')</div>
                       </li>
                     </ul>
-                    <a href="{{ route('tiggo7') }}">details</a>
+                    <a href="{{ route('tiggo7') }}">@lang('Details')</a>
                   </div>
                 </div>
                 <div class="subtn_b">
@@ -136,20 +136,20 @@
                       <li>
                         <span class="num" data-num="2710">2510</span>
                         <span class="uptitle">mm</span>
-                        <div class="downtitle">wheelbase</div>
+                        <div class="downtitle">@lang('Wheelbase')</div>
                       </li>
                       <li>
                         <span class="num" data-num="892">892</span>
                         <span class="uptitle">L</span>
-                        <div class="downtitle">trunk volume</div>
+                        <div class="downtitle">@lang('Trunk volume')</div>
                       </li>
                       <li>
                         <span class="num" data-num="51">51</span>
                         <span class="uptitle">L</span>
-                        <div class="downtitle">fuel tank <br /> capacity</div>
+                        <div class="downtitle">@lang('Fuel tank') <br /> @lang('capacity')</div>
                       </li>
                     </ul>
-                    <a href="{{ route('newtiggo4') }}">details</a>
+                    <a href="{{ route('newtiggo4') }}">@lang('Details')</a>
                   </div>
                 </div>
                 <div class="subtn_b">
@@ -167,65 +167,65 @@
               </div>
             </div>
             <div class="subtn">
-              <a href="{{ route('newenergy') }}">New energy</a>
+              <a href="{{ route('newenergy') }}">@lang('New energy')</a>
             </div>
             <span></span>
           </div>
         </div>
       </div>
       <div class="btn">
-        <a>Design & Technology </a>
+        <a>@lang('Design & Technology')</a>
         <div class="subnav">
           <div class="btnbox">
             <span></span>
             <div class="subtn">
-              <a href="{{ route('dt.autopilot') }}">Autopilot</a>
+              <a href="{{ route('dt.autopilot') }}">@lang("Autopilot")</a>
             </div>
             <div class="subtn">
-              <a href="{{ route('newenergy') }}">New Energy</a>
+              <a href="{{ route('newenergy') }}">@lang('New Energy')</a>
             </div>
             <span></span>
           </div>
         </div>
       </div>
       <div class="btn">
-        <a>News</a>
+        <a>@lang('News')</a>
         <div class="subnav">
           <div class="btnbox">
             <span></span>
             <div class="subtn">
-              <a href="{{ route('news.news') }}">News</a>
+              <a href="{{ route('news.news') }}">@lang('News')</a>
             </div>
             <div class="subtn">
-              <a href="{{ route('news.events') }}">Events</a>
+              <a href="{{ route('news.events') }}">@lang('Events')</a>
             </div>
             <span></span>
           </div>
         </div>
       </div>
       <div class="btn">
-        <a>About Chery</a>
+        <a>@lang('About Chery')</a>
         <div class="subnav">
           <div class="btnbox">
             <span></span>
             <div class="subtn">
-              <a href="{{ route('about.ceo') }}">From CEO</a>
+              <a href="{{ route('about.ceo') }}">@lang('From CEO')</a>
             </div>
             <div class="subtn">
-              <a href="{{ route('about.introduction') }}">Introduction</a>
+              <a href="{{ route('about.introduction') }}">@lang('Introduction')</a>
             </div>
             <div class="subtn">
-              <a href="{{ route('about.honors') }}">Honors</a>
+              <a href="{{ route('about.honors') }}">@lang('Honors')</a>
             </div>
             <span></span>
           </div>
         </div>
       </div>
       <div class="btn">
-        <a href="{{ route('contact') }}">Contact Us</a>
+        <a href="{{ route('contact') }}">@lang('Contact Us')</a>
       </div>
       <div class="btn">
-        <a href="{{ route('worldwide') }}">Worldwide</a>
+        <a href="{{ route('worldwide') }}">@lang('Worldwide')</a>
       </div>
     </div>
   </nav>
@@ -304,47 +304,47 @@
   <div class="submenubg">
     <dl>
       <dt>
-        <a>Models</a> <span>01</span>
+        <a>@lang('Models')</a> <span>01</span>
       </dt>
       <dd class="carbtn">Tiggo</dd>
       <dd class="carbtn">Arrizo</dd>
-      <dd class="carbtn">New energy</dd>
+      <dd class="carbtn">@lang('New energy')</dd>
     </dl>
     <dl>
       <dt>
-        <a>Design & Technology</a> <span>02</span>
+        <a>@lang('Design & Technology')</a> <span>02</span>
       </dt>
       <dd>
-        <a href="{{ route('dt.autopilot') }}">Autopilot</a>
+        <a href="{{ route('dt.autopilot') }}">@lang('Autopilot')</a>
       </dd>
       <dd>
-        <a href="{{ route('newenergy') }}">New Energy</a>
-      </dd>
-    </dl>
-    <dl>
-      <dt>
-        <a>News</a> <span>03</span>
-      </dt>
-      <dd>
-        <a href="{{ route('news.news') }}">News</a>
-      </dd>
-      <dd>
-        <a href="{{ route('news.events') }}">Events</a>
+        <a href="{{ route('newenergy') }}">@lang('New Energy')</a>
       </dd>
     </dl>
     <dl>
       <dt>
-        <a href="{{ route('about.ceo') }}">About Chery</a> <span>04</span>
+        <a>@lang('News')</a> <span>03</span>
+      </dt>
+      <dd>
+        <a href="{{ route('news.news') }}">@lang('News')</a>
+      </dd>
+      <dd>
+        <a href="{{ route('news.events') }}">@lang('Events')</a>
+      </dd>
+    </dl>
+    <dl>
+      <dt>
+        <a href="{{ route('about.ceo') }}">@lang('About Chery')</a> <span>04</span>
       </dt>
     </dl>
     <dl>
       <dt>
-        <a href="{{ route('contact') }}">Contact Us</a> <span>05</span>
+        <a href="{{ route('contact') }}">@lang('Contact Us')</a> <span>05</span>
       </dt>
     </dl>
     <dl>
       <dt>
-        <a href="{{ route('worldwide') }}">Worldwide</a> <span>06</span>
+        <a href="{{ route('worldwide') }}">@lang('Worldwide')</a> <span>06</span>
       </dt>
     </dl>
     <div>

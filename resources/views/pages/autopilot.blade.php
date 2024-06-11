@@ -15,11 +15,11 @@
 
     <section>
       <div class="breadcrumb wow fadeIn animated" data-wow-delay="0.4s">
-        <a>Home</a>
+        <a>@lang('Home')</a>
         <span>></span>
-        <a>Design & Technology</a>
+        <a>@lang('Design & Technology')</a>
         <span>></span>
-        <a href="speech" class="current">Autopilot</a>
+        <a href="speech" class="current">@lang('Autopilot')</a>
       </div>
       <div class="content w1200">
         <div class="videobox">
@@ -27,8 +27,8 @@
           <span class="play_btn"></span>
         </div>
         <div class="textbox">
-          <h4 class="tit">AUTOPILOT</h4>
-          <p class="det">Chery places a high value on our customer’s safety and security. Autopilot features monitor, assist or even take control of certain steering, braking and even parking functions on your vehicle, applying advanced technology to further ensure your security in daily driving.</p>
+          <h4 class="tit">@lang('AUTOPILOT')</h4>
+          <p class="det">@lang('Chery places a high value on our customer’s safety and security. Autopilot features monitor, assist or even take control of certain steering, braking and even parking functions on your vehicle, applying advanced technology to further ensure your security in daily driving.')</p>
         </div>
       </div>
     </section>

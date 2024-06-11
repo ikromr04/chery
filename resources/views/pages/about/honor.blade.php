@@ -15,11 +15,11 @@
 
     <section>
       <div class="breadcrumb wow fadeIn animated" data-wow-delay="0.4s">
-        <a>HOME</a>
+        <a>@lang('HOME')</a>
         <span>></span>
-        <a>ABOUT CHERY </a>
+        <a>@lang('ABOUT CHERY') </a>
         <span>></span>
-        <a class="current">HONORS</a>
+        <a class="current">@lang('HONORS')</a>
       </div>
       <div class="yearWrap">
         <div class="year_choose">
@@ -45,15 +45,15 @@
               <div class="eventItem">
                 <div class="text">
                   <span class="date">1 DEC</span>
-                  <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                  <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
+                  <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
                 </div>
               </div>
               <div class="eventItem">
                 <div class="text">
                   <span class="date">1 DEC</span>
-                  <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                  <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
+                  <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
                 </div>
               </div>
             </div>
@@ -61,8 +61,8 @@
               <div class="eventItem">
                 <div class="text">
                   <span class="date">1 DEC</span>
-                  <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                  <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
+                  <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
                 </div>
               </div>
               <div class="eventItem">
@@ -70,42 +70,15 @@
                 </div>
                 <div class="text">
                   <span class="date">1 DEC</span>
-                  <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                  <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
+                  <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
                 </div>
               </div>
               <div class="eventItem">
                 <div class="text">
                   <span class="date">1 DEC</span>
-                  <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                  <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="eventList">
-            <div class="left">
-              <div class="eventItem">
-                <div class="text">
-                  <span class="date">1 DEC</span>
-                  <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                  <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
-                </div>
-              </div>
-            </div>
-            <div class="right">
-              <div class="eventItem">
-                <div class="text">
-                  <span class="date">1 DEC</span>
-                  <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                  <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
-                </div>
-              </div>
-              <div class="eventItem">
-                <div class="text">
-                  <span class="date">1 DEC</span>
-                  <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                  <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
+                  <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
                 </div>
               </div>
             </div>
@@ -115,8 +88,8 @@
               <div class="eventItem">
                 <div class="text">
                   <span class="date">1 DEC</span>
-                  <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                  <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
+                  <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
                 </div>
               </div>
             </div>
@@ -124,8 +97,35 @@
               <div class="eventItem">
                 <div class="text">
                   <span class="date">1 DEC</span>
-                  <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                  <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
+                  <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
+                </div>
+              </div>
+              <div class="eventItem">
+                <div class="text">
+                  <span class="date">1 DEC</span>
+                  <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="eventList">
+            <div class="left">
+              <div class="eventItem">
+                <div class="text">
+                  <span class="date">1 DEC</span>
+                  <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="eventItem">
+                <div class="text">
+                  <span class="date">1 DEC</span>
+                  <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
                 </div>
               </div>
             </div>
@@ -136,24 +136,15 @@
             <div class="eventItem">
               <div class="text">
                 <span class="date">1 DEC</span>
-                <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
+                <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
               </div>
             </div>
             <div class="eventItem">
               <div class="text">
                 <span class="date">1 DEC</span>
-                <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
-              </div>
-            </div>
-          </div>
-          <div class="eventList">
-            <div class="eventItem">
-              <div class="text">
-                <span class="date">1 DEC</span>
-                <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
+                <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
               </div>
             </div>
           </div>
@@ -161,15 +152,24 @@
             <div class="eventItem">
               <div class="text">
                 <span class="date">1 DEC</span>
-                <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
+                <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
+              </div>
+            </div>
+          </div>
+          <div class="eventList">
+            <div class="eventItem">
+              <div class="text">
+                <span class="date">1 DEC</span>
+                <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
               </div>
             </div>
             <div class="eventItem">
               <div class="text">
                 <span class="date">1 DEC</span>
-                <p class="title">Chery won the Platinum Award at the 45th International ICQCC Conference</p>
-                <p class="det">From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year's conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.</p>
+                <p class="title">@lang('Chery won the Platinum Award at the 45th International ICQCC Conference')</p>
+                  <p class="det">@lang('From December 1st to 3rd, the 45th International Quality Management Group Conference (ICQCC) ended in Dhaka, Bangladesh. There were 577 QC groups from 15 member countries of ICQCC and more than 3000 representatives in total. Participated in this conference. The awards of this year\'s conference are divided into three categories: platinum award, gold award and silver award. After fierce competition, Chery won the highest award of the conference-the platinum award.')</p>
               </div>
             </div>
           </div>

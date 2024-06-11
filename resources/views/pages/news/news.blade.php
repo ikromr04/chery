@@ -15,9 +15,9 @@
 
     <section>
       <div class="breadcrumb wow fadeIn animated" data-wow-delay="0.4s">
-        <a>News</a>
+        <a>@lang('News')</a>
         <span>></span>
-        <a class="current">News</a>
+        <a class="current">@lang('News')</a>
       </div>
       <div class="content w1200">
         <div class="newsswiper wow fadeIn animated" data-wow-duration="1s" data-wow-delay="0.6s">
@@ -29,8 +29,8 @@
                 </div>
                 <div class="newtext">
                   <span>Jun 01,2021</span>
-                  <p>Quality Earns Trust: Tiggo 8 Pro Comes Out on Top in Satisfaction Assessment of Entry-level Midsize SUVs</p>
-                  <a href="{{ route('news.news.read') }}" class="readmore">READ MORE</a>
+                  <p>@lang('Quality Earns Trust: Tiggo 8 Pro Comes Out on Top in Satisfaction Assessment of Entry-level Midsize SUVs')</p>
+                  <a href="{{ route('news.news.read') }}" class="readmore">@lang('READ MORE')</a>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -39,8 +39,8 @@
                 </div>
                 <div class="newtext">
                   <span>Jun 01,2021</span>
-                  <p>Quality Earns Trust: Assessment of Entry-level Midsize SUVs</p>
-                  <a href="{{ route('news.news.read') }}" class="readmore">READ MORE</a>
+                  <p>@lang('Quality Earns Trust: Assessment of Entry-level Midsize SUVs')</p>
+                  <a href="{{ route('news.news.read') }}" class="readmore">@lang('READ MORE')</a>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -49,8 +49,8 @@
                 </div>
                 <div class="newtext">
                   <span>Jun 01,2021</span>
-                  <p>Quality Earns Trust: Tiggo 8 Pro Comes Out on Top in Satisfaction Assessment of Entry-level Midsize SUVs</p>
-                  <a href="{{ route('news.news.read') }}" class="readmore">READ MORE</a>
+                  <p>@lang('Quality Earns Trust: Tiggo 8 Pro Comes Out on Top in Satisfaction Assessment of Entry-level Midsize SUVs')</p>
+                  <a href="{{ route('news.news.read') }}" class="readmore">@lang('READ MORE')</a>
                 </div>
               </div>
             </div>
@@ -65,9 +65,9 @@
               <img src="images/news_list_p1.jpg" />
             </div>
             <div class="newstext">
-              <p>Chery's Future ICV Plant Project Breaks Ground to Accelerate Chery's Thorough Transformation from Traditional Vehicles to Intelligent Vehicles</p>
+              <p>@lang('Chery\'s Future ICV Plant Project Breaks Ground to Accelerate Chery\'s Thorough Transformation from Traditional Vehicles to Intelligent Vehicles')</p>
               <div class="botinfo">
-                <a href="{{ route('news.news.read') }}" class="readmore">READ MORE</a>
+                <a href="{{ route('news.news.read') }}" class="readmore">@lang('READ MORE')</a>
                 <span>Jun 01,2021</span>
               </div>
             </div>
@@ -77,9 +77,9 @@
               <img src="images/news_list_p1.jpg" />
             </div>
             <div class="newstext">
-              <p>Chery's Future ICV Plant Project Breaks Ground to Accelerate Chery's Thorough Transformation from Traditional Vehicles to Intelligent Vehicles</p>
+              <p>@lang('Chery\'s Future ICV Plant Project Breaks Ground to Accelerate Chery\'s Thorough Transformation from Traditional Vehicles to Intelligent Vehicles')</p>
               <div class="botinfo">
-                <a href="{{ route('news.news.read') }}" class="readmore">READ MORE</a>
+                <a href="{{ route('news.news.read') }}" class="readmore">@lang('READ MORE')</a>
                 <span>Jun 01,2021</span>
               </div>
             </div>

@@ -1,4 +1,4 @@
-@extends('layout.app')
+'@extends('layout.app')
 
 @section('styles')
   <link href="{{ asset('styles/base.css') }}" type="text/css" rel="stylesheet">
@@ -23,11 +23,11 @@
         </div>
       </div>
       <div class="model_wrap">
-        <h3 class="tit_360">360° view</h3>
+        <h3 class="tit_360">@lang('360° view')</h3>
 
         <div class="change_E_I">
-          <span class="on">EXTERIOR</span>
-          <span>INTERIOR</span>
+          <span class="on">@lang('EXTERIOR')</span>
+          <span>@lang('INTERIOR')</span>
         </div>
         <div class="model_360">
           <div class="pop_360_rou pop_360_rout">
@@ -35,7 +35,7 @@
               <img src="{{ asset('images/360_view/tiggo8pro/black/21.jpg') }}" class="reel" id="image" data-image="stitched-reel.jpg" data-stitched="496" data-frames="30" data-frame="15" data-rows="3" data-row="2" data-loops="false">
             </div>
             <div id="interior_360">
-              <br>Loading...<br>
+              <br>@lang('Loading...')<br>
             </div>
           </div>
         </div>
@@ -94,30 +94,30 @@
       <div class="modelmenu">
         <div class="it on">
           <span class="ic"><i></i></span>
-          <span class="label">DESIGN</span>
+          <span class="label">@lang('DESIGN')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">INTERIOR</span>
+          <span class="label">@lang('INTERIOR')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">POWER</span>
+          <span class="label">@lang('POWER')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">TECH</span>
+          <span class="label">@lang('TECH')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">SAFETY</span>
+          <span class="label">@lang('SAFETY')</span>
         </div>
       </div>
       <div class="design module" id="module1">
         <div class="title">
           <h4>
             <span class="big_num">01</span>
-            <span class="tit">DESIGN</span>
+            <span class="tit">@lang('DESIGN')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -126,30 +126,30 @@
               <img src="{{ asset('images/newtiggo8pro_design_p1.gif') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8pro_design_p1_m.gif') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>The LED high and low beams adopt a multi-cavity reflective matrix, simple and elegant, illuminating all. </p>
-                <p>The lighting efficiency of LED headlight is about 2.7 times that of the traditional halogen lamp.</p>
+                <p>@lang('The LED high and low beams adopt a multi-cavity reflective matrix, simple and elegant, illuminating all.')</p>
+                <p>@lang('The lighting efficiency of LED headlight is about 2.7 times that of the traditional halogen lamp.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo8pro_design_p2.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8pro_design_p2_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox black">
-                <p>The body is outlined by three main lines, creating an effect that carries dynamic and static elements alike.</p>
+                <p>@lang('The body is outlined by three main lines, creating an effect that carries dynamic and static elements alike.')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="{{ asset('images/newtiggo8pro_design_p3.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8pro_design_p3_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>18 inch super bright aluminum alloy rim, comparable to sports car class rim, the vehicle is more sporty and majestic</p>
+                <p>@lang('18 inch super bright aluminum alloy rim, comparable to sports car class rim, the vehicle is more sporty and majestic')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">Full series LED light source</div>
-          <div class="cutbtn">Penetrating Beltline</div>
-          <div class="cutbtn">18 inch aluminum alloy rim</div>
+          <div class="cutbtn on">@lang('Full series LED light source')</div>
+          <div class="cutbtn">@lang('Penetrating Beltline')</div>
+          <div class="cutbtn">@lang('18 inch aluminum alloy rim')</div>
         </div>
       </div>
       <!-- INTERIOR-->
@@ -157,7 +157,7 @@
         <div class="title">
           <h4>
             <span class="big_num">02</span>
-            <span class="tit">INTERIOR</span>
+            <span class="tit">@lang('INTERIOR')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -171,10 +171,10 @@
                 <div class="swiper-container textSwi textSwi_0">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <p>The seat cushions are designed with the wrap-around thickened side wings, which increases the wrapping of the occupant’s hip.</p>
+                      <p>@lang('The seat cushions are designed with the wrap-around thickened side wings, which increases the wrapping of the occupant’s hip.')</p>
                     </div>
                     <div class="swiper-slide">
-                      <p>The six-way electric adjuster for driver‘s seat, matching up the electric heater, allows the driver to enjoy convenient, comfort and noble experience.</p>
+                      <p>@lang('The six-way electric adjuster for driver‘s seat, matching up the electric heater, allows the driver to enjoy convenient, comfort and noble experience.')</p>
                     </div>
                   </div>
                 </div>
@@ -184,8 +184,8 @@
               <img src="{{ asset('images/newtiggo8pro_royal_p2.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8pro_royal_p2_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox black">
-                <p>With 5 occupants, the tail space measures out 1179L</p>
-                <p>In the case when rear seats recline, the tail space can reach 2101L</p>
+                <p>@lang('With 5 occupants, the tail space measures out 1179L')</p>
+                <p>@lang('In the case when rear seats recline, the tail space can reach 2101L')</p>
               </div>
             </div>
             <div class="swiper-slide">
@@ -195,10 +195,10 @@
                 <div class="swiper-container textSwi textSwi_1">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <p>With luxurious and dynamic tech, the seat is designed with surround-wide schematics, luxurious quality and elegant interior.</p>
+                      <p>@lang('With luxurious and dynamic tech, the seat is designed with surround-wide schematics, luxurious quality and elegant interior.')</p>
                     </div>
                     <div class="swiper-slide">
-                      <p>The horizontal integrated dashboard is symmetrical left and right, comfortable and elegant. The screens and knobs after zoning are easy to operate and upgrade.</p>
+                      <p>@lang('The horizontal integrated dashboard is symmetrical left and right, comfortable and elegant. The screens and knobs after zoning are easy to operate and upgrade.')</p>
                     </div>
                   </div>
                 </div>
@@ -207,9 +207,9 @@
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">Fully Cladded Luxury Seat</div>
-          <div class="cutbtn">Agile, Spacious Trunk</div>
-          <div class="cutbtn">Embracing Cabin</div>
+          <div class="cutbtn on">@lang('Fully Cladded Luxury Seat')</div>
+          <div class="cutbtn">@lang('Agile, Spacious Trunk')</div>
+          <div class="cutbtn">@lang('Embracing Cabin')</div>
         </div>
       </div>
       <!--Platinum Power-->
@@ -217,18 +217,18 @@
         <div class="title">
           <h4>
             <span class="big_num">03</span>
-            <span class="tit">POWER</span>
+            <span class="tit">@lang('POWER')</span>
           </h4>
         </div>
-        <p class="text">The T1X platform has better headroom for front and rear seats, and higher ground clearance. The approach and departure angles also ensure better off-road performance. </p>
+        <p class="text">@lang('The T1X platform has better headroom for front and rear seats, and higher ground clearance. The approach and departure angles also ensure better off-road performance.')</p>
         <div class="powerbox">
           <div class="imgtext box1 wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.4s" data-wow-offset="100">
             <img src="{{ asset('images/newtiggo8pro_power_p1.jpg') }}" />
-            <span>T1X COMFORT CHASSIS</span>
+            <span>@lang('T1X COMFORT CHASSIS')</span>
           </div>
           <div class="imgtext box2 wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.6s" data-wow-offset="100">
             <img src="{{ asset('images/newtiggo8pro_power_p2.jpg') }}" />
-            <span>1.6T GDI ENGINE</span>
+            <span>@lang('1.6T GDI ENGINE')</span>
           </div>
         </div>
       </div>
@@ -237,7 +237,7 @@
         <div class="title">
           <h4>
             <span class="big_num">04</span>
-            <span class="tit">TECH</span>
+            <span class="tit">@lang('TECH')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox">
@@ -253,8 +253,8 @@
               </div>
               <img src="{{ asset('images/newtiggo8pro_tech_p1_m.jpg') }}" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>ACC Adaptive cruise control </p>
-                <p>monitoring road conditions，vehicle spacing，automatic speed regulation and start/stop.</p>
+                <p>@lang('ACC Adaptive cruise control')</p>
+                <p>@lang('Monitoring road conditions，vehicle spacing，automatic speed regulation and start/stop.')</p>
               </div>
             </div>
             <div class="swiper-slide">
@@ -269,8 +269,8 @@
               </div>
               <img src="{{ asset('images/newtiggo8pro_tech_p2_m.jpg') }}" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>BSD Blind spot detection</p>
-                <p>Detection range of radar wave 3m*3m behind the vehicle</p>
+                <p>@lang('BSD Blind spot detection')</p>
+                <p>@lang('Detection range of radar wave 3m*3m behind the vehicle')</p>
               </div>
             </div>
             <div class="swiper-slide">
@@ -283,8 +283,8 @@
               </div>
               <img src="{{ asset('images/newtiggo8pro_tech_p3_m.jpg') }}" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>LKA Lane keeping assist</p>
-                <p>Real-time monitoring of lane lines，keeping driving in the lane</p>
+                <p>@lang('LKA Lane keeping assist')</p>
+                <p>@lang('Real-time monitoring of lane lines，keeping driving in the lane')</p>
               </div>
             </div>
           </div>
@@ -293,20 +293,20 @@
         <div class="cutwindow">
           <div class="cutbtn on">
             <div class="text">
-              <h5>ACC Adaptive cruise control </h5>
-              <p>monitoring road conditions，vehicle spacing，automatic speed regulation and start/stop.</p>
+              <h5>@lang('ACC Adaptive cruise control')</h5>
+              <p>@lang('Monitoring road conditions，vehicle spacing，automatic speed regulation and start/stop.')</p>
             </div>
           </div>
           <div class="cutbtn">
             <div class="text">
-              <h5>BSD Blind spot detection</h5>
-              <p>Detection range of radar wave 3m*3m behind the vehicle</p>
+              <h5>@lang('BSD Blind spot detection')</h5>
+              <p>@lang('Detection range of radar wave 3m*3m behind the vehicle')</p>
             </div>
           </div>
           <div class="cutbtn">
             <div class="text">
-              <h5>LKA Lane keeping assist</h5>
-              <p>Real-time monitoring of lane lines，keeping driving in the lane</p>
+              <h5>@lang('LKA Lane keeping assist')</h5>
+              <p>@lang('Real-time monitoring of lane lines，keeping driving in the lane')</p>
             </div>
           </div>
         </div>
@@ -316,7 +316,7 @@
         <div class="title">
           <h4>
             <span class="big_num">05</span>
-            <span class="tit">SAFETY</span>
+            <span class="tit">@lang('SAFETY')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -325,7 +325,7 @@
               <img src="{{ asset('images/newtiggo8pro_safe_p1.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8pro_safe_p1_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
-                <p>The leading guard-ring type 6 airbags provide comprehensive and thoughtful protection.</p>
+                <p>@lang('The leading guard-ring type 6 airbags provide comprehensive and thoughtful protection.')</p>
                 <!--<p>When danger occurs, it can reduce injuries to occupants in the vehicle;</p>-->
                 <!--<p>With an overlong side curtain airbag, the rear passengers can also be well protected.</p>-->
               </div>
@@ -334,7 +334,7 @@
               <img src="{{ asset('images/newtiggo8pro_safe_p2.jpg') }}" class="pic m_hide" />
               <img src="{{ asset('images/newtiggo8pro_safe_p2_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox ">
-                <p>Advanced double-force-limiter pre-crash seat belts for the driver and the front passenger, and 3-point emergency locking seat belt for the second and the third rows.</p>
+                <p>@lang('Advanced double-force-limiter pre-crash seat belts for the driver and the front passenger, and 3-point emergency locking seat belt for the second and the third rows.')</p>
               </div>
             </div>
             <div class="swiper-slide">
@@ -342,17 +342,17 @@
               <img src="{{ asset('images/newtiggo8pro_safe_p3_m.jpg') }}" class="pic pc_hide" />
               <div class="textbox">
                 <!--<p>High-strength steels are present more than 60% in the alloy </p>-->
-                <p>Multiple blocks of Bentler ultra-high strength thermal forming steels</p>
-                <p>Yield strength ≥1500Mpa</p>
-                <p>The whole vehicle cover is made of galvanized steel plates</p>
+                <p>@lang('Multiple blocks of Bentler ultra-high strength thermal forming steels')</p>
+                <p>@lang('Yield strength ≥1500Mpa')</p>
+                <p>@lang('The whole vehicle cover is made of galvanized steel plates')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">Guard-ring 6 Airbags</div>
-          <div class="cutbtn">Seat belt</div>
-          <div class="cutbtn">High-strength Body</div>
+          <div class="cutbtn on">@lang('Guard-ring 6 Airbags')</div>
+          <div class="cutbtn">@lang('Seat belt')</div>
+          <div class="cutbtn">@lang('High-strength Body')</div>
         </div>
       </div>
     </section>
@@ -455,3 +455,4 @@
     })
   </script>
 @endsection
+'

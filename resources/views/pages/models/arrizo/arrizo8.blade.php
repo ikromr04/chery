@@ -55,30 +55,30 @@
       <div class="modelmenu">
         <div class="it on">
           <span class="ic"><i></i></span>
-          <span class="label">EXTERIOR DESIGN</span>
+          <span class="label">@lang('EXTERIOR DESIGN')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">INTERIOR DESIGN</span>
+          <span class="label">@lang('INTERIOR DESIGN')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">TECH</span>
+          <span class="label">@lang('TECH')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">SAFETY</span>
+          <span class="label">@lang('SAFETY')</span>
         </div>
         <div class="it">
           <span class="ic"><i></i></span>
-          <span class="label">POWER</span>
+          <span class="label">@lang('POWER')</span>
         </div>
       </div>
       <div class="design module" id="module1">
         <div class="title">
           <h4>
             <span class="big_num">01</span>
-            <span class="tit">EXTERIOR DESIGN</span>
+            <span class="tit">@lang('EXTERIOR DESIGN')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -98,9 +98,9 @@
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">Class B Body Dimensions </div>
-          <div class="cutbtn">LED Headlight / Rearlamp </div>
-          <div class="cutbtn">R18 Blackened Sporty wheels</div>
+          <div class="cutbtn on">@lang('Class B Body Dimensions')</div>
+          <div class="cutbtn">@lang('LED Headlight / Rearlamp')</div>
+          <div class="cutbtn">@lang('R18 Blackened Sporty wheels')</div>
         </div>
       </div>
       <!--INTERIOR-->
@@ -108,7 +108,7 @@
         <div class="title">
           <h4>
             <span class="big_num">02</span>
-            <span class="tit">INTERIOR DESIGN</span>
+            <span class="tit">@lang('INTERIOR DESIGN')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -137,9 +137,9 @@
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">Folio armrest <br>+ yacht style gear handle</div>
-          <div class="cutbtn">Sony Sound System(8 Speakers)</div>
-          <div class="cutbtn">Surround Cockpit Design </div>
+          <div class="cutbtn on">@lang('Folio armrest <br>+ yacht style gear handle')</div>
+          <div class="cutbtn">@lang('Sony Sound System(8 Speakers)')</div>
+          <div class="cutbtn">@lang('Surround Cockpit Design')</div>
         </div>
       </div>
 
@@ -148,7 +148,7 @@
         <div class="title">
           <h4>
             <span class="big_num">03</span>
-            <span class="tit">TECH</span>
+            <span class="tit">@lang('TECH')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox">
@@ -157,21 +157,21 @@
               <img src="images/arrizo8/arrizo8_sec3_tab1.png" class="pic m_hide" />
               <img src="images/arrizo8/arrizo8_sec3_tab1_m.png" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>24.6-Inch curved dual screen </p>
+                <p>@lang('24.6-Inch curved dual screen')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/arrizo8/arrizo8_sec3_tab2.png" class="pic m_hide" />
               <img src="images/arrizo8/arrizo8_sec3_tab2_m.png" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>540˚ Round View Camera </p>
+                <p>@lang('540˚ Round View Camera')</p>
               </div>
             </div>
             <div class="swiper-slide">
               <img src="images/arrizo8/arrizo8_sec3_tab3.png" class="pic m_hide" />
               <img src="images/arrizo8/arrizo8_sec3_tab3_m.png" class="pic pc_hide" />
               <div class="textdet pc_hide">
-                <p>18 Advanced Driver Assist Systems</p>
+                <p>@lang('18 Advanced Driver Assist Systems')</p>
               </div>
             </div>
           </div>
@@ -180,17 +180,17 @@
         <div class="cutwindow">
           <div class="cutbtn on">
             <div class="text">
-              <h5>24.6-Inch curved dual screen </h5>
+              <h5>@lang('24.6-Inch curved dual screen')</h5>
             </div>
           </div>
           <div class="cutbtn">
             <div class="text">
-              <h5>Intelligent switching of 9 driving modes </h5>
+              <h5>@lang('Intelligent switching of 9 driving modes')</h5>
             </div>
           </div>
           <div class="cutbtn">
             <div class="text">
-              <h5>18 Advanced Driver Assist Systems</h5>
+              <h5>@lang('18 Advanced Driver Assist Systems')</h5>
             </div>
           </div>
         </div>
@@ -201,7 +201,7 @@
         <div class="title">
           <h4>
             <span class="big_num">04</span>
-            <span class="tit">SAFETY</span>
+            <span class="tit">@lang('SAFETY')</span>
           </h4>
         </div>
         <div class="swiper-container sameSwiper samebox swiper-no-swiping">
@@ -217,14 +217,14 @@
               <img src="images/arrizo8/arrizo8_sec4_tab2.png" class="pic m_hide" />
               <img src="images/arrizo8/arrizo8_sec4_tab2_m.png" class="pic pc_hide" />
               <div class="textbox">
-                <p>The side air curtains cover almost the entire side area of ​​the car. With OPW technology, the internal pressure remains greater than 50% after 6 seconds of the collision.</p>
+                <p>@lang('The side air curtains cover almost the entire side area of ​​the car. With OPW technology, the internal pressure remains greater than 50% after 6 seconds of the collision.')</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cutTab wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-          <div class="cutbtn on">Over 80% High-Strength Steel Frame</div>
-          <div class="cutbtn">10-Airbag System </div>
+          <div class="cutbtn on">@lang('Over 80% High-Strength Steel Frame')</div>
+          <div class="cutbtn">@lang('10-Airbag System')</div>
         </div>
       </div>
 
@@ -233,14 +233,12 @@
         <div class="title">
           <h4>
             <span class="big_num">05</span>
-            <span class="tit">POWER</span>
+            <span class="tit">@lang('POWER')</span>
           </h4>
         </div>
         <div class="powerbox samebox w1200">
-          <p>
-            Chery iHEC combustion system can deliver 6.5L/100Km (NEDC) super low fuel consumption rate.<br>
-            Compared with the traditional automatic transmission, it improves fuel efficiency by 5%-9%, comprehensive mechanical efficiency of 96%, smoother and lower energy consumption, and provides 3 different (ECO+Normal+Sport) driving modes.
-          </p>
+          <p>@lang('Chery iHEC combustion system can deliver 6.5L/100Km (NEDC) super low fuel consumption rate.<br>
+            Compared with the traditional automatic transmission, it improves fuel efficiency by 5%-9%, comprehensive mechanical efficiency of 96%, smoother and lower energy consumption, and provides 3 different (ECO+Normal+Sport) driving modes.')</p>
           <!-- <div class="textbox"> -->
           <!--<div class="lf wow fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.2s">-->
           <!-- <p>8.2s for 0-100km acceleration</p> -->
@@ -257,11 +255,11 @@
             <div class="powerbox_image">
               <div>
                 <img src="images/arrizo8/arrizo8_sec5_tab1.png">
-                <p>1.6T GDI engine</p>
+                <p>@lang('1.6T GDI engine')</p>
               </div>
               <div>
                 <img src="images/arrizo8/arrizo8_sec5_tab2.png">
-                <p>7-speed Dual Clutch Transmission</p>
+                <p>@lang('7-speed Dual Clutch Transmission')</p>
               </div>
             </div>
             <!-- <div class="swiper-wrapper">
@@ -301,37 +299,37 @@
       <div class="ft_cont m_hide">
         <div class="ft_menu">
           <div class="item">
-            <span>Models</span>
+            <span>@lang('Models')</span>
             <a href="">Tiggo</a>
             <a href="">Arrizo</a>
             <a href="">New energy</a>
           </div>
           <div class="item">
-            <span>Design & Technology</span>
-            <a href="">Platform</a>
-            <a href="">Powertrain</a>
-            <a href="">Lab</a>
-            <a href="">ADAS</a>
-            <a href="">Autopilot</a>
-            <a href="">New Energy</a>
+            <span>@lang('Design & Technology')</span>
+            <a href="">@lang('Platform')</a>
+            <a href="">@lang('Powertrain')</a>
+            <a href="">@lang('Lab')</a>
+            <a href="">@lang('ADAS')</a>
+            <a href="">@lang('Autopilot')</a>
+            <a href="">@lang('New Energy')</a>
           </div>
           <div class="item">
-            <span>News</span>
-            <a href="">News</a>
-            <a href="">Events</a>
+            <span>@lang('News')</span>
+            <a href="">@lang('News')</a>
+            <a href="">@lang('Events')</a>
           </div>
           <div class="item">
-            <span>About Chery</span>
-            <a href="">From CEO</a>
-            <a href="">Introduction</a>
-            <a href="">Brand Concept</a>
-            <a href="">Honors</a>
+            <span>@lang('About Chery')</span>
+            <a href="">@lang('From CEO')</a>
+            <a href="">@lang('Introduction')</a>
+            <a href="">@lang('Brand Concept')</a>
+            <a href="">@lang'Honors</a>
           </div>
           <div class="item">
-            <span>Contact Us</span>
+            <span>@lang('Contact Us')</span>
           </div>
           <div class="item">
-            <span>Worldwide</span>
+            <span>@lang('Worldwide')</span>
           </div>
         </div>
         <div class="ft_link">
@@ -344,7 +342,7 @@
         </div>
       </div>
       <div class="copyright">
-        © Copyright 2021 Chery.All Right Reserved.
+        @lang('© Copyright 2021 Chery.All Right Reserved.')
       </div>
     </footer>
   </div>

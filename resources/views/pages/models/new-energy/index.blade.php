@@ -17,38 +17,38 @@
 
     <section>
       <div class="breadcrumb wow fadeIn animated" data-wow-delay="0.4s">
-        <a href="{{ route('home') }}">HOME </a>
+        <a href="{{ route('home') }}">@lang('Home')</a>
         <span>></span>
-        <a class="current">NEW ENERGY</a>
+        <a class="current">@lang('NEW ENERGY')</a>
       </div>
       <div class="content w1200">
         <div class="videobox">
           <video src="video/video.mp4" poster="images/energy_pic.jpg"></video>
           <span class="play_btn"></span>
         </div>
-        <p class="videoText">Persists in leading the green rtevolution of auto industry</p>
+        <p class="videoText">@lang('Persists in leading the green rtevolution of auto industry')</p>
         <div class="imgtitle">
           <img src="images/energy_text.jpg" class="energy_text m_hide" />
           <img src="images/energy_text_m.jpg" class="energy_text pc_hide" />
           <div class="text">
-            ECO-FRIENDLY SMART MODULAR PLATFORM
+            @lang('ECO-FRIENDLY SMART MODULAR PLATFORM')
           </div>
         </div>
         <div class="module">
           <h3 class="bigTitle">
-            ECO
+            @lang('ECO')
           </h3>
           <img src="images/energy_car1.jpg" class="pic" />
           <h4 class="smallTitle">
             <img src="images/energy_ic1.png" class="ic" />
-            Shortened manufacturing process
+            @lang('Shortened manufacturing process')
           </h4>
-          <p>Evolution of the traditional auto-making process, with number of stations reduced by 50%. </p>
-          <p>Whole-process green manufacturing,with energy consumption reduced by 80%.</p>
+          <p>@lang('Evolution of the traditional auto-making process, with number of stations reduced by 50%.')</p>
+          <p>@lang('Whole-process green manufacturing,with energy consumption reduced by 80%.')</p>
         </div>
         <div class="module">
           <h3 class="bigTitle">
-            SMART
+            @lang('SMART')
           </h3>
           <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -66,22 +66,22 @@
             <div class="col">
               <h4 class="smallTitle">
                 <img src="images/energy_ic2.png" class="ic" />
-                Smart battery
+                @lang('Smart battery')
               </h4>
-              <p>Battery intelligent management system.</p>
-              <p>Liquid-cooled high-efficiency heat transfer structure.</p>
-              <p>Intelligent heat management .</p>
-              <p>Thermal runaway suppression technology.</p>
+              <p>@lang('Battery intelligent management system.')</p>
+              <p>@lang('Liquid-cooled high-efficiency heat transfer structure.')</p>
+              <p>@lang('Intelligent heat management.')</p>
+              <p>@lang('Thermal runaway suppression technology.')</p>
             </div>
             <div class="col">
               <h4 class="smallTitle">
                 <img src="images/energy_ic3.png" class="ic" />
-                Smart electric drive
+                @lang('Smart electric drive')
               </h4>
-              <p>Smart platform-based and integrated pure electric drive.</p>
-              <p>Multi-power drive system, multi-drive combination mode.</p>
-              <p>Motor efficiency up to 97%.</p>
-              <p>Energy recovery rate up to 100%.</p>
+              <p>@lang('Smart platform-based and integrated pure electric drive.')</p>
+              <p>@lang('Multi-power drive system, multi-drive combination mode.')</p>
+              <p>@lang('Motor efficiency up to 97%.')</p>
+              <p>@lang('Energy recovery rate up to 100%.')</p>
             </div>
           </div>
 
@@ -96,20 +96,18 @@
             <div class="col">
               <h4 class="smallTitle">
                 <img src="images/energy_ic4.png" class="ic" />
-                Improved performance
+                @lang('Improved performance')
               </h4>
-              <p>Extremely rich perceptual information, with more than100 types of objectives detectable</p>
+              <p>@lang('Extremely rich perceptual information, with more than100 types of objectives detectable')</p>
             </div>
             <div class="col">
               <h4 class="smallTitle">
                 <img src="images/energy_ic5.png" class="ic" />
-                Stronger computing power
+                @lang('Stronger computing power')
               </h4>
-              <p>64-bit processor, with computing speed up to 4 trillion times per second, which is the double of the competitors of same class</p>
+              <p>@lang('64-bit processor, with computing speed up to 4 trillion times per second, which is the double of the competitors of same class')</p>
             </div>
           </div>
-
-
         </div>
       </div>
     </section>
