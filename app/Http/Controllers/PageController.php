@@ -16,6 +16,16 @@ class PageController extends Controller
     return view('pages.models.tiggo.tiggo8pro');
   }
 
+  public function tiggo8promax()
+  {
+    return view('pages.models.tiggo.tiggo8promax');
+  }
+
+  public function tiggo8promaxt()
+  {
+    return view('pages.models.tiggo.tiggo8promaxt');
+  }
+
   public function tiggo8()
   {
     return view('pages.models.tiggo.tiggo8');
@@ -24,6 +34,11 @@ class PageController extends Controller
   public function tiggo7pro()
   {
     return view('pages.models.tiggo.tiggo7pro');
+  }
+
+  public function tiggo7promax()
+  {
+    return view('pages.models.tiggo.tiggo7promax');
   }
 
   public function tiggo7()

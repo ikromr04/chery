@@ -18,6 +18,32 @@
               <div class="subtnbox">
                 <span></span>
                 <div class="subtn_b">
+                  <a href="{{ route('tiggo8') }}">Tiggo 8</a>
+                  <div class="carbox">
+                    <div class="img">
+                      <img src="{{ asset('images/menu_models_car1.png') }}">
+                    </div>
+                    <ul class="numbox">
+                      <li>
+                        <span class="num" data-num="1.5/2.0">1.5/2.0</span>
+                        <span class="uptitle">T</span>
+                        <div class="downtitle">@lang('Engine')</div>
+                      </li>
+                      <li>
+                        <span class="num" data-num="4700">4700</span>
+                        <span class="uptitle">mm</span>
+                        <div class="downtitle">@lang('Length')</div>
+                      </li>
+                      <li>
+                        <span class="num" data-num="2710">2710</span>
+                        <span class="uptitle">mm</span>
+                        <div class="downtitle">@lang('Wheelbase')</div>
+                      </li>
+                    </ul>
+                    <a href="{{ route('tiggo8') }}">@lang('Details')</a>
+                  </div>
+                </div>
+                <div class="subtn_b">
                   <a href="{{ route('tiggo8pro') }}">Tiggo 8 Pro</a>
                   <div class="carbox">
                     <div class="img">
@@ -44,10 +70,16 @@
                   </div>
                 </div>
                 <div class="subtn_b">
-                  <a href="{{ route('tiggo8') }}">Tiggo 8</a>
-                  <div class="carbox">
+                  <a href="{{ route('tiggo8promax') }}">Tiggo 8 Pro Max</a>
+                </div>
+                <div class="subtn_b">
+                  <a href="{{ route('tiggo8promaxt') }}">Tiggo 8 Pro Max - T18FL3</a>
+                </div>
+                <div class="subtn_b">
+                  <a href="{{ route('tiggo7') }}">Tiggo 7</a>
+                  <div class="carbox" style="display: none;">
                     <div class="img">
-                      <img src="{{ asset('images/menu_models_car1.png') }}">
+                      <img src="{{ asset('images/models_menu_tiggo7.png') }}">
                     </div>
                     <ul class="numbox">
                       <li>
@@ -56,17 +88,17 @@
                         <div class="downtitle">@lang('Engine')</div>
                       </li>
                       <li>
-                        <span class="num" data-num="4700">4700</span>
+                        <span class="num" data-num="4505">4505</span>
                         <span class="uptitle">mm</span>
                         <div class="downtitle">@lang('Length')</div>
                       </li>
                       <li>
-                        <span class="num" data-num="2710">2710</span>
+                        <span class="num" data-num="2670">2670</span>
                         <span class="uptitle">mm</span>
                         <div class="downtitle">@lang('Wheelbase')</div>
                       </li>
                     </ul>
-                    <a href="{{ route('tiggo8') }}">@lang('Details')</a>
+                    <a href="{{ route('tiggo7') }}">@lang('Details')</a>
                   </div>
                 </div>
                 <div class="subtn_b">
@@ -101,30 +133,7 @@
                   </div>
                 </div>
                 <div class="subtn_b">
-                  <a href="{{ route('tiggo7') }}">Tiggo 7</a>
-                  <div class="carbox" style="display: none;">
-                    <div class="img">
-                      <img src="{{ asset('images/models_menu_tiggo7.png') }}">
-                    </div>
-                    <ul class="numbox">
-                      <li>
-                        <span class="num" data-num="1.5/2.0">1.5/2.0</span>
-                        <span class="uptitle">T</span>
-                        <div class="downtitle">@lang('Engine')</div>
-                      </li>
-                      <li>
-                        <span class="num" data-num="4505">4505</span>
-                        <span class="uptitle">mm</span>
-                        <div class="downtitle">@lang('Length')</div>
-                      </li>
-                      <li>
-                        <span class="num" data-num="2670">2670</span>
-                        <span class="uptitle">mm</span>
-                        <div class="downtitle">@lang('Wheelbase')</div>
-                      </li>
-                    </ul>
-                    <a href="{{ route('tiggo7') }}">@lang('Details')</a>
-                  </div>
+                  <a href="{{ route('tiggo7promax') }}">Tiggo 7 Pro Max</a>
                 </div>
                 <div class="subtn_b">
                   <a href="{{ route('newtiggo4') }}">New Tiggo 4</a>
@@ -153,7 +162,7 @@
                   </div>
                 </div>
                 <div class="subtn_b">
-                  <a href="{{ route('tiggo2') }}">Tiggo 2</a>
+                  <a href="{{ route('tiggo2') }}">Tiggo 2 Pro</a>
                 </div>
               </div>
             </div>
@@ -382,7 +391,7 @@
             </a>
             <a href="{{ route('tiggo2') }}" class="it">
               <img src="{{ asset('images/mb_car_09.png') }}" />
-              <span class="label">Tiggo 2</span>
+              <span class="label">Tiggo 2 Pro</span>
             </a>
           </div>
         </div>
